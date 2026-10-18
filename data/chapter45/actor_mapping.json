@@ -1,0 +1,1326 @@
+{
+  "schema_version": 1,
+  "scope_gut_groups": [
+    6,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "input_sha256": "1f193d412b5f94a2240d34f66cff6ab9867456b0390818f09b9e53cbed258c90",
+  "notes": [
+    "Enemy atlas keys use battle_sprite_index, not actor index.",
+    "Source default NPC names do not override event dialogue identities.",
+    "Object asset integration handled jointly with terrain catalog."
+  ],
+  "actors": [
+    {
+      "actor_id": "3:1:3",
+      "sprite_id": "8:1:1",
+      "atlas_prefix": "yuan",
+      "inherited_coverage": true,
+      "references": [
+        {
+          "script": "1:9:13",
+          "address": 2375,
+          "opcode": "CREATEACTOR"
+        }
+      ],
+      "asset_owner": "inherited"
+    },
+    {
+      "actor_id": "3:2:5",
+      "sprite_id": "8:2:5",
+      "atlas_prefix": "npc_5",
+      "inherited_coverage": false,
+      "references": [
+        {
+          "script": "1:10:2",
+          "address": 135,
+          "opcode": "CREATENPC"
+        },
+        {
+          "script": "1:10:2",
+          "address": 381,
+          "opcode": "CREATENPC"
+        },
+        {
+          "script": "1:10:2",
+          "address": 707,
+          "opcode": "CREATENPC"
+        }
+      ],
+      "asset_owner": "character-atlas"
+    },
+    {
+      "actor_id": "3:2:6",
+      "sprite_id": "8:2:6",
+      "atlas_prefix": "xiaomei",
+      "inherited_coverage": true,
+      "references": [
+        {
+          "script": "1:9:13",
+          "address": 2007,
+          "opcode": "CREATENPC"
+        },
+        {
+          "script": "1:9:14",
+          "address": 32,
+          "opcode": "CREATENPC"
+        }
+      ],
+      "asset_owner": "inherited"
+    },
+    {
+      "actor_id": "3:2:7",
+      "sprite_id": "8:2:7",
+      "atlas_prefix": "yuan",
+      "inherited_coverage": true,
+      "references": [
+        {
+          "script": "1:9:13",
+          "address": 639,
+          "opcode": "CREATENPC"
+        },
+        {
+          "script": "1:9:14",
+          "address": 41,
+          "opcode": "CREATENPC"
+        }
+      ],
+      "asset_owner": "inherited"
+    },
+    {
+      "actor_id": "3:2:13",
+      "sprite_id": "8:2:13",
+      "atlas_prefix": "npc_13",
+      "inherited_coverage": true,
+      "references": [
+        {
+          "script": "1:9:1",
+          "address": 213,
+          "opcode": "CREATENPC"
+        },
+        {
+          "script": "1:11:1",
+          "address": 114,
+          "opcode": "CREATENPC"
+        }
+      ],
+      "asset_owner": "inherited"
+    },
+    {
+      "actor_id": "3:2:14",
+      "sprite_id": "8:2:14",
+      "atlas_prefix": "npc_14",
+      "inherited_coverage": true,
+      "references": [
+        {
+          "script": "1:9:1",
+          "address": 154,
+          "opcode": "CREATENPC"
+        },
+        {
+          "script": "1:9:1",
+          "address": 175,
+          "opcode": "CREATENPC"
+        },
+        {
+          "script": "1:9:1",
+          "address": 222,
+          "opcode": "CREATENPC"
+        },
+        {
+          "script": "1:9:3",
+          "address": 87,
+          "opcode": "CREATENPC"
+        },
+        {
+          "script": "1:10:1",
+          "address": 134,
+          "opcode": "CREATENPC"
+        },
+        {
+          "script": "1:10:3",
+          "address": 87,
+          "opcode": "CREATENPC"
+        },
+        {
+          "script": "1:11:1",
+          "address": 123,
+          "opcode": "CREATENPC"
+        },
+        {
+          "script": "1:11:3",
+          "address": 87,
+          "opcode": "CREATENPC"
+        }
+      ],
+      "asset_owner": "inherited"
+    },
+    {
+      "actor_id": "3:2:15",
+      "sprite_id": "8:2:15",
+      "atlas_prefix": "npc_15",
+      "inherited_coverage": true,
+      "references": [
+        {
+          "script": "1:9:1",
+          "address": 163,
+          "opcode": "CREATENPC"
+        },
+        {
+          "script": "1:9:1",
+          "address": 184,
+          "opcode": "CREATENPC"
+        },
+        {
+          "script": "1:9:1",
+          "address": 231,
+          "opcode": "CREATENPC"
+        },
+        {
+          "script": "1:10:1",
+          "address": 143,
+          "opcode": "CREATENPC"
+        },
+        {
+          "script": "1:11:1",
+          "address": 132,
+          "opcode": "CREATENPC"
+        }
+      ],
+      "asset_owner": "inherited"
+    },
+    {
+      "actor_id": "3:2:16",
+      "sprite_id": "8:2:16",
+      "atlas_prefix": "npc_16",
+      "inherited_coverage": true,
+      "references": [
+        {
+          "script": "1:9:1",
+          "address": 240,
+          "opcode": "CREATENPC"
+        },
+        {
+          "script": "1:9:8",
+          "address": 87,
+          "opcode": "CREATENPC"
+        },
+        {
+          "script": "1:10:1",
+          "address": 152,
+          "opcode": "CREATENPC"
+        },
+        {
+          "script": "1:10:4",
+          "address": 87,
+          "opcode": "CREATENPC"
+        },
+        {
+          "script": "1:11:1",
+          "address": 141,
+          "opcode": "CREATENPC"
+        },
+        {
+          "script": "1:11:9",
+          "address": 87,
+          "opcode": "CREATENPC"
+        }
+      ],
+      "asset_owner": "inherited"
+    },
+    {
+      "actor_id": "3:2:17",
+      "sprite_id": "8:2:17",
+      "atlas_prefix": "npc_17",
+      "inherited_coverage": true,
+      "references": [
+        {
+          "script": "1:9:1",
+          "address": 249,
+          "opcode": "CREATENPC"
+        },
+        {
+          "script": "1:10:1",
+          "address": 161,
+          "opcode": "CREATENPC"
+        },
+        {
+          "script": "1:11:1",
+          "address": 150,
+          "opcode": "CREATENPC"
+        }
+      ],
+      "asset_owner": "inherited"
+    },
+    {
+      "actor_id": "3:2:18",
+      "sprite_id": "8:2:18",
+      "atlas_prefix": "npc_18",
+      "inherited_coverage": true,
+      "references": [
+        {
+          "script": "1:10:1",
+          "address": 170,
+          "opcode": "CREATENPC"
+        },
+        {
+          "script": "1:11:1",
+          "address": 159,
+          "opcode": "CREATENPC"
+        }
+      ],
+      "asset_owner": "inherited"
+    },
+    {
+      "actor_id": "3:2:26",
+      "sprite_id": "8:2:12",
+      "atlas_prefix": "npc_12",
+      "inherited_coverage": true,
+      "references": [
+        {
+          "script": "1:9:1",
+          "address": 135,
+          "opcode": "CREATENPC"
+        },
+        {
+          "script": "1:9:4",
+          "address": 103,
+          "opcode": "CREATENPC"
+        },
+        {
+          "script": "1:9:14",
+          "address": 23,
+          "opcode": "CREATENPC"
+        }
+      ],
+      "asset_owner": "inherited"
+    },
+    {
+      "actor_id": "3:2:27",
+      "sprite_id": "8:2:27",
+      "atlas_prefix": "npc_27",
+      "inherited_coverage": true,
+      "references": [
+        {
+          "script": "1:9:13",
+          "address": 1094,
+          "opcode": "CREATENPC"
+        },
+        {
+          "script": "1:11:10",
+          "address": 571,
+          "opcode": "CREATENPC"
+        }
+      ],
+      "asset_owner": "inherited"
+    },
+    {
+      "actor_id": "3:2:30",
+      "sprite_id": "8:2:30",
+      "atlas_prefix": "npc_30",
+      "inherited_coverage": false,
+      "references": [
+        {
+          "script": "1:11:10",
+          "address": 128,
+          "opcode": "CREATENPC"
+        }
+      ],
+      "asset_owner": "character-atlas"
+    },
+    {
+      "actor_id": "3:3:2",
+      "sprite_id": "8:3:2",
+      "atlas_prefix": "enemy_2",
+      "inherited_coverage": true,
+      "references": [
+        {
+          "script": "1:6:1",
+          "address": 87,
+          "opcode": "INITFIGHT"
+        },
+        {
+          "script": "1:6:1",
+          "address": 87,
+          "opcode": "INITFIGHT"
+        },
+        {
+          "script": "1:6:1",
+          "address": 87,
+          "opcode": "INITFIGHT"
+        },
+        {
+          "script": "1:6:1",
+          "address": 87,
+          "opcode": "INITFIGHT"
+        },
+        {
+          "script": "1:6:2",
+          "address": 87,
+          "opcode": "INITFIGHT"
+        },
+        {
+          "script": "1:6:2",
+          "address": 87,
+          "opcode": "INITFIGHT"
+        },
+        {
+          "script": "1:6:2",
+          "address": 87,
+          "opcode": "INITFIGHT"
+        },
+        {
+          "script": "1:6:2",
+          "address": 87,
+          "opcode": "INITFIGHT"
+        },
+        {
+          "script": "1:6:3",
+          "address": 87,
+          "opcode": "INITFIGHT"
+        },
+        {
+          "script": "1:6:3",
+          "address": 87,
+          "opcode": "INITFIGHT"
+        },
+        {
+          "script": "1:6:3",
+          "address": 87,
+          "opcode": "INITFIGHT"
+        },
+        {
+          "script": "1:6:3",
+          "address": 87,
+          "opcode": "INITFIGHT"
+        }
+      ],
+      "asset_owner": "inherited"
+    },
+    {
+      "actor_id": "3:3:3",
+      "sprite_id": "8:3:3",
+      "atlas_prefix": "enemy_3",
+      "inherited_coverage": true,
+      "references": [
+        {
+          "script": "1:6:1",
+          "address": 87,
+          "opcode": "INITFIGHT"
+        },
+        {
+          "script": "1:6:1",
+          "address": 87,
+          "opcode": "INITFIGHT"
+        },
+        {
+          "script": "1:6:1",
+          "address": 87,
+          "opcode": "INITFIGHT"
+        },
+        {
+          "script": "1:6:1",
+          "address": 87,
+          "opcode": "INITFIGHT"
+        },
+        {
+          "script": "1:6:2",
+          "address": 87,
+          "opcode": "INITFIGHT"
+        },
+        {
+          "script": "1:6:2",
+          "address": 87,
+          "opcode": "INITFIGHT"
+        },
+        {
+          "script": "1:6:2",
+          "address": 87,
+          "opcode": "INITFIGHT"
+        },
+        {
+          "script": "1:6:2",
+          "address": 87,
+          "opcode": "INITFIGHT"
+        },
+        {
+          "script": "1:6:3",
+          "address": 87,
+          "opcode": "INITFIGHT"
+        },
+        {
+          "script": "1:6:3",
+          "address": 87,
+          "opcode": "INITFIGHT"
+        },
+        {
+          "script": "1:6:3",
+          "address": 87,
+          "opcode": "INITFIGHT"
+        },
+        {
+          "script": "1:6:3",
+          "address": 87,
+          "opcode": "INITFIGHT"
+        }
+      ],
+      "asset_owner": "inherited"
+    },
+    {
+      "actor_id": "3:3:12",
+      "sprite_id": "8:3:12",
+      "atlas_prefix": "enemy_12",
+      "inherited_coverage": true,
+      "references": [
+        {
+          "script": "1:9:12",
+          "address": 101,
+          "opcode": "INITFIGHT"
+        }
+      ],
+      "asset_owner": "inherited"
+    },
+    {
+      "actor_id": "3:3:16",
+      "sprite_id": "8:3:16",
+      "atlas_prefix": "enemy_16",
+      "inherited_coverage": true,
+      "references": [
+        {
+          "script": "1:9:12",
+          "address": 101,
+          "opcode": "INITFIGHT"
+        }
+      ],
+      "asset_owner": "inherited"
+    },
+    {
+      "actor_id": "3:3:17",
+      "sprite_id": "8:3:17",
+      "atlas_prefix": "enemy_17",
+      "inherited_coverage": true,
+      "references": [
+        {
+          "script": "1:11:10",
+          "address": 105,
+          "opcode": "INITFIGHT"
+        },
+        {
+          "script": "1:12:2",
+          "address": 85,
+          "opcode": "INITFIGHT"
+        }
+      ],
+      "asset_owner": "inherited"
+    },
+    {
+      "actor_id": "3:3:18",
+      "sprite_id": "8:3:18",
+      "atlas_prefix": "enemy_18",
+      "inherited_coverage": true,
+      "references": [
+        {
+          "script": "1:9:13",
+          "address": 1170,
+          "opcode": "ENTERFIGHT"
+        }
+      ],
+      "asset_owner": "inherited"
+    },
+    {
+      "actor_id": "3:3:21",
+      "sprite_id": "8:3:19",
+      "atlas_prefix": "enemy_19",
+      "inherited_coverage": false,
+      "references": [
+        {
+          "script": "1:9:12",
+          "address": 101,
+          "opcode": "INITFIGHT"
+        },
+        {
+          "script": "1:11:10",
+          "address": 105,
+          "opcode": "INITFIGHT"
+        },
+        {
+          "script": "1:12:2",
+          "address": 85,
+          "opcode": "INITFIGHT"
+        }
+      ],
+      "asset_owner": "character-atlas"
+    },
+    {
+      "actor_id": "3:3:22",
+      "sprite_id": "8:3:24",
+      "atlas_prefix": "enemy_24",
+      "inherited_coverage": true,
+      "references": [
+        {
+          "script": "1:9:12",
+          "address": 101,
+          "opcode": "INITFIGHT"
+        },
+        {
+          "script": "1:12:2",
+          "address": 85,
+          "opcode": "INITFIGHT"
+        }
+      ],
+      "asset_owner": "inherited"
+    },
+    {
+      "actor_id": "3:3:23",
+      "sprite_id": "8:3:26",
+      "atlas_prefix": "enemy_26",
+      "inherited_coverage": false,
+      "references": [
+        {
+          "script": "1:9:12",
+          "address": 101,
+          "opcode": "INITFIGHT"
+        },
+        {
+          "script": "1:11:10",
+          "address": 105,
+          "opcode": "INITFIGHT"
+        }
+      ],
+      "asset_owner": "character-atlas"
+    },
+    {
+      "actor_id": "3:3:24",
+      "sprite_id": "8:3:27",
+      "atlas_prefix": "enemy_27",
+      "inherited_coverage": false,
+      "references": [
+        {
+          "script": "1:11:10",
+          "address": 105,
+          "opcode": "INITFIGHT"
+        },
+        {
+          "script": "1:12:2",
+          "address": 85,
+          "opcode": "INITFIGHT"
+        }
+      ],
+      "asset_owner": "character-atlas"
+    },
+    {
+      "actor_id": "3:3:27",
+      "sprite_id": "8:3:20",
+      "atlas_prefix": "enemy_20",
+      "inherited_coverage": false,
+      "references": [
+        {
+          "script": "1:9:13",
+          "address": 1682,
+          "opcode": "ENTERFIGHT"
+        }
+      ],
+      "asset_owner": "character-atlas"
+    },
+    {
+      "actor_id": "3:3:28",
+      "sprite_id": "8:3:21",
+      "atlas_prefix": "enemy_21",
+      "inherited_coverage": false,
+      "references": [
+        {
+          "script": "1:9:13",
+          "address": 1724,
+          "opcode": "ENTERFIGHT"
+        }
+      ],
+      "asset_owner": "character-atlas"
+    },
+    {
+      "actor_id": "3:3:29",
+      "sprite_id": "8:3:22",
+      "atlas_prefix": "enemy_22",
+      "inherited_coverage": false,
+      "references": [
+        {
+          "script": "1:9:13",
+          "address": 1766,
+          "opcode": "ENTERFIGHT"
+        }
+      ],
+      "asset_owner": "character-atlas"
+    },
+    {
+      "actor_id": "3:3:30",
+      "sprite_id": "8:3:23",
+      "atlas_prefix": "enemy_23",
+      "inherited_coverage": false,
+      "references": [
+        {
+          "script": "1:9:13",
+          "address": 1808,
+          "opcode": "ENTERFIGHT"
+        }
+      ],
+      "asset_owner": "character-atlas"
+    },
+    {
+      "actor_id": "3:3:31",
+      "sprite_id": "8:3:5",
+      "atlas_prefix": "enemy_5",
+      "inherited_coverage": true,
+      "references": [
+        {
+          "script": "1:9:13",
+          "address": 1850,
+          "opcode": "ENTERFIGHT"
+        }
+      ],
+      "asset_owner": "inherited"
+    },
+    {
+      "actor_id": "3:3:32",
+      "sprite_id": "8:3:11",
+      "atlas_prefix": "enemy_11",
+      "inherited_coverage": true,
+      "references": [
+        {
+          "script": "1:9:13",
+          "address": 1892,
+          "opcode": "ENTERFIGHT"
+        }
+      ],
+      "asset_owner": "inherited"
+    },
+    {
+      "actor_id": "3:3:33",
+      "sprite_id": "8:3:13",
+      "atlas_prefix": "enemy_13",
+      "inherited_coverage": true,
+      "references": [
+        {
+          "script": "1:9:13",
+          "address": 1934,
+          "opcode": "ENTERFIGHT"
+        },
+        {
+          "script": "1:12:2",
+          "address": 218,
+          "opcode": "ENTERFIGHT"
+        },
+        {
+          "script": "1:12:2",
+          "address": 218,
+          "opcode": "ENTERFIGHT"
+        },
+        {
+          "script": "1:12:2",
+          "address": 218,
+          "opcode": "ENTERFIGHT"
+        }
+      ],
+      "asset_owner": "inherited"
+    },
+    {
+      "actor_id": "3:3:34",
+      "sprite_id": "8:3:32",
+      "atlas_prefix": "enemy_32",
+      "inherited_coverage": false,
+      "references": [
+        {
+          "script": "1:9:13",
+          "address": 1640,
+          "opcode": "ENTERFIGHT"
+        }
+      ],
+      "asset_owner": "character-atlas"
+    },
+    {
+      "actor_id": "3:3:35",
+      "sprite_id": "8:3:29",
+      "atlas_prefix": "enemy_29",
+      "inherited_coverage": false,
+      "references": [
+        {
+          "script": "1:13:2",
+          "address": 572,
+          "opcode": "ENTERFIGHT"
+        },
+        {
+          "script": "1:13:2",
+          "address": 703,
+          "opcode": "ENTERFIGHT"
+        }
+      ],
+      "asset_owner": "character-atlas"
+    },
+    {
+      "actor_id": "3:3:36",
+      "sprite_id": "8:3:30",
+      "atlas_prefix": "enemy_30",
+      "inherited_coverage": false,
+      "references": [
+        {
+          "script": "1:13:2",
+          "address": 572,
+          "opcode": "ENTERFIGHT"
+        },
+        {
+          "script": "1:13:2",
+          "address": 802,
+          "opcode": "ENTERFIGHT"
+        }
+      ],
+      "asset_owner": "character-atlas"
+    },
+    {
+      "actor_id": "3:3:38",
+      "sprite_id": "8:3:32",
+      "atlas_prefix": "enemy_32",
+      "inherited_coverage": false,
+      "references": [
+        {
+          "script": "1:11:10",
+          "address": 317,
+          "opcode": "ENTERFIGHT"
+        }
+      ],
+      "asset_owner": "character-atlas"
+    },
+    {
+      "actor_id": "3:3:39",
+      "sprite_id": "8:3:18",
+      "atlas_prefix": "enemy_18",
+      "inherited_coverage": true,
+      "references": [
+        {
+          "script": "1:11:10",
+          "address": 745,
+          "opcode": "ENTERFIGHT"
+        }
+      ],
+      "asset_owner": "inherited"
+    },
+    {
+      "actor_id": "3:3:40",
+      "sprite_id": "8:3:33",
+      "atlas_prefix": "enemy_33",
+      "inherited_coverage": false,
+      "references": [
+        {
+          "script": "1:12:3",
+          "address": 701,
+          "opcode": "ENTERFIGHT"
+        }
+      ],
+      "asset_owner": "character-atlas"
+    },
+    {
+      "actor_id": "3:3:41",
+      "sprite_id": "8:3:34",
+      "atlas_prefix": "enemy_34",
+      "inherited_coverage": false,
+      "references": [
+        {
+          "script": "1:13:2",
+          "address": 633,
+          "opcode": "ENTERFIGHT"
+        }
+      ],
+      "asset_owner": "character-atlas"
+    },
+    {
+      "actor_id": "3:3:48",
+      "sprite_id": "8:3:4",
+      "atlas_prefix": "enemy_4",
+      "inherited_coverage": true,
+      "references": [
+        {
+          "script": "1:11:10",
+          "address": 105,
+          "opcode": "INITFIGHT"
+        }
+      ],
+      "asset_owner": "inherited"
+    },
+    {
+      "actor_id": "3:3:49",
+      "sprite_id": "8:3:41",
+      "atlas_prefix": "enemy_41",
+      "inherited_coverage": true,
+      "references": [
+        {
+          "script": "1:11:10",
+          "address": 105,
+          "opcode": "INITFIGHT"
+        }
+      ],
+      "asset_owner": "inherited"
+    },
+    {
+      "actor_id": "3:3:55",
+      "sprite_id": "8:3:42",
+      "atlas_prefix": "enemy_42",
+      "inherited_coverage": true,
+      "references": [
+        {
+          "script": "1:12:2",
+          "address": 85,
+          "opcode": "INITFIGHT"
+        },
+        {
+          "script": "1:13:1",
+          "address": 91,
+          "opcode": "INITFIGHT"
+        }
+      ],
+      "asset_owner": "inherited"
+    },
+    {
+      "actor_id": "3:3:59",
+      "sprite_id": "8:3:45",
+      "atlas_prefix": "enemy_45",
+      "inherited_coverage": false,
+      "references": [
+        {
+          "script": "1:13:1",
+          "address": 91,
+          "opcode": "INITFIGHT"
+        }
+      ],
+      "asset_owner": "character-atlas"
+    },
+    {
+      "actor_id": "3:3:60",
+      "sprite_id": "8:3:46",
+      "atlas_prefix": "enemy_46",
+      "inherited_coverage": false,
+      "references": [
+        {
+          "script": "1:13:1",
+          "address": 91,
+          "opcode": "INITFIGHT"
+        }
+      ],
+      "asset_owner": "character-atlas"
+    },
+    {
+      "actor_id": "3:3:61",
+      "sprite_id": "8:3:47",
+      "atlas_prefix": "enemy_47",
+      "inherited_coverage": false,
+      "references": [
+        {
+          "script": "1:13:1",
+          "address": 91,
+          "opcode": "INITFIGHT"
+        }
+      ],
+      "asset_owner": "character-atlas"
+    },
+    {
+      "actor_id": "3:3:62",
+      "sprite_id": "8:3:48",
+      "atlas_prefix": "enemy_48",
+      "inherited_coverage": false,
+      "references": [
+        {
+          "script": "1:13:1",
+          "address": 91,
+          "opcode": "INITFIGHT"
+        }
+      ],
+      "asset_owner": "character-atlas"
+    },
+    {
+      "actor_id": "3:4:9",
+      "sprite_id": "8:4:9",
+      "atlas_prefix": "object_9",
+      "inherited_coverage": true,
+      "references": [
+        {
+          "script": "1:9:12",
+          "address": 124,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:9:12",
+          "address": 133,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:9:12",
+          "address": 142,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:9:12",
+          "address": 151,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:9:12",
+          "address": 160,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:12:2",
+          "address": 108,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:12:2",
+          "address": 117,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:12:2",
+          "address": 126,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:12:2",
+          "address": 135,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:12:3",
+          "address": 513,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:12:3",
+          "address": 531,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:13:1",
+          "address": 114,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:13:1",
+          "address": 123,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:13:1",
+          "address": 132,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:13:1",
+          "address": 141,
+          "opcode": "CREATEBOX"
+        }
+      ],
+      "asset_owner": "terrain-atlas-or-inherited"
+    },
+    {
+      "actor_id": "3:4:10",
+      "sprite_id": "8:4:10",
+      "atlas_prefix": "object_10",
+      "inherited_coverage": true,
+      "references": [
+        {
+          "script": "1:9:13",
+          "address": 567,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:9:13",
+          "address": 576,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:9:13",
+          "address": 585,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:9:13",
+          "address": 594,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:9:13",
+          "address": 603,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:9:13",
+          "address": 612,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:9:13",
+          "address": 621,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:9:13",
+          "address": 630,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:12:2",
+          "address": 188,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:12:3",
+          "address": 571,
+          "opcode": "CREATEBOX"
+        }
+      ],
+      "asset_owner": "terrain-atlas-or-inherited"
+    },
+    {
+      "actor_id": "3:4:13",
+      "sprite_id": "8:4:13",
+      "atlas_prefix": "object_13",
+      "inherited_coverage": true,
+      "references": [
+        {
+          "script": "1:12:3",
+          "address": 562,
+          "opcode": "CREATEBOX"
+        }
+      ],
+      "asset_owner": "terrain-atlas-or-inherited"
+    },
+    {
+      "actor_id": "3:4:14",
+      "sprite_id": "8:4:14",
+      "atlas_prefix": "object_14",
+      "inherited_coverage": true,
+      "references": [
+        {
+          "script": "1:9:12",
+          "address": 224,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:12:2",
+          "address": 197,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:13:1",
+          "address": 194,
+          "opcode": "CREATEBOX"
+        }
+      ],
+      "asset_owner": "terrain-atlas-or-inherited"
+    },
+    {
+      "actor_id": "3:4:16",
+      "sprite_id": "8:4:16",
+      "atlas_prefix": "object_16",
+      "inherited_coverage": true,
+      "references": [
+        {
+          "script": "1:9:11",
+          "address": 85,
+          "opcode": "CREATEBOX"
+        }
+      ],
+      "asset_owner": "terrain-atlas-or-inherited"
+    },
+    {
+      "actor_id": "3:4:18",
+      "sprite_id": "8:4:18",
+      "atlas_prefix": "object_18",
+      "inherited_coverage": false,
+      "references": [
+        {
+          "script": "1:9:1",
+          "address": 113,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:10:1",
+          "address": 107,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:10:1",
+          "address": 116,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:10:1",
+          "address": 125,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:11:1",
+          "address": 105,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:11:4",
+          "address": 89,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:12:3",
+          "address": 522,
+          "opcode": "CREATEBOX"
+        }
+      ],
+      "asset_owner": "terrain-atlas-or-inherited"
+    },
+    {
+      "actor_id": "3:4:19",
+      "sprite_id": "8:4:19",
+      "atlas_prefix": "object_19",
+      "inherited_coverage": true,
+      "references": [
+        {
+          "script": "1:9:2",
+          "address": 95,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:10:1",
+          "address": 194,
+          "opcode": "CREATEBOX"
+        }
+      ],
+      "asset_owner": "terrain-atlas-or-inherited"
+    },
+    {
+      "actor_id": "3:4:20",
+      "sprite_id": "8:4:20",
+      "atlas_prefix": "object_20",
+      "inherited_coverage": false,
+      "references": [
+        {
+          "script": "1:10:1",
+          "address": 210,
+          "opcode": "CREATEBOX"
+        }
+      ],
+      "asset_owner": "terrain-atlas-or-inherited"
+    },
+    {
+      "actor_id": "3:4:25",
+      "sprite_id": "8:4:25",
+      "atlas_prefix": "object_25",
+      "inherited_coverage": false,
+      "references": [
+        {
+          "script": "1:9:2",
+          "address": 124,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:9:13",
+          "address": 513,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:9:13",
+          "address": 522,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:9:13",
+          "address": 531,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:9:13",
+          "address": 540,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:9:13",
+          "address": 549,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:9:13",
+          "address": 558,
+          "opcode": "CREATEBOX"
+        }
+      ],
+      "asset_owner": "terrain-atlas-or-inherited"
+    },
+    {
+      "actor_id": "3:4:26",
+      "sprite_id": "8:4:26",
+      "atlas_prefix": "object_26",
+      "inherited_coverage": false,
+      "references": [
+        {
+          "script": "1:9:2",
+          "address": 133,
+          "opcode": "CREATEBOX"
+        }
+      ],
+      "asset_owner": "terrain-atlas-or-inherited"
+    },
+    {
+      "actor_id": "3:4:27",
+      "sprite_id": "8:4:27",
+      "atlas_prefix": "object_27",
+      "inherited_coverage": false,
+      "references": [
+        {
+          "script": "1:6:14",
+          "address": 105,
+          "opcode": "CREATEBOX"
+        }
+      ],
+      "asset_owner": "terrain-atlas-or-inherited"
+    },
+    {
+      "actor_id": "3:4:28",
+      "sprite_id": "8:4:28",
+      "atlas_prefix": "object_28",
+      "inherited_coverage": false,
+      "references": [
+        {
+          "script": "1:13:2",
+          "address": 513,
+          "opcode": "CREATEBOX"
+        }
+      ],
+      "asset_owner": "character-atlas"
+    },
+    {
+      "actor_id": "3:4:29",
+      "sprite_id": "8:4:29",
+      "atlas_prefix": "object_29",
+      "inherited_coverage": false,
+      "references": [
+        {
+          "script": "1:13:2",
+          "address": 522,
+          "opcode": "CREATEBOX"
+        }
+      ],
+      "asset_owner": "character-atlas"
+    },
+    {
+      "actor_id": "3:4:30",
+      "sprite_id": "8:4:30",
+      "atlas_prefix": "object_30",
+      "inherited_coverage": false,
+      "references": [
+        {
+          "script": "1:12:3",
+          "address": 580,
+          "opcode": "CREATEBOX"
+        }
+      ],
+      "asset_owner": "terrain-atlas-or-inherited"
+    }
+  ]
+}

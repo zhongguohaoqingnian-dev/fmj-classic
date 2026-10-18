@@ -1,0 +1,33 @@
+; FMJ Classic — standalone public engine, no original game data bundled.
+config_version=5
+
+[application]
+config/name="伏魔记"
+config/use_custom_user_dir=true
+config/custom_user_dir_name="FMJClassic"
+config/version="0.6.2"
+config/icon="res://assets/chapter1/native/app_icon.png"
+run/main_scene="res://scenes/chapter1.tscn"
+config/features=PackedStringArray("4.7", "GL Compatibility")
+
+[editor]
+; Locked 4.7.2 fresh-cache audio import crashed in worker notification.
+; Serialize resource import; runtime gameplay and renderer remain unchanged.
+import/use_multiple_threads=false
+
+[display]
+window/size/viewport_width=1120
+window/size/viewport_height=720
+window/size/window_width_override=1120
+window/size/window_height_override=720
+window/stretch/mode="canvas_items"
+
+[rendering]
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+textures/default_filters/use_nearest_mipmap_filter=false
+textures/vram_compression/import_etc2_astc=true
+environment/defaults/default_clear_color=Color(0.035,0.055,0.065,1)
+
+[audio]
+driver/enable_input=false

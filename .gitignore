@@ -1,0 +1,8 @@
+.godot/
+.DS_Store
+builds/
+local-only/
+*.log
+*.tmp
+__pycache__/
+*.pyc

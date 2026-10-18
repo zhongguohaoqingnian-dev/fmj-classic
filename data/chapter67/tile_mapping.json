@@ -1,0 +1,294 @@
+{
+  "schema_version": 1,
+  "source_sha256": "2c4c3cc25c4e659fc69b453243509ba9ef19c0e9416b19227550f5b835ac13bb",
+  "identity_status": "unverified_candidate",
+  "extends": [
+    "data/chapter1/tile_mapping.json",
+    "data/chapter2/tile_mapping.json",
+    "data/chapter3/tile_mapping.json",
+    "data/chapter45/tile_mapping.json"
+  ],
+  "asset_catalogs": [
+    "assets/chapter67/atlas.json"
+  ],
+  "reviewed_maps": [
+    "2:1:1",
+    "2:1:10",
+    "2:1:11",
+    "2:1:12",
+    "2:1:13",
+    "2:1:14",
+    "2:1:15",
+    "2:1:16",
+    "2:1:17",
+    "2:1:18",
+    "2:1:19",
+    "2:1:2",
+    "2:1:20",
+    "2:1:21",
+    "2:1:22",
+    "2:1:23",
+    "2:1:25",
+    "2:1:26",
+    "2:1:27",
+    "2:1:28",
+    "2:1:3",
+    "2:1:30",
+    "2:1:31",
+    "2:1:32",
+    "2:1:33",
+    "2:1:37",
+    "2:1:38",
+    "2:1:4",
+    "2:1:46",
+    "2:1:5",
+    "2:1:6",
+    "2:1:7",
+    "2:1:8",
+    "2:1:9",
+    "2:2:1",
+    "2:2:2",
+    "2:2:3",
+    "2:2:4",
+    "2:2:5",
+    "2:2:6",
+    "2:2:7",
+    "2:2:8",
+    "2:2:9",
+    "2:3:1",
+    "2:3:10",
+    "2:3:11",
+    "2:3:2",
+    "2:3:3",
+    "2:3:4",
+    "2:3:5",
+    "2:3:6",
+    "2:3:9"
+  ],
+  "tiles": {
+    "6:76": {
+      "asset": "ch67_wall_passage",
+      "base_asset": "brick_wall",
+      "semantic": "open_passage_behind_central_statue",
+      "draw_mode": "module_part",
+      "module": {
+        "id": "ch67_wuji_hidden_opening",
+        "size": [
+          2,
+          2
+        ],
+        "part": [
+          0,
+          0
+        ]
+      },
+      "verification": "source_tile_and_MAP_2:2:8_assembly_reviewed"
+    },
+    "6:77": {
+      "asset": "ch67_wall_passage",
+      "base_asset": "brick_wall",
+      "semantic": "open_passage_behind_central_statue",
+      "draw_mode": "module_part",
+      "module": {
+        "id": "ch67_wuji_hidden_opening",
+        "size": [
+          2,
+          2
+        ],
+        "part": [
+          1,
+          0
+        ]
+      },
+      "verification": "source_tile_and_MAP_2:2:8_assembly_reviewed"
+    },
+    "6:78": {
+      "asset": "ch67_wall_passage",
+      "base_asset": "brick_wall",
+      "semantic": "open_passage_behind_central_statue",
+      "draw_mode": "module_part",
+      "module": {
+        "id": "ch67_wuji_hidden_opening",
+        "size": [
+          2,
+          2
+        ],
+        "part": [
+          0,
+          1
+        ]
+      },
+      "verification": "source_tile_and_MAP_2:2:8_assembly_reviewed"
+    },
+    "6:79": {
+      "asset": "ch67_wall_passage",
+      "base_asset": "brick_wall",
+      "semantic": "open_passage_behind_central_statue",
+      "draw_mode": "module_part",
+      "module": {
+        "id": "ch67_wuji_hidden_opening",
+        "size": [
+          2,
+          2
+        ],
+        "part": [
+          1,
+          1
+        ]
+      },
+      "verification": "source_tile_and_MAP_2:2:8_assembly_reviewed"
+    },
+    "8:59": {
+      "asset": "bagua_floor",
+      "draw_mode": "module_part",
+      "semantic": "large_bagua_floor_diagram",
+      "verification": "native_visual_atlas_and_map",
+      "evidence": "TIL8:59 completes ten-column bagua module at MAP2:3:11 x14 y6/11/16",
+      "base_asset": "cave_floor",
+      "module": {
+        "id": "8_large_bagua_floor_diagram",
+        "size": [
+          10,
+          3
+        ],
+        "part": [
+          9,
+          2
+        ]
+      }
+    },
+    "8:73": {
+      "asset": "pond_border",
+      "draw_mode": "tile",
+      "semantic": "pond_horizontal_rail",
+      "verification": "native_visual_atlas_and_map",
+      "evidence": "MAP2:3:11 repeated carved stone perimeter, no water in source context",
+      "base_asset": "cave_floor",
+      "edge": "north_south",
+      "exact_pixel_source": "1:89"
+    },
+    "8:74": {
+      "asset": "pond_border",
+      "draw_mode": "tile",
+      "semantic": "pond_corner_rail",
+      "verification": "native_visual_atlas_and_map",
+      "evidence": "MAP2:3:11 repeated carved stone perimeter, no water in source context",
+      "base_asset": "cave_floor",
+      "edge": "northeast_southeast",
+      "exact_pixel_source": "1:93"
+    },
+    "9:120": {
+      "asset": "ch67_courtyard_cylinder",
+      "draw_mode": "module_part",
+      "semantic": "round_courtyard_fixture",
+      "base_asset": "earth",
+      "verification": "source_pixels_and_full_map_shape_reviewed",
+      "interpretation_status": "shape_confirmed_function_unconfirmed",
+      "evidence": "TIL 7:1:9 frames120-123; MAP 2:1:41 six intact 2x2 cylindrical fixtures, 24 unchanged source cells",
+      "module": {
+        "id": "ch67_courtyard_cylinder",
+        "size": [
+          2,
+          2
+        ],
+        "part": [
+          0,
+          0
+        ]
+      }
+    },
+    "9:121": {
+      "asset": "ch67_courtyard_cylinder",
+      "draw_mode": "module_part",
+      "semantic": "round_courtyard_fixture",
+      "base_asset": "earth",
+      "verification": "source_pixels_and_full_map_shape_reviewed",
+      "interpretation_status": "shape_confirmed_function_unconfirmed",
+      "evidence": "TIL 7:1:9 frames120-123; MAP 2:1:41 six intact 2x2 cylindrical fixtures, 24 unchanged source cells",
+      "module": {
+        "id": "ch67_courtyard_cylinder",
+        "size": [
+          2,
+          2
+        ],
+        "part": [
+          1,
+          0
+        ]
+      }
+    },
+    "9:122": {
+      "asset": "ch67_courtyard_cylinder",
+      "draw_mode": "module_part",
+      "semantic": "round_courtyard_fixture",
+      "base_asset": "earth",
+      "verification": "source_pixels_and_full_map_shape_reviewed",
+      "interpretation_status": "shape_confirmed_function_unconfirmed",
+      "evidence": "TIL 7:1:9 frames120-123; MAP 2:1:41 six intact 2x2 cylindrical fixtures, 24 unchanged source cells",
+      "module": {
+        "id": "ch67_courtyard_cylinder",
+        "size": [
+          2,
+          2
+        ],
+        "part": [
+          0,
+          1
+        ]
+      }
+    },
+    "9:123": {
+      "asset": "ch67_courtyard_cylinder",
+      "draw_mode": "module_part",
+      "semantic": "round_courtyard_fixture",
+      "base_asset": "earth",
+      "verification": "source_pixels_and_full_map_shape_reviewed",
+      "interpretation_status": "shape_confirmed_function_unconfirmed",
+      "evidence": "TIL 7:1:9 frames120-123; MAP 2:1:41 six intact 2x2 cylindrical fixtures, 24 unchanged source cells",
+      "module": {
+        "id": "ch67_courtyard_cylinder",
+        "size": [
+          2,
+          2
+        ],
+        "part": [
+          1,
+          1
+        ]
+      }
+    }
+  },
+  "unknown_policy": "report_missing_never_infer_collision",
+  "render_contract": {
+    "tile_pixels": 32,
+    "nearest": true,
+    "source_collision_unchanged": true
+  },
+  "coverage": {
+    "scripts": 63,
+    "destination_maps": 52,
+    "used_tile_keys": 666,
+    "additional_tile_keys": 7,
+    "unresolved_tile_keys": 0
+  },
+  "map_overrides": {
+    "2:1:41": {
+      "44": {
+        "asset": "village_fence_v",
+        "draw_mode": "tile",
+        "semantic": "courtyard_stair_side_rail",
+        "base_asset": "earth",
+        "verification": "source_map_context_reviewed_visual_rework_pending",
+        "evidence": "MAP2:1:41 tile44/45 borders the central stair; shared bridge water underlay is incorrect here; source cells and collision unchanged"
+      },
+      "45": {
+        "asset": "village_fence_v",
+        "draw_mode": "tile",
+        "semantic": "courtyard_stair_side_rail",
+        "base_asset": "earth",
+        "verification": "source_map_context_reviewed_visual_rework_pending",
+        "evidence": "MAP2:1:41 tile44/45 borders the central stair; shared bridge water underlay is incorrect here; source cells and collision unchanged"
+      }
+    }
+  }
+}

@@ -1,0 +1,5593 @@
+{
+  "schema_version": 1,
+  "source_sha256": "2c4c3cc25c4e659fc69b453243509ba9ef19c0e9416b19227550f5b835ac13bb",
+  "identity_status": "unverified_candidate",
+  "extends": "data/chapter1/tile_mapping.json",
+  "asset_catalog": "assets/chapter1/atlas.json",
+  "reviewed_maps": [
+    "2:1:1",
+    "2:1:10",
+    "2:1:11",
+    "2:1:12",
+    "2:1:13",
+    "2:1:14",
+    "2:1:15",
+    "2:1:16",
+    "2:1:17",
+    "2:1:18",
+    "2:1:19",
+    "2:1:20",
+    "2:1:21",
+    "2:1:22",
+    "2:1:23",
+    "2:1:24",
+    "2:1:25",
+    "2:1:26",
+    "2:1:27",
+    "2:1:28",
+    "2:1:30",
+    "2:1:31",
+    "2:1:32",
+    "2:1:33",
+    "2:1:34",
+    "2:1:35",
+    "2:1:37",
+    "2:1:38",
+    "2:1:8",
+    "2:1:9",
+    "2:2:10",
+    "2:2:11",
+    "2:2:12",
+    "2:2:13",
+    "2:2:14",
+    "2:2:15",
+    "2:2:16",
+    "2:2:17",
+    "2:2:19",
+    "2:2:20",
+    "2:2:21",
+    "2:2:25",
+    "2:2:4",
+    "2:2:5",
+    "2:2:9",
+    "2:3:10",
+    "2:3:6",
+    "2:3:7",
+    "2:3:8",
+    "2:3:9"
+  ],
+  "tiles": {
+    "2:29": {
+      "asset": "bridge_horizontal",
+      "draw_mode": "module_part",
+      "semantic": "mountain_bridge_ew",
+      "base_asset": "ravine_void",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:2 frame 29; chapter-two regional original map assembly inspected",
+      "module": {
+        "id": "2_wooden_bridge_east_west",
+        "size": [
+          1,
+          3
+        ],
+        "part": [
+          0,
+          0
+        ],
+        "repeat_axis": "x"
+      }
+    },
+    "2:30": {
+      "asset": "bridge_horizontal",
+      "draw_mode": "module_part",
+      "semantic": "mountain_bridge_ew",
+      "base_asset": "ravine_void",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:2 frame 30; chapter-two regional original map assembly inspected",
+      "module": {
+        "id": "2_wooden_bridge_east_west",
+        "size": [
+          1,
+          3
+        ],
+        "part": [
+          0,
+          2
+        ],
+        "repeat_axis": "x"
+      }
+    },
+    "2:31": {
+      "asset": "wood_wall_panel",
+      "draw_mode": "tile",
+      "semantic": "pavilion_wood_joinery",
+      "base_asset": "path",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:2 frame 31; chapter-two regional original map assembly inspected",
+      "edge": "upper"
+    },
+    "2:33": {
+      "asset": "path",
+      "draw_mode": "tile",
+      "semantic": "platform_bare_ground",
+      "base_asset": "earth",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:2 frame 33; chapter-two regional original map assembly inspected"
+    },
+    "2:34": {
+      "asset": "wood_wall_panel",
+      "draw_mode": "tile",
+      "semantic": "pavilion_wood_joinery",
+      "base_asset": "path",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:2 frame 34; chapter-two regional original map assembly inspected",
+      "edge": "upper"
+    },
+    "2:35": {
+      "asset": "wood_wall_panel",
+      "draw_mode": "tile",
+      "semantic": "pavilion_wood_joinery",
+      "base_asset": "path",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:2 frame 35; chapter-two regional original map assembly inspected",
+      "edge": "upper"
+    },
+    "2:36": {
+      "asset": "wood_wall_panel",
+      "draw_mode": "tile",
+      "semantic": "pavilion_wood_joinery",
+      "base_asset": "path",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:2 frame 36; chapter-two regional original map assembly inspected",
+      "edge": "upper"
+    },
+    "2:39": {
+      "asset": "path",
+      "draw_mode": "tile",
+      "semantic": "isolated_ground_marks",
+      "base_asset": "earth",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:2 frame 39; chapter-two regional original map assembly inspected"
+    },
+    "2:41": {
+      "asset": "stone_pedestal",
+      "draw_mode": "tile",
+      "semantic": "round_topped_stone_pedestal",
+      "verification": "native_visual_atlas_and_map",
+      "evidence": "TIL 7:1:2 frame 41; exact decoded pixels match audited 1:40; regional map context reviewed",
+      "base_asset": "stone_floor",
+      "exact_pixel_source": "1:40"
+    },
+    "2:42": {
+      "asset": "shrub",
+      "draw_mode": "tile",
+      "semantic": "vegetation_on_ledge",
+      "base_asset": "path",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:2 frame 42; chapter-two regional original map assembly inspected"
+    },
+    "2:79": {
+      "asset": "village_fence_v",
+      "draw_mode": "tile",
+      "semantic": "pavilion_vertical_support",
+      "base_asset": "path",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:2 frame 79; chapter-two regional original map assembly inspected"
+    },
+    "2:94": {
+      "asset": "cliff_edge",
+      "draw_mode": "tile",
+      "semantic": "cliff_ledge",
+      "base_asset": "ravine_void",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:2 frame 94; chapter-two regional original map assembly inspected",
+      "edge": "south"
+    },
+    "2:95": {
+      "asset": "cliff_edge",
+      "draw_mode": "tile",
+      "semantic": "cliff_ledge",
+      "base_asset": "ravine_void",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:2 frame 95; chapter-two regional original map assembly inspected",
+      "edge": "south"
+    },
+    "2:96": {
+      "asset": "cliff_edge",
+      "draw_mode": "tile",
+      "semantic": "cliff_ledge",
+      "base_asset": "ravine_void",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:2 frame 96; chapter-two regional original map assembly inspected",
+      "edge": "south"
+    },
+    "2:97": {
+      "asset": "cliff_edge",
+      "draw_mode": "tile",
+      "semantic": "cliff_ledge",
+      "base_asset": "ravine_void",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:2 frame 97; chapter-two regional original map assembly inspected",
+      "edge": "south"
+    },
+    "2:98": {
+      "asset": "chasm_edge",
+      "draw_mode": "tile",
+      "semantic": "cave_recess_or_chasm_edge",
+      "verification": "native_visual_atlas_and_map",
+      "evidence": "TIL 7:1:2 frame 98; exact decoded pixels match audited 8:66; regional map context reviewed",
+      "base_asset": "cave_floor",
+      "edge": "inside_corner",
+      "exact_pixel_source": "8:66"
+    },
+    "2:99": {
+      "asset": "fallen_branch",
+      "draw_mode": "module_part",
+      "semantic": "leafless_tree",
+      "base_asset": "path",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:2 frame 99; chapter-two regional original map assembly inspected",
+      "module": {
+        "id": "ch2_2_leafless_tree",
+        "size": [
+          2,
+          2
+        ],
+        "part": [
+          0,
+          0
+        ]
+      }
+    },
+    "2:100": {
+      "asset": "fallen_branch",
+      "draw_mode": "module_part",
+      "semantic": "leafless_tree",
+      "base_asset": "path",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:2 frame 100; chapter-two regional original map assembly inspected",
+      "module": {
+        "id": "ch2_2_leafless_tree",
+        "size": [
+          2,
+          2
+        ],
+        "part": [
+          1,
+          0
+        ]
+      }
+    },
+    "2:101": {
+      "asset": "fallen_branch",
+      "draw_mode": "module_part",
+      "semantic": "leafless_tree",
+      "base_asset": "path",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:2 frame 101; chapter-two regional original map assembly inspected",
+      "module": {
+        "id": "ch2_2_leafless_tree",
+        "size": [
+          2,
+          2
+        ],
+        "part": [
+          0,
+          1
+        ]
+      }
+    },
+    "2:102": {
+      "asset": "fallen_branch",
+      "draw_mode": "module_part",
+      "semantic": "leafless_tree",
+      "base_asset": "path",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:2 frame 102; chapter-two regional original map assembly inspected",
+      "module": {
+        "id": "ch2_2_leafless_tree",
+        "size": [
+          2,
+          2
+        ],
+        "part": [
+          1,
+          1
+        ]
+      }
+    },
+    "2:103": {
+      "asset": "tree",
+      "draw_mode": "module_part",
+      "semantic": "thin_tree_canopy_and_trunk",
+      "verification": "native_visual_atlas_and_map",
+      "evidence": "TIL 7:1:2 frame 103; exact decoded pixels match audited 9:2; regional map context reviewed",
+      "base_asset": "earth",
+      "module": {
+        "id": "9_thin_tree_canopy_and_trunk",
+        "size": [
+          3,
+          3
+        ],
+        "part": [
+          0,
+          0
+        ],
+        "repeat_axis": "x"
+      },
+      "exact_pixel_source": "9:2"
+    },
+    "2:104": {
+      "asset": "tree",
+      "draw_mode": "module_part",
+      "semantic": "thin_tree_canopy_and_trunk",
+      "verification": "native_visual_atlas_and_map",
+      "evidence": "TIL 7:1:2 frame 104; exact decoded pixels match audited 9:3; regional map context reviewed",
+      "base_asset": "earth",
+      "module": {
+        "id": "9_thin_tree_canopy_and_trunk",
+        "size": [
+          3,
+          3
+        ],
+        "part": [
+          1,
+          0
+        ],
+        "repeat_axis": "x"
+      },
+      "exact_pixel_source": "9:3"
+    },
+    "2:105": {
+      "asset": "tree",
+      "draw_mode": "module_part",
+      "semantic": "thin_tree_canopy_and_trunk",
+      "verification": "native_visual_atlas_and_map",
+      "evidence": "TIL 7:1:2 frame 105; exact decoded pixels match audited 9:4; regional map context reviewed",
+      "base_asset": "earth",
+      "module": {
+        "id": "9_thin_tree_canopy_and_trunk",
+        "size": [
+          3,
+          3
+        ],
+        "part": [
+          2,
+          0
+        ],
+        "repeat_axis": "x"
+      },
+      "exact_pixel_source": "9:4"
+    },
+    "2:106": {
+      "asset": "tree",
+      "draw_mode": "module_part",
+      "semantic": "thin_tree_canopy_and_trunk",
+      "verification": "native_visual_atlas_and_map",
+      "evidence": "TIL 7:1:2 frame 106; exact decoded pixels match audited 9:5; regional map context reviewed",
+      "base_asset": "earth",
+      "module": {
+        "id": "9_thin_tree_canopy_and_trunk",
+        "size": [
+          3,
+          3
+        ],
+        "part": [
+          0,
+          1
+        ],
+        "repeat_axis": "x"
+      },
+      "exact_pixel_source": "9:5"
+    },
+    "2:107": {
+      "asset": "tree",
+      "draw_mode": "module_part",
+      "semantic": "thin_tree_canopy_and_trunk",
+      "verification": "native_visual_atlas_and_map",
+      "evidence": "TIL 7:1:2 frame 107; exact decoded pixels match audited 9:6; regional map context reviewed",
+      "base_asset": "earth",
+      "module": {
+        "id": "9_thin_tree_canopy_and_trunk",
+        "size": [
+          3,
+          3
+        ],
+        "part": [
+          1,
+          1
+        ],
+        "repeat_axis": "x"
+      },
+      "exact_pixel_source": "9:6"
+    },
+    "2:108": {
+      "asset": "tree",
+      "draw_mode": "module_part",
+      "semantic": "thin_tree_canopy_and_trunk",
+      "verification": "native_visual_atlas_and_map",
+      "evidence": "TIL 7:1:2 frame 108; exact decoded pixels match audited 9:7; regional map context reviewed",
+      "base_asset": "earth",
+      "module": {
+        "id": "9_thin_tree_canopy_and_trunk",
+        "size": [
+          3,
+          3
+        ],
+        "part": [
+          2,
+          1
+        ],
+        "repeat_axis": "x"
+      },
+      "exact_pixel_source": "9:7"
+    },
+    "2:109": {
+      "asset": "tree",
+      "draw_mode": "module_part",
+      "semantic": "thin_tree_canopy_and_trunk",
+      "verification": "native_visual_atlas_and_map",
+      "evidence": "TIL 7:1:2 frame 109; exact decoded pixels match audited 9:8; regional map context reviewed",
+      "base_asset": "earth",
+      "module": {
+        "id": "9_thin_tree_canopy_and_trunk",
+        "size": [
+          3,
+          3
+        ],
+        "part": [
+          1,
+          2
+        ],
+        "repeat_axis": "x"
+      },
+      "exact_pixel_source": "9:8"
+    },
+    "2:110": {
+      "asset": "village_fence_h",
+      "draw_mode": "tile",
+      "semantic": "carved_mountain_balustrade",
+      "base_asset": "path",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:2 frame 110; chapter-two regional original map assembly inspected"
+    },
+    "2:111": {
+      "asset": "village_fence_h",
+      "draw_mode": "tile",
+      "semantic": "carved_mountain_balustrade",
+      "base_asset": "path",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:2 frame 111; chapter-two regional original map assembly inspected"
+    },
+    "2:112": {
+      "asset": "village_fence_h",
+      "draw_mode": "tile",
+      "semantic": "carved_mountain_balustrade",
+      "base_asset": "path",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:2 frame 112; chapter-two regional original map assembly inspected"
+    },
+    "2:113": {
+      "asset": "village_fence_h",
+      "draw_mode": "tile",
+      "semantic": "carved_mountain_balustrade",
+      "base_asset": "path",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:2 frame 113; chapter-two regional original map assembly inspected"
+    },
+    "2:114": {
+      "asset": "bridge_horizontal",
+      "draw_mode": "module_part",
+      "semantic": "mountain_bridge_ew",
+      "base_asset": "ravine_void",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:2 frame 114; chapter-two regional original map assembly inspected",
+      "module": {
+        "id": "2_wooden_bridge_east_west",
+        "size": [
+          1,
+          3
+        ],
+        "part": [
+          0,
+          1
+        ],
+        "repeat_axis": "x"
+      }
+    },
+    "2:115": {
+      "asset": "wood_wall_panel",
+      "draw_mode": "tile",
+      "semantic": "pavilion_wood_joinery",
+      "base_asset": "path",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:2 frame 115; chapter-two regional original map assembly inspected",
+      "edge": "upper"
+    },
+    "2:116": {
+      "asset": "wood_wall_panel",
+      "draw_mode": "tile",
+      "semantic": "pavilion_wood_joinery",
+      "base_asset": "path",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:2 frame 116; chapter-two regional original map assembly inspected",
+      "edge": "upper"
+    },
+    "2:117": {
+      "asset": "wood_wall_panel",
+      "draw_mode": "tile",
+      "semantic": "pavilion_wood_joinery",
+      "base_asset": "path",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:2 frame 117; chapter-two regional original map assembly inspected",
+      "edge": "upper"
+    },
+    "2:118": {
+      "asset": "wood_wall_panel",
+      "draw_mode": "tile",
+      "semantic": "pavilion_wood_joinery",
+      "base_asset": "path",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:2 frame 118; chapter-two regional original map assembly inspected",
+      "edge": "upper"
+    },
+    "2:119": {
+      "asset": "wood_wall_panel",
+      "draw_mode": "tile",
+      "semantic": "pavilion_wood_joinery",
+      "base_asset": "path",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:2 frame 119; chapter-two regional original map assembly inspected",
+      "edge": "upper"
+    },
+    "2:120": {
+      "asset": "village_fence_v",
+      "draw_mode": "tile",
+      "semantic": "pavilion_vertical_support",
+      "base_asset": "path",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:2 frame 120; chapter-two regional original map assembly inspected"
+    },
+    "2:122": {
+      "asset": "wood_wall_panel",
+      "draw_mode": "tile",
+      "semantic": "pavilion_wood_joinery",
+      "base_asset": "path",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:2 frame 122; chapter-two regional original map assembly inspected",
+      "edge": "upper"
+    },
+    "2:123": {
+      "asset": "wood_wall_panel",
+      "draw_mode": "tile",
+      "semantic": "pavilion_wood_joinery",
+      "base_asset": "path",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:2 frame 123; chapter-two regional original map assembly inspected",
+      "edge": "upper"
+    },
+    "2:124": {
+      "asset": "bucket",
+      "draw_mode": "tile",
+      "semantic": "pavilion_bucket",
+      "base_asset": "path",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:2 frame 124; chapter-two regional original map assembly inspected"
+    },
+    "2:125": {
+      "asset": "woven_mat",
+      "draw_mode": "tile",
+      "semantic": "pavilion_woven_floor",
+      "base_asset": "path",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:2 frame 125; chapter-two regional original map assembly inspected",
+      "edge": "center"
+    },
+    "2:126": {
+      "asset": "wood_wall_panel",
+      "draw_mode": "tile",
+      "semantic": "pavilion_wood_joinery",
+      "base_asset": "path",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:2 frame 126; chapter-two regional original map assembly inspected",
+      "edge": "upper"
+    },
+    "3:63": {
+      "asset": "folding_screen",
+      "draw_mode": "module_part",
+      "semantic": "screen_reverse_leaf",
+      "base_asset": "wood_floor",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:3 frame 63; chapter-two regional original map assembly inspected",
+      "module": {
+        "id": "ch2_3_screen_reverse_leaf",
+        "size": [
+          2,
+          2
+        ],
+        "part": [
+          0,
+          1
+        ]
+      }
+    },
+    "3:70": {
+      "asset": "house_side_table",
+      "draw_mode": "module_part",
+      "semantic": "house_table_corner",
+      "base_asset": "wood_floor",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:3 frame 70; chapter-two regional original map assembly inspected",
+      "module": {
+        "id": "ch2_3_house_table_corner",
+        "size": [
+          2,
+          2
+        ],
+        "part": [
+          0,
+          1
+        ]
+      }
+    },
+    "3:98": {
+      "asset": "wall_cap",
+      "draw_mode": "tile",
+      "semantic": "horizontal_wall_eave",
+      "verification": "native_visual_atlas_and_map",
+      "evidence": "TIL 7:1:3 frame 98; exact decoded pixels match audited 1:60; regional map context reviewed",
+      "exact_pixel_source": "1:60"
+    },
+    "3:119": {
+      "asset": "basket_tile",
+      "draw_mode": "tile",
+      "semantic": "kitchen_food_basket",
+      "base_asset": "wood_floor",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:3 frame 119; chapter-two regional original map assembly inspected"
+    },
+    "3:124": {
+      "asset": "kitchen_pantry",
+      "draw_mode": "module_part",
+      "semantic": "pantry_vessels",
+      "base_asset": "wood_floor",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:3 frame 124; chapter-two regional original map assembly inspected",
+      "module": {
+        "id": "ch2_3_pantry_vessels",
+        "size": [
+          2,
+          2
+        ],
+        "part": [
+          0,
+          0
+        ]
+      }
+    },
+    "3:125": {
+      "asset": "kitchen_pantry",
+      "draw_mode": "module_part",
+      "semantic": "pantry_vessels",
+      "base_asset": "wood_floor",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:3 frame 125; chapter-two regional original map assembly inspected",
+      "module": {
+        "id": "ch2_3_pantry_vessels",
+        "size": [
+          2,
+          2
+        ],
+        "part": [
+          1,
+          0
+        ]
+      }
+    },
+    "3:126": {
+      "asset": "kitchen_pantry",
+      "draw_mode": "module_part",
+      "semantic": "pantry_vessels",
+      "base_asset": "wood_floor",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:3 frame 126; chapter-two regional original map assembly inspected",
+      "module": {
+        "id": "ch2_3_pantry_vessels",
+        "size": [
+          2,
+          2
+        ],
+        "part": [
+          0,
+          1
+        ]
+      }
+    },
+    "3:127": {
+      "asset": "wood_floor",
+      "draw_mode": "tile",
+      "semantic": "source_out_of_range_first_frame",
+      "base_asset": "wood_floor",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:3 frame 127; chapter-two regional original map assembly inspected",
+      "source_fallback": {
+        "requested_frame": 127,
+        "available_frames": 127,
+        "reference_frame": 0,
+        "reason": "J ResImage.draw selects first frame for out-of-range; source bytes and collision retained",
+        "presentation": "owned neutral floor; original invalid-frame marker is not copied"
+      }
+    },
+    "6:37": {
+      "asset": "table",
+      "draw_mode": "module_part",
+      "semantic": "hall_altar_table",
+      "base_asset": "stone_floor",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:6 frame 37; chapter-two regional original map assembly inspected",
+      "module": {
+        "id": "ch2_6_hall_altar_table",
+        "size": [
+          3,
+          2
+        ],
+        "part": [
+          0,
+          0
+        ]
+      }
+    },
+    "6:39": {
+      "asset": "table",
+      "draw_mode": "module_part",
+      "semantic": "hall_altar_table",
+      "base_asset": "stone_floor",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:6 frame 39; chapter-two regional original map assembly inspected",
+      "module": {
+        "id": "ch2_6_hall_altar_table",
+        "size": [
+          3,
+          2
+        ],
+        "part": [
+          2,
+          0
+        ]
+      }
+    },
+    "6:80": {
+      "asset": "dining_seat_left",
+      "draw_mode": "module_part",
+      "semantic": "hall_seat_left",
+      "base_asset": "stone_floor",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:6 frame 80; chapter-two regional original map assembly inspected",
+      "module": {
+        "id": "ch2_6_hall_seat_left",
+        "size": [
+          2,
+          3
+        ],
+        "part": [
+          0,
+          0
+        ]
+      }
+    },
+    "6:81": {
+      "asset": "dining_seat_left",
+      "draw_mode": "module_part",
+      "semantic": "hall_seat_left",
+      "base_asset": "stone_floor",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:6 frame 81; chapter-two regional original map assembly inspected",
+      "module": {
+        "id": "ch2_6_hall_seat_left",
+        "size": [
+          2,
+          3
+        ],
+        "part": [
+          1,
+          0
+        ]
+      }
+    },
+    "6:82": {
+      "asset": "dining_seat_left",
+      "draw_mode": "module_part",
+      "semantic": "hall_seat_left",
+      "base_asset": "stone_floor",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:6 frame 82; chapter-two regional original map assembly inspected",
+      "module": {
+        "id": "ch2_6_hall_seat_left",
+        "size": [
+          2,
+          3
+        ],
+        "part": [
+          0,
+          1
+        ]
+      }
+    },
+    "6:83": {
+      "asset": "dining_seat_left",
+      "draw_mode": "module_part",
+      "semantic": "hall_seat_left",
+      "base_asset": "stone_floor",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:6 frame 83; chapter-two regional original map assembly inspected",
+      "module": {
+        "id": "ch2_6_hall_seat_left",
+        "size": [
+          2,
+          3
+        ],
+        "part": [
+          1,
+          1
+        ]
+      }
+    },
+    "6:84": {
+      "asset": "dining_seat_left",
+      "draw_mode": "module_part",
+      "semantic": "hall_seat_left",
+      "base_asset": "stone_floor",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:6 frame 84; chapter-two regional original map assembly inspected",
+      "module": {
+        "id": "ch2_6_hall_seat_left",
+        "size": [
+          2,
+          3
+        ],
+        "part": [
+          0,
+          2
+        ]
+      }
+    },
+    "6:85": {
+      "asset": "dining_seat_left",
+      "draw_mode": "module_part",
+      "semantic": "hall_seat_left",
+      "base_asset": "stone_floor",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:6 frame 85; chapter-two regional original map assembly inspected",
+      "module": {
+        "id": "ch2_6_hall_seat_left",
+        "size": [
+          2,
+          3
+        ],
+        "part": [
+          1,
+          2
+        ]
+      }
+    },
+    "6:86": {
+      "asset": "dining_seat_right",
+      "draw_mode": "module_part",
+      "semantic": "hall_seat_right",
+      "base_asset": "stone_floor",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:6 frame 86; chapter-two regional original map assembly inspected",
+      "module": {
+        "id": "ch2_6_hall_seat_right",
+        "size": [
+          2,
+          3
+        ],
+        "part": [
+          0,
+          0
+        ]
+      }
+    },
+    "6:87": {
+      "asset": "dining_seat_right",
+      "draw_mode": "module_part",
+      "semantic": "hall_seat_right",
+      "base_asset": "stone_floor",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:6 frame 87; chapter-two regional original map assembly inspected",
+      "module": {
+        "id": "ch2_6_hall_seat_right",
+        "size": [
+          2,
+          3
+        ],
+        "part": [
+          1,
+          0
+        ]
+      }
+    },
+    "6:88": {
+      "asset": "dining_seat_right",
+      "draw_mode": "module_part",
+      "semantic": "hall_seat_right",
+      "base_asset": "stone_floor",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:6 frame 88; chapter-two regional original map assembly inspected",
+      "module": {
+        "id": "ch2_6_hall_seat_right",
+        "size": [
+          2,
+          3
+        ],
+        "part": [
+          0,
+          1
+        ]
+      }
+    },
+    "6:89": {
+      "asset": "dining_seat_right",
+      "draw_mode": "module_part",
+      "semantic": "hall_seat_right",
+      "base_asset": "stone_floor",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:6 frame 89; chapter-two regional original map assembly inspected",
+      "module": {
+        "id": "ch2_6_hall_seat_right",
+        "size": [
+          2,
+          3
+        ],
+        "part": [
+          1,
+          1
+        ]
+      }
+    },
+    "6:90": {
+      "asset": "dining_seat_right",
+      "draw_mode": "module_part",
+      "semantic": "hall_seat_right",
+      "base_asset": "stone_floor",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:6 frame 90; chapter-two regional original map assembly inspected",
+      "module": {
+        "id": "ch2_6_hall_seat_right",
+        "size": [
+          2,
+          3
+        ],
+        "part": [
+          0,
+          2
+        ]
+      }
+    },
+    "6:91": {
+      "asset": "dining_seat_right",
+      "draw_mode": "module_part",
+      "semantic": "hall_seat_right",
+      "base_asset": "stone_floor",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:6 frame 91; chapter-two regional original map assembly inspected",
+      "module": {
+        "id": "ch2_6_hall_seat_right",
+        "size": [
+          2,
+          3
+        ],
+        "part": [
+          1,
+          2
+        ]
+      }
+    },
+    "6:92": {
+      "asset": "hall_armchair",
+      "draw_mode": "module_part",
+      "semantic": "hall_armchair",
+      "base_asset": "stone_floor",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:6 frame 92; chapter-two regional original map assembly inspected",
+      "module": {
+        "id": "ch2_6_hall_armchair",
+        "size": [
+          2,
+          2
+        ],
+        "part": [
+          0,
+          0
+        ]
+      }
+    },
+    "6:93": {
+      "asset": "hall_armchair",
+      "draw_mode": "module_part",
+      "semantic": "hall_armchair",
+      "base_asset": "stone_floor",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:6 frame 93; chapter-two regional original map assembly inspected",
+      "module": {
+        "id": "ch2_6_hall_armchair",
+        "size": [
+          2,
+          2
+        ],
+        "part": [
+          1,
+          0
+        ]
+      }
+    },
+    "6:94": {
+      "asset": "hall_armchair",
+      "draw_mode": "module_part",
+      "semantic": "hall_armchair",
+      "base_asset": "stone_floor",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:6 frame 94; chapter-two regional original map assembly inspected",
+      "module": {
+        "id": "ch2_6_hall_armchair",
+        "size": [
+          2,
+          2
+        ],
+        "part": [
+          0,
+          1
+        ]
+      }
+    },
+    "6:95": {
+      "asset": "hall_armchair",
+      "draw_mode": "module_part",
+      "semantic": "hall_armchair",
+      "base_asset": "stone_floor",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:6 frame 95; chapter-two regional original map assembly inspected",
+      "module": {
+        "id": "ch2_6_hall_armchair",
+        "size": [
+          2,
+          2
+        ],
+        "part": [
+          1,
+          1
+        ]
+      }
+    },
+    "6:97": {
+      "asset": "wood_frame",
+      "draw_mode": "tile",
+      "semantic": "hall_door_post",
+      "base_asset": "stone_floor",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:6 frame 97; chapter-two regional original map assembly inspected",
+      "edge": "w"
+    },
+    "6:98": {
+      "asset": "stairs",
+      "draw_mode": "tile",
+      "semantic": "hall_shallow_step",
+      "base_asset": "stone_floor",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:6 frame 98; chapter-two regional original map assembly inspected",
+      "edge": "middle"
+    },
+    "6:99": {
+      "asset": "stairs",
+      "draw_mode": "tile",
+      "semantic": "hall_shallow_step",
+      "base_asset": "stone_floor",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:6 frame 99; chapter-two regional original map assembly inspected",
+      "edge": "middle"
+    },
+    "7:36": {
+      "asset": "shop_counter",
+      "draw_mode": "tile",
+      "semantic": "counter_upper_left",
+      "base_asset": "stone_floor",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:7 frame 36; chapter-two regional original map assembly inspected",
+      "edge": "northwest"
+    },
+    "7:37": {
+      "asset": "weapon_wall_display",
+      "draw_mode": "module_part",
+      "semantic": "crossed_weapon_display",
+      "base_asset": "stone_floor",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:7 frame 37; chapter-two regional original map assembly inspected",
+      "module": {
+        "id": "ch2_7_crossed_weapon_display",
+        "size": [
+          2,
+          2
+        ],
+        "part": [
+          0,
+          0
+        ]
+      }
+    },
+    "7:38": {
+      "asset": "weapon_wall_display",
+      "draw_mode": "module_part",
+      "semantic": "crossed_weapon_display",
+      "base_asset": "stone_floor",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:7 frame 38; chapter-two regional original map assembly inspected",
+      "module": {
+        "id": "ch2_7_crossed_weapon_display",
+        "size": [
+          2,
+          2
+        ],
+        "part": [
+          1,
+          0
+        ]
+      }
+    },
+    "7:39": {
+      "asset": "furniture_shadow",
+      "draw_mode": "tile",
+      "semantic": "small_furniture_foot_shadow",
+      "verification": "native_visual_atlas_and_map",
+      "evidence": "TIL 7:1:7 frame 39; exact decoded pixels match audited 3:15; regional map context reviewed",
+      "base_asset": "wood_floor",
+      "exact_pixel_source": "3:15"
+    },
+    "7:40": {
+      "asset": "weapon_wall_display",
+      "draw_mode": "module_part",
+      "semantic": "crossed_weapon_display",
+      "base_asset": "stone_floor",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:7 frame 40; chapter-two regional original map assembly inspected",
+      "module": {
+        "id": "ch2_7_crossed_weapon_display",
+        "size": [
+          2,
+          2
+        ],
+        "part": [
+          0,
+          1
+        ]
+      }
+    },
+    "7:41": {
+      "asset": "weapon_wall_display",
+      "draw_mode": "module_part",
+      "semantic": "crossed_weapon_display",
+      "base_asset": "stone_floor",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:7 frame 41; chapter-two regional original map assembly inspected",
+      "module": {
+        "id": "ch2_7_crossed_weapon_display",
+        "size": [
+          2,
+          2
+        ],
+        "part": [
+          1,
+          1
+        ]
+      }
+    },
+    "7:44": {
+      "asset": "armor_wall_display",
+      "draw_mode": "module_part",
+      "semantic": "armor_display",
+      "base_asset": "stone_floor",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:7 frame 44; chapter-two regional original map assembly inspected",
+      "module": {
+        "id": "ch2_7_armor_display",
+        "size": [
+          2,
+          1
+        ],
+        "part": [
+          0,
+          0
+        ],
+        "repeat_axis": "y"
+      }
+    },
+    "7:45": {
+      "asset": "armor_wall_display",
+      "draw_mode": "module_part",
+      "semantic": "armor_display",
+      "base_asset": "stone_floor",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:7 frame 45; chapter-two regional original map assembly inspected",
+      "module": {
+        "id": "ch2_7_armor_display",
+        "size": [
+          2,
+          1
+        ],
+        "part": [
+          1,
+          0
+        ],
+        "repeat_axis": "y"
+      }
+    },
+    "7:46": {
+      "asset": "weapon_wall_display",
+      "draw_mode": "module_part",
+      "semantic": "sword_wall_display",
+      "base_asset": "stone_floor",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:7 frame 46; chapter-two regional original map assembly inspected",
+      "module": {
+        "id": "ch2_7_sword_wall_display",
+        "size": [
+          2,
+          2
+        ],
+        "part": [
+          0,
+          0
+        ]
+      }
+    },
+    "7:47": {
+      "asset": "weapon_wall_display",
+      "draw_mode": "module_part",
+      "semantic": "sword_wall_display",
+      "base_asset": "stone_floor",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:7 frame 47; chapter-two regional original map assembly inspected",
+      "module": {
+        "id": "ch2_7_sword_wall_display",
+        "size": [
+          2,
+          2
+        ],
+        "part": [
+          1,
+          0
+        ]
+      }
+    },
+    "7:48": {
+      "asset": "weapon_wall_display",
+      "draw_mode": "module_part",
+      "semantic": "sword_wall_display",
+      "base_asset": "stone_floor",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:7 frame 48; chapter-two regional original map assembly inspected",
+      "module": {
+        "id": "ch2_7_sword_wall_display",
+        "size": [
+          2,
+          2
+        ],
+        "part": [
+          0,
+          1
+        ]
+      }
+    },
+    "7:49": {
+      "asset": "weapon_wall_display",
+      "draw_mode": "module_part",
+      "semantic": "sword_wall_display",
+      "base_asset": "stone_floor",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:7 frame 49; chapter-two regional original map assembly inspected",
+      "module": {
+        "id": "ch2_7_sword_wall_display",
+        "size": [
+          2,
+          2
+        ],
+        "part": [
+          1,
+          1
+        ]
+      }
+    },
+    "7:55": {
+      "asset": "potted_herb_small",
+      "draw_mode": "tile",
+      "semantic": "shop_small_plant",
+      "base_asset": "stone_floor",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:7 frame 55; chapter-two regional original map assembly inspected"
+    },
+    "7:58": {
+      "asset": "jar_tile",
+      "draw_mode": "tile",
+      "semantic": "shop_ornamental_plate",
+      "base_asset": "stone_floor",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:7 frame 58; chapter-two regional original map assembly inspected"
+    },
+    "7:60": {
+      "asset": "shop_counter",
+      "draw_mode": "tile",
+      "semantic": "counter_upper_right",
+      "base_asset": "stone_floor",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:7 frame 60; chapter-two regional original map assembly inspected",
+      "edge": "north_repeat"
+    },
+    "7:63": {
+      "asset": "potted_herb_small",
+      "draw_mode": "tile",
+      "semantic": "pawnshop_small_vessel",
+      "base_asset": "stone_floor",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:7 frame 63; chapter-two regional original map assembly inspected"
+    },
+    "7:64": {
+      "asset": "inn_dining_set",
+      "draw_mode": "module_part",
+      "semantic": "inn_table_and_benches",
+      "base_asset": "stone_floor",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:7 frame 64; chapter-two regional original map assembly inspected",
+      "module": {
+        "id": "ch2_7_inn_table_and_benches",
+        "size": [
+          4,
+          3
+        ],
+        "part": [
+          1,
+          0
+        ]
+      }
+    },
+    "7:65": {
+      "asset": "inn_dining_set",
+      "draw_mode": "module_part",
+      "semantic": "inn_table_and_benches",
+      "base_asset": "stone_floor",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:7 frame 65; chapter-two regional original map assembly inspected",
+      "module": {
+        "id": "ch2_7_inn_table_and_benches",
+        "size": [
+          4,
+          3
+        ],
+        "part": [
+          2,
+          0
+        ]
+      }
+    },
+    "7:66": {
+      "asset": "inn_dining_set",
+      "draw_mode": "module_part",
+      "semantic": "inn_table_and_benches",
+      "base_asset": "stone_floor",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:7 frame 66; chapter-two regional original map assembly inspected",
+      "module": {
+        "id": "ch2_7_inn_table_and_benches",
+        "size": [
+          4,
+          3
+        ],
+        "part": [
+          1,
+          1
+        ]
+      }
+    },
+    "7:67": {
+      "asset": "inn_dining_set",
+      "draw_mode": "module_part",
+      "semantic": "inn_table_and_benches",
+      "base_asset": "stone_floor",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:7 frame 67; chapter-two regional original map assembly inspected",
+      "module": {
+        "id": "ch2_7_inn_table_and_benches",
+        "size": [
+          4,
+          3
+        ],
+        "part": [
+          2,
+          1
+        ]
+      }
+    },
+    "7:68": {
+      "asset": "inn_dining_set",
+      "draw_mode": "module_part",
+      "semantic": "inn_table_and_benches",
+      "base_asset": "stone_floor",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:7 frame 68; chapter-two regional original map assembly inspected",
+      "module": {
+        "id": "ch2_7_inn_table_and_benches",
+        "size": [
+          4,
+          3
+        ],
+        "part": [
+          1,
+          2
+        ]
+      }
+    },
+    "7:69": {
+      "asset": "inn_dining_set",
+      "draw_mode": "module_part",
+      "semantic": "inn_table_and_benches",
+      "base_asset": "stone_floor",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:7 frame 69; chapter-two regional original map assembly inspected",
+      "module": {
+        "id": "ch2_7_inn_table_and_benches",
+        "size": [
+          4,
+          3
+        ],
+        "part": [
+          2,
+          2
+        ]
+      }
+    },
+    "7:70": {
+      "asset": "inn_wine_jar",
+      "draw_mode": "module_part",
+      "semantic": "large_wine_jar",
+      "base_asset": "stone_floor",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:7 frame 70; chapter-two regional original map assembly inspected",
+      "module": {
+        "id": "ch2_7_large_wine_jar",
+        "size": [
+          2,
+          2
+        ],
+        "part": [
+          0,
+          0
+        ],
+        "repeat_axis": "x"
+      }
+    },
+    "7:71": {
+      "asset": "inn_wine_jar",
+      "draw_mode": "module_part",
+      "semantic": "large_wine_jar",
+      "base_asset": "stone_floor",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:7 frame 71; chapter-two regional original map assembly inspected",
+      "module": {
+        "id": "ch2_7_large_wine_jar",
+        "size": [
+          2,
+          2
+        ],
+        "part": [
+          1,
+          0
+        ],
+        "repeat_axis": "x"
+      }
+    },
+    "7:72": {
+      "asset": "inn_wine_jar",
+      "draw_mode": "module_part",
+      "semantic": "large_wine_jar",
+      "base_asset": "stone_floor",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:7 frame 72; chapter-two regional original map assembly inspected",
+      "module": {
+        "id": "ch2_7_large_wine_jar",
+        "size": [
+          2,
+          2
+        ],
+        "part": [
+          0,
+          1
+        ],
+        "repeat_axis": "x"
+      }
+    },
+    "7:73": {
+      "asset": "inn_wine_jar",
+      "draw_mode": "module_part",
+      "semantic": "large_wine_jar",
+      "base_asset": "stone_floor",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:7 frame 73; chapter-two regional original map assembly inspected",
+      "module": {
+        "id": "ch2_7_large_wine_jar",
+        "size": [
+          2,
+          2
+        ],
+        "part": [
+          1,
+          1
+        ],
+        "repeat_axis": "x"
+      }
+    },
+    "7:74": {
+      "asset": "inn_tableware",
+      "draw_mode": "module_part",
+      "semantic": "inn_bowl_and_cup",
+      "base_asset": "stone_floor",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:7 frame 74; chapter-two regional original map assembly inspected",
+      "module": {
+        "id": "ch2_7_inn_bowl_and_cup",
+        "size": [
+          2,
+          1
+        ],
+        "part": [
+          0,
+          0
+        ]
+      }
+    },
+    "7:75": {
+      "asset": "inn_tableware",
+      "draw_mode": "module_part",
+      "semantic": "inn_bowl_and_cup",
+      "base_asset": "stone_floor",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:7 frame 75; chapter-two regional original map assembly inspected",
+      "module": {
+        "id": "ch2_7_inn_bowl_and_cup",
+        "size": [
+          2,
+          1
+        ],
+        "part": [
+          1,
+          0
+        ]
+      }
+    },
+    "7:76": {
+      "asset": "inn_dining_set",
+      "draw_mode": "module_part",
+      "semantic": "inn_table_and_benches",
+      "base_asset": "stone_floor",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:7 frame 76; chapter-two regional original map assembly inspected",
+      "module": {
+        "id": "ch2_7_inn_table_and_benches",
+        "size": [
+          4,
+          3
+        ],
+        "part": [
+          3,
+          0
+        ]
+      }
+    },
+    "7:77": {
+      "asset": "inn_dining_set",
+      "draw_mode": "module_part",
+      "semantic": "inn_table_and_benches",
+      "base_asset": "stone_floor",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:7 frame 77; chapter-two regional original map assembly inspected",
+      "module": {
+        "id": "ch2_7_inn_table_and_benches",
+        "size": [
+          4,
+          3
+        ],
+        "part": [
+          3,
+          1
+        ]
+      }
+    },
+    "7:78": {
+      "asset": "inn_dining_set",
+      "draw_mode": "module_part",
+      "semantic": "inn_table_and_benches",
+      "base_asset": "stone_floor",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:7 frame 78; chapter-two regional original map assembly inspected",
+      "module": {
+        "id": "ch2_7_inn_table_and_benches",
+        "size": [
+          4,
+          3
+        ],
+        "part": [
+          3,
+          2
+        ]
+      }
+    },
+    "7:79": {
+      "asset": "inn_dining_set",
+      "draw_mode": "module_part",
+      "semantic": "inn_table_and_benches",
+      "base_asset": "stone_floor",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:7 frame 79; chapter-two regional original map assembly inspected",
+      "module": {
+        "id": "ch2_7_inn_table_and_benches",
+        "size": [
+          4,
+          3
+        ],
+        "part": [
+          0,
+          0
+        ]
+      }
+    },
+    "7:80": {
+      "asset": "inn_dining_set",
+      "draw_mode": "module_part",
+      "semantic": "inn_table_and_benches",
+      "base_asset": "stone_floor",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:7 frame 80; chapter-two regional original map assembly inspected",
+      "module": {
+        "id": "ch2_7_inn_table_and_benches",
+        "size": [
+          4,
+          3
+        ],
+        "part": [
+          0,
+          1
+        ]
+      }
+    },
+    "7:81": {
+      "asset": "inn_dining_set",
+      "draw_mode": "module_part",
+      "semantic": "inn_table_and_benches",
+      "base_asset": "stone_floor",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:7 frame 81; chapter-two regional original map assembly inspected",
+      "module": {
+        "id": "ch2_7_inn_table_and_benches",
+        "size": [
+          4,
+          3
+        ],
+        "part": [
+          0,
+          2
+        ]
+      }
+    },
+    "8:38": {
+      "asset": "cave_arch_tile",
+      "draw_mode": "tile",
+      "semantic": "cave_arch",
+      "base_asset": "cave_floor",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:8 frame 38; chapter-two regional original map assembly inspected"
+    },
+    "8:60": {
+      "asset": "stairs_diagonal_tile_mirrored",
+      "draw_mode": "tile",
+      "semantic": "cave_diagonal_stairs_left",
+      "base_asset": "cave_floor",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:8 frame 60; chapter-two regional original map assembly inspected"
+    },
+    "8:61": {
+      "asset": "stairs_diagonal_tile",
+      "draw_mode": "tile",
+      "semantic": "cave_diagonal_stairs_right",
+      "base_asset": "cave_floor",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:8 frame 61; chapter-two regional original map assembly inspected"
+    },
+    "8:72": {
+      "asset": "rubble_tile",
+      "draw_mode": "tile",
+      "semantic": "cave_loose_rock_heap",
+      "base_asset": "cave_floor",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:8 frame 72; chapter-two regional original map assembly inspected"
+    },
+    "9:22": {
+      "asset": "village_fence_h",
+      "draw_mode": "tile",
+      "semantic": "village_horizontal_fence",
+      "base_asset": "earth",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:9 frame 22; chapter-two regional original map assembly inspected"
+    },
+    "9:23": {
+      "asset": "village_fence_v",
+      "draw_mode": "tile",
+      "semantic": "village_vertical_fence",
+      "base_asset": "earth",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:9 frame 23; chapter-two regional original map assembly inspected"
+    },
+    "9:25": {
+      "asset": "chasm_edge",
+      "draw_mode": "tile",
+      "semantic": "river_bank_northwest",
+      "base_asset": "water",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:9 frame 25; chapter-two regional original map assembly inspected",
+      "edge": "northwest"
+    },
+    "9:26": {
+      "asset": "chasm_edge",
+      "draw_mode": "tile",
+      "semantic": "river_bank_west",
+      "base_asset": "water",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:9 frame 26; chapter-two regional original map assembly inspected",
+      "edge": "west"
+    },
+    "9:27": {
+      "asset": "chasm_edge",
+      "draw_mode": "tile",
+      "semantic": "river_bank_north",
+      "base_asset": "water",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:9 frame 27; chapter-two regional original map assembly inspected",
+      "edge": "north"
+    },
+    "9:28": {
+      "asset": "water",
+      "draw_mode": "tile",
+      "semantic": "river_water",
+      "base_asset": "earth",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:9 frame 28; chapter-two regional original map assembly inspected"
+    },
+    "9:29": {
+      "asset": "pond_border",
+      "draw_mode": "tile",
+      "semantic": "pond_west_bank",
+      "base_asset": "water",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:9 frame 29; chapter-two regional original map assembly inspected",
+      "edge": "west"
+    },
+    "9:30": {
+      "asset": "pond_border",
+      "draw_mode": "tile",
+      "semantic": "pond_north_bank",
+      "base_asset": "water",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:9 frame 30; chapter-two regional original map assembly inspected",
+      "edge": "north_south"
+    },
+    "9:31": {
+      "asset": "chasm_edge",
+      "draw_mode": "tile",
+      "semantic": "river_bank_east",
+      "base_asset": "water",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:9 frame 31; chapter-two regional original map assembly inspected",
+      "edge": "east"
+    },
+    "9:32": {
+      "asset": "village_hut",
+      "draw_mode": "module_part",
+      "semantic": "rural_round_hut",
+      "base_asset": "earth",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:9 frame 32; chapter-two regional original map assembly inspected",
+      "module": {
+        "id": "ch2_9_rural_round_hut",
+        "size": [
+          3,
+          2
+        ],
+        "part": [
+          0,
+          0
+        ]
+      }
+    },
+    "9:33": {
+      "asset": "village_hut",
+      "draw_mode": "module_part",
+      "semantic": "rural_round_hut",
+      "base_asset": "earth",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:9 frame 33; chapter-two regional original map assembly inspected",
+      "module": {
+        "id": "ch2_9_rural_round_hut",
+        "size": [
+          3,
+          2
+        ],
+        "part": [
+          1,
+          0
+        ]
+      }
+    },
+    "9:34": {
+      "asset": "village_hut",
+      "draw_mode": "module_part",
+      "semantic": "rural_round_hut",
+      "base_asset": "earth",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:9 frame 34; chapter-two regional original map assembly inspected",
+      "module": {
+        "id": "ch2_9_rural_round_hut",
+        "size": [
+          3,
+          2
+        ],
+        "part": [
+          2,
+          0
+        ]
+      }
+    },
+    "9:35": {
+      "asset": "village_hut",
+      "draw_mode": "module_part",
+      "semantic": "rural_round_hut",
+      "base_asset": "earth",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:9 frame 35; chapter-two regional original map assembly inspected",
+      "module": {
+        "id": "ch2_9_rural_round_hut",
+        "size": [
+          3,
+          2
+        ],
+        "part": [
+          0,
+          1
+        ]
+      }
+    },
+    "9:36": {
+      "asset": "village_hut",
+      "draw_mode": "module_part",
+      "semantic": "rural_round_hut",
+      "base_asset": "earth",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:9 frame 36; chapter-two regional original map assembly inspected",
+      "module": {
+        "id": "ch2_9_rural_round_hut",
+        "size": [
+          3,
+          2
+        ],
+        "part": [
+          1,
+          1
+        ]
+      }
+    },
+    "9:37": {
+      "asset": "village_hut",
+      "draw_mode": "module_part",
+      "semantic": "rural_round_hut",
+      "base_asset": "earth",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:9 frame 37; chapter-two regional original map assembly inspected",
+      "module": {
+        "id": "ch2_9_rural_round_hut",
+        "size": [
+          3,
+          2
+        ],
+        "part": [
+          2,
+          1
+        ]
+      }
+    },
+    "9:38": {
+      "asset": "village_bridge_ns",
+      "draw_mode": "module_part",
+      "semantic": "village_bridge",
+      "base_asset": "water",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:9 frame 38; chapter-two regional original map assembly inspected",
+      "module": {
+        "id": "ch2_9_village_bridge",
+        "size": [
+          2,
+          1
+        ],
+        "part": [
+          0,
+          0
+        ],
+        "repeat_axis": "y"
+      }
+    },
+    "9:39": {
+      "asset": "village_bridge_ns",
+      "draw_mode": "module_part",
+      "semantic": "village_bridge",
+      "base_asset": "water",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:9 frame 39; chapter-two regional original map assembly inspected",
+      "module": {
+        "id": "ch2_9_village_bridge",
+        "size": [
+          2,
+          1
+        ],
+        "part": [
+          1,
+          0
+        ],
+        "repeat_axis": "y"
+      }
+    },
+    "9:40": {
+      "asset": "stairs",
+      "draw_mode": "tile",
+      "semantic": "exterior_stairs",
+      "base_asset": "earth",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:9 frame 40; chapter-two regional original map assembly inspected",
+      "edge": "middle"
+    },
+    "9:42": {
+      "asset": "city_bridge_floor",
+      "draw_mode": "tile",
+      "semantic": "city_pond_bridge_floor",
+      "base_asset": "water",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:9 frame 42; chapter-two regional original map assembly inspected"
+    },
+    "9:44": {
+      "asset": "village_fence_v",
+      "draw_mode": "tile",
+      "semantic": "bridge_side_rail",
+      "base_asset": "water",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:9 frame 44; chapter-two regional original map assembly inspected"
+    },
+    "9:45": {
+      "asset": "village_fence_v",
+      "draw_mode": "tile",
+      "semantic": "bridge_side_rail",
+      "base_asset": "water",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:9 frame 45; chapter-two regional original map assembly inspected"
+    },
+    "9:50": {
+      "asset": "shop_sign_blank",
+      "draw_mode": "tile",
+      "semantic": "hanging_shop_sign",
+      "base_asset": "earth",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:9 frame 50; chapter-two regional original map assembly inspected"
+    },
+    "9:51": {
+      "asset": "village_fence_v",
+      "draw_mode": "tile",
+      "semantic": "village_vertical_fence",
+      "base_asset": "earth",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:9 frame 51; chapter-two regional original map assembly inspected"
+    },
+    "9:52": {
+      "asset": "regional_house_wall",
+      "draw_mode": "tile",
+      "semantic": "regional_house_window_wall",
+      "base_asset": "earth",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:9 frame 52; chapter-two regional original map assembly inspected"
+    },
+    "9:53": {
+      "asset": "regional_door_open",
+      "draw_mode": "tile",
+      "semantic": "regional_open_door",
+      "base_asset": "earth",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:9 frame 53; chapter-two regional original map assembly inspected"
+    },
+    "9:54": {
+      "asset": "regional_house_wall",
+      "draw_mode": "tile",
+      "semantic": "regional_house_window_wall",
+      "base_asset": "earth",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:9 frame 54; chapter-two regional original map assembly inspected"
+    },
+    "9:55": {
+      "asset": "regional_door_closed",
+      "draw_mode": "tile",
+      "semantic": "regional_closed_door",
+      "base_asset": "earth",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:9 frame 55; chapter-two regional original map assembly inspected"
+    },
+    "9:56": {
+      "asset": "temple_facade",
+      "draw_mode": "module_part",
+      "semantic": "regional_house",
+      "base_asset": "earth",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:9 frame 56; chapter-two regional original map assembly inspected",
+      "module": {
+        "id": "ch2_9_regional_house",
+        "size": [
+          3,
+          3
+        ],
+        "part": [
+          0,
+          0
+        ],
+        "repeat_axis": "x"
+      }
+    },
+    "9:57": {
+      "asset": "temple_facade",
+      "draw_mode": "module_part",
+      "semantic": "regional_house",
+      "base_asset": "earth",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:9 frame 57; chapter-two regional original map assembly inspected",
+      "module": {
+        "id": "ch2_9_regional_house",
+        "size": [
+          3,
+          3
+        ],
+        "part": [
+          2,
+          0
+        ],
+        "repeat_axis": "x"
+      }
+    },
+    "9:58": {
+      "asset": "temple_facade",
+      "draw_mode": "module_part",
+      "semantic": "regional_house",
+      "base_asset": "earth",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:9 frame 58; chapter-two regional original map assembly inspected",
+      "module": {
+        "id": "ch2_9_regional_house",
+        "size": [
+          3,
+          3
+        ],
+        "part": [
+          1,
+          2
+        ],
+        "repeat_axis": "x"
+      }
+    },
+    "9:59": {
+      "asset": "temple_facade",
+      "draw_mode": "module_part",
+      "semantic": "regional_house",
+      "base_asset": "earth",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:9 frame 59; chapter-two regional original map assembly inspected",
+      "module": {
+        "id": "ch2_9_regional_house",
+        "size": [
+          3,
+          3
+        ],
+        "part": [
+          0,
+          2
+        ],
+        "repeat_axis": "x"
+      }
+    },
+    "9:60": {
+      "asset": "temple_facade",
+      "draw_mode": "module_part",
+      "semantic": "regional_house",
+      "base_asset": "earth",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:9 frame 60; chapter-two regional original map assembly inspected",
+      "module": {
+        "id": "ch2_9_regional_house",
+        "size": [
+          3,
+          3
+        ],
+        "part": [
+          0,
+          0
+        ],
+        "repeat_axis": "x"
+      }
+    },
+    "9:61": {
+      "asset": "temple_facade",
+      "draw_mode": "module_part",
+      "semantic": "regional_house",
+      "base_asset": "earth",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:9 frame 61; chapter-two regional original map assembly inspected",
+      "module": {
+        "id": "ch2_9_regional_house",
+        "size": [
+          3,
+          3
+        ],
+        "part": [
+          1,
+          0
+        ],
+        "repeat_axis": "x"
+      }
+    },
+    "9:62": {
+      "asset": "temple_facade",
+      "draw_mode": "module_part",
+      "semantic": "regional_house",
+      "base_asset": "earth",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:9 frame 62; chapter-two regional original map assembly inspected",
+      "module": {
+        "id": "ch2_9_regional_house",
+        "size": [
+          3,
+          3
+        ],
+        "part": [
+          2,
+          0
+        ],
+        "repeat_axis": "x"
+      }
+    },
+    "9:63": {
+      "asset": "temple_facade",
+      "draw_mode": "module_part",
+      "semantic": "regional_house",
+      "base_asset": "earth",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:9 frame 63; chapter-two regional original map assembly inspected",
+      "module": {
+        "id": "ch2_9_regional_house",
+        "size": [
+          3,
+          3
+        ],
+        "part": [
+          0,
+          1
+        ],
+        "repeat_axis": "x"
+      }
+    },
+    "9:64": {
+      "asset": "bucket",
+      "draw_mode": "tile",
+      "semantic": "exterior_bucket",
+      "base_asset": "earth",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:9 frame 64; chapter-two regional original map assembly inspected"
+    },
+    "9:65": {
+      "asset": "temple_facade",
+      "draw_mode": "module_part",
+      "semantic": "regional_house",
+      "base_asset": "earth",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:9 frame 65; chapter-two regional original map assembly inspected",
+      "module": {
+        "id": "ch2_9_regional_house",
+        "size": [
+          3,
+          3
+        ],
+        "part": [
+          2,
+          1
+        ],
+        "repeat_axis": "x"
+      }
+    },
+    "9:66": {
+      "asset": "temple_facade",
+      "draw_mode": "module_part",
+      "semantic": "regional_house",
+      "base_asset": "earth",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:9 frame 66; chapter-two regional original map assembly inspected",
+      "module": {
+        "id": "ch2_9_regional_house",
+        "size": [
+          3,
+          3
+        ],
+        "part": [
+          2,
+          2
+        ],
+        "repeat_axis": "x"
+      }
+    },
+    "9:67": {
+      "asset": "temple_facade",
+      "draw_mode": "module_part",
+      "semantic": "regional_house",
+      "base_asset": "earth",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:9 frame 67; chapter-two regional original map assembly inspected",
+      "module": {
+        "id": "ch2_9_regional_house",
+        "size": [
+          3,
+          3
+        ],
+        "part": [
+          1,
+          1
+        ],
+        "repeat_axis": "x"
+      }
+    },
+    "9:68": {
+      "asset": "well",
+      "draw_mode": "module_part",
+      "semantic": "courtyard_well",
+      "verification": "native_visual_atlas_and_map",
+      "evidence": "TIL 7:1:9 frame 68; exact decoded pixels match audited 1:70; regional map context reviewed",
+      "base_asset": "stone_floor",
+      "module": {
+        "id": "1_courtyard_well",
+        "size": [
+          2,
+          2
+        ],
+        "part": [
+          0,
+          0
+        ]
+      },
+      "exact_pixel_source": "1:70"
+    },
+    "9:69": {
+      "asset": "well",
+      "draw_mode": "module_part",
+      "semantic": "courtyard_well",
+      "verification": "native_visual_atlas_and_map",
+      "evidence": "TIL 7:1:9 frame 69; exact decoded pixels match audited 1:71; regional map context reviewed",
+      "base_asset": "stone_floor",
+      "module": {
+        "id": "1_courtyard_well",
+        "size": [
+          2,
+          2
+        ],
+        "part": [
+          1,
+          0
+        ]
+      },
+      "exact_pixel_source": "1:71"
+    },
+    "9:70": {
+      "asset": "well",
+      "draw_mode": "module_part",
+      "semantic": "courtyard_well",
+      "verification": "native_visual_atlas_and_map",
+      "evidence": "TIL 7:1:9 frame 70; exact decoded pixels match audited 1:72; regional map context reviewed",
+      "base_asset": "stone_floor",
+      "module": {
+        "id": "1_courtyard_well",
+        "size": [
+          2,
+          2
+        ],
+        "part": [
+          0,
+          1
+        ]
+      },
+      "exact_pixel_source": "1:72"
+    },
+    "9:71": {
+      "asset": "well",
+      "draw_mode": "module_part",
+      "semantic": "courtyard_well",
+      "verification": "native_visual_atlas_and_map",
+      "evidence": "TIL 7:1:9 frame 71; exact decoded pixels match audited 1:73; regional map context reviewed",
+      "base_asset": "stone_floor",
+      "module": {
+        "id": "1_courtyard_well",
+        "size": [
+          2,
+          2
+        ],
+        "part": [
+          1,
+          1
+        ]
+      },
+      "exact_pixel_source": "1:73"
+    },
+    "9:72": {
+      "asset": "rural_sign_gate",
+      "draw_mode": "module_part",
+      "semantic": "rural_signed_fence_gate",
+      "base_asset": "earth",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:9 frame 72; chapter-two regional original map assembly inspected",
+      "module": {
+        "id": "ch2_9_rural_signed_fence_gate",
+        "size": [
+          4,
+          2
+        ],
+        "part": [
+          0,
+          0
+        ]
+      }
+    },
+    "9:73": {
+      "asset": "rural_sign_gate",
+      "draw_mode": "module_part",
+      "semantic": "rural_signed_fence_gate",
+      "base_asset": "earth",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:9 frame 73; chapter-two regional original map assembly inspected",
+      "module": {
+        "id": "ch2_9_rural_signed_fence_gate",
+        "size": [
+          4,
+          2
+        ],
+        "part": [
+          0,
+          1
+        ]
+      }
+    },
+    "9:74": {
+      "asset": "rural_sign_gate",
+      "draw_mode": "module_part",
+      "semantic": "rural_signed_fence_gate",
+      "base_asset": "earth",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:9 frame 74; chapter-two regional original map assembly inspected",
+      "module": {
+        "id": "ch2_9_rural_signed_fence_gate",
+        "size": [
+          4,
+          2
+        ],
+        "part": [
+          3,
+          0
+        ]
+      }
+    },
+    "9:75": {
+      "asset": "rural_sign_gate",
+      "draw_mode": "module_part",
+      "semantic": "rural_signed_fence_gate",
+      "base_asset": "earth",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:9 frame 75; chapter-two regional original map assembly inspected",
+      "module": {
+        "id": "ch2_9_rural_signed_fence_gate",
+        "size": [
+          4,
+          2
+        ],
+        "part": [
+          3,
+          1
+        ]
+      }
+    },
+    "9:76": {
+      "asset": "rural_sign_gate",
+      "draw_mode": "module_part",
+      "semantic": "rural_signed_fence_gate",
+      "base_asset": "earth",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:9 frame 76; chapter-two regional original map assembly inspected",
+      "module": {
+        "id": "ch2_9_rural_signed_fence_gate",
+        "size": [
+          4,
+          2
+        ],
+        "part": [
+          1,
+          0
+        ]
+      }
+    },
+    "9:77": {
+      "asset": "rural_sign_gate",
+      "draw_mode": "module_part",
+      "semantic": "rural_signed_fence_gate",
+      "base_asset": "earth",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:9 frame 77; chapter-two regional original map assembly inspected",
+      "module": {
+        "id": "ch2_9_rural_signed_fence_gate",
+        "size": [
+          4,
+          2
+        ],
+        "part": [
+          2,
+          0
+        ]
+      }
+    },
+    "9:78": {
+      "asset": "rural_sign_gate",
+      "draw_mode": "module_part",
+      "semantic": "rural_signed_fence_gate",
+      "base_asset": "earth",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:9 frame 78; chapter-two regional original map assembly inspected",
+      "module": {
+        "id": "ch2_9_rural_signed_fence_gate",
+        "size": [
+          4,
+          2
+        ],
+        "part": [
+          1,
+          1
+        ]
+      }
+    },
+    "9:79": {
+      "asset": "rural_sign_gate",
+      "draw_mode": "module_part",
+      "semantic": "rural_signed_fence_gate",
+      "base_asset": "earth",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:9 frame 79; chapter-two regional original map assembly inspected",
+      "module": {
+        "id": "ch2_9_rural_signed_fence_gate",
+        "size": [
+          4,
+          2
+        ],
+        "part": [
+          2,
+          1
+        ]
+      }
+    },
+    "9:80": {
+      "asset": "shop_sign_pawn",
+      "draw_mode": "tile",
+      "semantic": "shop_sign_pawn",
+      "base_asset": "earth",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:9 frame 80; chapter-two regional original map assembly inspected"
+    },
+    "9:81": {
+      "asset": "shop_sign_weapon",
+      "draw_mode": "tile",
+      "semantic": "shop_sign_weapon",
+      "base_asset": "earth",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:9 frame 81; chapter-two regional original map assembly inspected"
+    },
+    "9:82": {
+      "asset": "shop_sign_medicine",
+      "draw_mode": "tile",
+      "semantic": "shop_sign_medicine",
+      "base_asset": "earth",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:9 frame 82; chapter-two regional original map assembly inspected"
+    },
+    "9:83": {
+      "asset": "shop_sign_inn_left",
+      "draw_mode": "tile",
+      "semantic": "shop_sign_inn_left",
+      "base_asset": "earth",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:9 frame 83; chapter-two regional original map assembly inspected"
+    },
+    "9:84": {
+      "asset": "shop_sign_inn_right",
+      "draw_mode": "tile",
+      "semantic": "shop_sign_inn_right",
+      "base_asset": "earth",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:9 frame 84; chapter-two regional original map assembly inspected"
+    },
+    "9:85": {
+      "asset": "shop_sign_general",
+      "draw_mode": "tile",
+      "semantic": "shop_sign_general",
+      "base_asset": "earth",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:9 frame 85; chapter-two regional original map assembly inspected"
+    },
+    "9:86": {
+      "asset": "wall_cap",
+      "draw_mode": "tile",
+      "semantic": "city_wall_top",
+      "base_asset": "earth",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:9 frame 86; chapter-two regional original map assembly inspected"
+    },
+    "9:87": {
+      "asset": "brick_wall",
+      "draw_mode": "tile",
+      "semantic": "city_wall_corner",
+      "base_asset": "earth",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:9 frame 87; chapter-two regional original map assembly inspected"
+    },
+    "9:88": {
+      "asset": "brick_wall",
+      "draw_mode": "tile",
+      "semantic": "city_wall_face",
+      "base_asset": "earth",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:9 frame 88; chapter-two regional original map assembly inspected"
+    },
+    "9:89": {
+      "asset": "city_wall_vertical",
+      "draw_mode": "tile",
+      "semantic": "city_wall_vertical",
+      "base_asset": "earth",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:9 frame 89; chapter-two regional original map assembly inspected"
+    },
+    "9:90": {
+      "asset": "flagstone",
+      "draw_mode": "tile",
+      "semantic": "brick_paved_paths",
+      "verification": "native_visual_atlas_and_map",
+      "evidence": "TIL 7:1:9 frame 90; exact decoded pixels match audited 1:38; regional map context reviewed",
+      "exact_pixel_source": "1:38"
+    },
+    "9:91": {
+      "asset": "wood_frame",
+      "draw_mode": "tile",
+      "semantic": "city_gate_west",
+      "base_asset": "earth",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:9 frame 91; chapter-two regional original map assembly inspected",
+      "edge": "w"
+    },
+    "9:92": {
+      "asset": "wood_frame",
+      "draw_mode": "tile",
+      "semantic": "city_gate_west",
+      "base_asset": "earth",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:9 frame 92; chapter-two regional original map assembly inspected",
+      "edge": "w"
+    },
+    "9:93": {
+      "asset": "wood_frame",
+      "draw_mode": "tile",
+      "semantic": "city_gate_east",
+      "base_asset": "earth",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:9 frame 93; chapter-two regional original map assembly inspected",
+      "edge": "e"
+    },
+    "9:94": {
+      "asset": "wood_frame",
+      "draw_mode": "tile",
+      "semantic": "city_gate_east",
+      "base_asset": "earth",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:9 frame 94; chapter-two regional original map assembly inspected",
+      "edge": "e"
+    },
+    "9:96": {
+      "asset": "pond_border",
+      "draw_mode": "tile",
+      "semantic": "pond_horizontal_rail",
+      "verification": "native_visual_atlas_and_map",
+      "evidence": "TIL 7:1:9 frame 96; exact decoded pixels match audited 1:89; regional map context reviewed",
+      "base_asset": "stone_floor",
+      "edge": "north_south",
+      "exact_pixel_source": "1:89"
+    },
+    "9:97": {
+      "asset": "water",
+      "draw_mode": "tile",
+      "semantic": "pond_water",
+      "verification": "native_visual_atlas_and_map",
+      "evidence": "TIL 7:1:9 frame 97; exact decoded pixels match audited 1:90; regional map context reviewed",
+      "exact_pixel_source": "1:90"
+    },
+    "9:100": {
+      "asset": "lotus",
+      "draw_mode": "module_part",
+      "semantic": "floating_lotus_cluster",
+      "verification": "native_visual_atlas_and_map",
+      "evidence": "TIL 7:1:9 frame 100; exact decoded pixels match audited 1:94; regional map context reviewed",
+      "base_asset": "water",
+      "module": {
+        "id": "1_floating_lotus_cluster",
+        "size": [
+          2,
+          1
+        ],
+        "part": [
+          0,
+          0
+        ]
+      },
+      "exact_pixel_source": "1:94"
+    },
+    "9:101": {
+      "asset": "lotus",
+      "draw_mode": "module_part",
+      "semantic": "floating_lotus_cluster",
+      "verification": "native_visual_atlas_and_map",
+      "evidence": "TIL 7:1:9 frame 101; exact decoded pixels match audited 1:95; regional map context reviewed",
+      "base_asset": "water",
+      "module": {
+        "id": "1_floating_lotus_cluster",
+        "size": [
+          2,
+          1
+        ],
+        "part": [
+          1,
+          0
+        ]
+      },
+      "exact_pixel_source": "1:95"
+    },
+    "9:102": {
+      "asset": "pond_rockery",
+      "draw_mode": "module_part",
+      "semantic": "pond_rock_and_plant_feature",
+      "verification": "native_visual_atlas_and_map",
+      "evidence": "TIL 7:1:9 frame 102; exact decoded pixels match audited 1:96; regional map context reviewed",
+      "base_asset": "water",
+      "module": {
+        "id": "1_pond_rock_and_plant_feature",
+        "size": [
+          3,
+          2
+        ],
+        "part": [
+          0,
+          0
+        ]
+      },
+      "exact_pixel_source": "1:96"
+    },
+    "9:103": {
+      "asset": "pond_rockery",
+      "draw_mode": "module_part",
+      "semantic": "pond_rock_and_plant_feature",
+      "verification": "native_visual_atlas_and_map",
+      "evidence": "TIL 7:1:9 frame 103; exact decoded pixels match audited 1:97; regional map context reviewed",
+      "base_asset": "water",
+      "module": {
+        "id": "1_pond_rock_and_plant_feature",
+        "size": [
+          3,
+          2
+        ],
+        "part": [
+          1,
+          0
+        ]
+      },
+      "exact_pixel_source": "1:97"
+    },
+    "9:104": {
+      "asset": "pond_rockery",
+      "draw_mode": "module_part",
+      "semantic": "pond_rock_and_plant_feature",
+      "verification": "native_visual_atlas_and_map",
+      "evidence": "TIL 7:1:9 frame 104; exact decoded pixels match audited 1:98; regional map context reviewed",
+      "base_asset": "water",
+      "module": {
+        "id": "1_pond_rock_and_plant_feature",
+        "size": [
+          3,
+          2
+        ],
+        "part": [
+          2,
+          0
+        ]
+      },
+      "exact_pixel_source": "1:98"
+    },
+    "9:105": {
+      "asset": "pond_rockery",
+      "draw_mode": "module_part",
+      "semantic": "pond_rock_and_plant_feature",
+      "verification": "native_visual_atlas_and_map",
+      "evidence": "TIL 7:1:9 frame 105; exact decoded pixels match audited 1:99; regional map context reviewed",
+      "base_asset": "water",
+      "module": {
+        "id": "1_pond_rock_and_plant_feature",
+        "size": [
+          3,
+          2
+        ],
+        "part": [
+          0,
+          1
+        ]
+      },
+      "exact_pixel_source": "1:99"
+    },
+    "9:106": {
+      "asset": "pond_rockery",
+      "draw_mode": "module_part",
+      "semantic": "pond_rock_and_plant_feature",
+      "verification": "native_visual_atlas_and_map",
+      "evidence": "TIL 7:1:9 frame 106; exact decoded pixels match audited 1:100; regional map context reviewed",
+      "base_asset": "water",
+      "module": {
+        "id": "1_pond_rock_and_plant_feature",
+        "size": [
+          3,
+          2
+        ],
+        "part": [
+          1,
+          1
+        ]
+      },
+      "exact_pixel_source": "1:100"
+    },
+    "9:107": {
+      "asset": "pond_rockery",
+      "draw_mode": "module_part",
+      "semantic": "pond_rock_and_plant_feature",
+      "verification": "native_visual_atlas_and_map",
+      "evidence": "TIL 7:1:9 frame 107; exact decoded pixels match audited 1:101; regional map context reviewed",
+      "base_asset": "water",
+      "module": {
+        "id": "1_pond_rock_and_plant_feature",
+        "size": [
+          3,
+          2
+        ],
+        "part": [
+          2,
+          1
+        ]
+      },
+      "exact_pixel_source": "1:101"
+    },
+    "9:108": {
+      "asset": "city_gate_lantern",
+      "draw_mode": "module_part",
+      "semantic": "city_gate_lantern",
+      "base_asset": "earth",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:9 frame 108; chapter-two regional original map assembly inspected",
+      "module": {
+        "id": "ch2_9_city_gate_lantern",
+        "size": [
+          2,
+          2
+        ],
+        "part": [
+          0,
+          0
+        ]
+      }
+    },
+    "9:109": {
+      "asset": "city_gate_lantern",
+      "draw_mode": "module_part",
+      "semantic": "city_gate_lantern",
+      "base_asset": "earth",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:9 frame 109; chapter-two regional original map assembly inspected",
+      "module": {
+        "id": "ch2_9_city_gate_lantern",
+        "size": [
+          2,
+          2
+        ],
+        "part": [
+          1,
+          0
+        ]
+      }
+    },
+    "9:110": {
+      "asset": "city_gate_lantern",
+      "draw_mode": "module_part",
+      "semantic": "city_gate_lantern",
+      "base_asset": "earth",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:9 frame 110; chapter-two regional original map assembly inspected",
+      "module": {
+        "id": "ch2_9_city_gate_lantern",
+        "size": [
+          2,
+          2
+        ],
+        "part": [
+          0,
+          1
+        ]
+      }
+    },
+    "9:111": {
+      "asset": "city_gate_lantern",
+      "draw_mode": "module_part",
+      "semantic": "city_gate_lantern",
+      "base_asset": "earth",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:9 frame 111; chapter-two regional original map assembly inspected",
+      "module": {
+        "id": "ch2_9_city_gate_lantern",
+        "size": [
+          2,
+          2
+        ],
+        "part": [
+          1,
+          1
+        ]
+      }
+    },
+    "9:112": {
+      "asset": "water",
+      "draw_mode": "tile",
+      "semantic": "pond_water_variation",
+      "base_asset": "earth",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:9 frame 112; chapter-two regional original map assembly inspected"
+    },
+    "9:113": {
+      "asset": "pond_border",
+      "draw_mode": "tile",
+      "semantic": "pond_corner_rail",
+      "verification": "native_visual_atlas_and_map",
+      "evidence": "TIL 7:1:9 frame 113; exact decoded pixels match audited 1:93; regional map context reviewed",
+      "base_asset": "water",
+      "edge": "northeast_southeast",
+      "exact_pixel_source": "1:93"
+    },
+    "9:115": {
+      "asset": "shrub_tile",
+      "draw_mode": "tile",
+      "semantic": "city_round_shrub",
+      "base_asset": "earth",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:9 frame 115; chapter-two regional original map assembly inspected"
+    },
+    "9:116": {
+      "asset": "city_stone_lantern",
+      "draw_mode": "tile",
+      "semantic": "city_stone_lantern",
+      "base_asset": "earth",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:9 frame 116; chapter-two regional original map assembly inspected"
+    },
+    "9:117": {
+      "asset": "hedge",
+      "draw_mode": "tile",
+      "semantic": "low_hedge_band",
+      "verification": "native_visual_atlas_and_map",
+      "evidence": "TIL 7:1:9 frame 117; exact decoded pixels match audited 1:69; regional map context reviewed",
+      "base_asset": "earth",
+      "exact_pixel_source": "1:69"
+    },
+    "9:118": {
+      "asset": "pond_border",
+      "draw_mode": "tile",
+      "semantic": "pond_south_bank",
+      "base_asset": "water",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:9 frame 118; chapter-two regional original map assembly inspected",
+      "edge": "north_south"
+    },
+    "9:119": {
+      "asset": "pond_border",
+      "draw_mode": "tile",
+      "semantic": "pond_east_bank",
+      "base_asset": "water",
+      "verification": "source_atlas_and_map_semantics_reviewed",
+      "evidence": "TIL 7:1:9 frame 119; chapter-two regional original map assembly inspected",
+      "edge": "east"
+    }
+  },
+  "map_overrides": {
+    "2:1:35": {
+      "41": {
+        "asset": "city_stone_lantern",
+        "draw_mode": "tile",
+        "semantic": "cave_forecourt_stone_lantern",
+        "base_asset": "earth",
+        "verification": "source_atlas_and_map_semantics_reviewed",
+        "evidence": "MAP 2:1:35, TIL frame 41; decoded original assembly inspected in September 2026 map correction audit",
+        "conditional_assets": [
+          {
+            "when": {
+              "x": 5,
+              "y": 5
+            },
+            "asset": "cave_entry_pavilion",
+            "draw_mode": "module_part",
+            "edge": "",
+            "base_asset": "earth",
+            "semantic": "complete_cave_forecourt_gate",
+            "module": {
+              "id": "ch2_cave_entry_pavilion",
+              "size": [
+                5,
+                5
+              ],
+              "part": [
+                1,
+                4
+              ]
+            },
+            "evidence": "MAP 2:1:35 connected source assembly x4..8 y1..5; original pixel assembly inspected; owned 160x160 module"
+          },
+          {
+            "when": {
+              "x": 7,
+              "y": 5
+            },
+            "asset": "cave_entry_pavilion",
+            "draw_mode": "module_part",
+            "edge": "",
+            "base_asset": "earth",
+            "semantic": "complete_cave_forecourt_gate",
+            "module": {
+              "id": "ch2_cave_entry_pavilion",
+              "size": [
+                5,
+                5
+              ],
+              "part": [
+                3,
+                4
+              ]
+            },
+            "evidence": "MAP 2:1:35 connected source assembly x4..8 y1..5; original pixel assembly inspected; owned 160x160 module"
+          }
+        ]
+      },
+      "90": {
+        "asset": "rock_wall_tile",
+        "draw_mode": "tile",
+        "semantic": "continuous_cave_boundary_rock",
+        "base_asset": "earth",
+        "verification": "source_atlas_and_map_semantics_reviewed",
+        "evidence": "MAP 2:1:35, TIL frame 90; decoded original assembly inspected in September 2026 map correction audit"
+      },
+      "34": {
+        "asset": "wood_wall_panel",
+        "draw_mode": "tile",
+        "semantic": "pavilion_wood_joinery",
+        "base_asset": "path",
+        "verification": "source_atlas_and_map_semantics_reviewed",
+        "evidence": "TIL 7:1:2 frame 34; chapter-two regional original map assembly inspected",
+        "edge": "upper",
+        "conditional_assets": [
+          {
+            "when": {
+              "x": 4,
+              "y": 1
+            },
+            "asset": "cave_entry_pavilion",
+            "draw_mode": "module_part",
+            "edge": "",
+            "base_asset": "earth",
+            "semantic": "complete_cave_forecourt_gate",
+            "module": {
+              "id": "ch2_cave_entry_pavilion",
+              "size": [
+                5,
+                5
+              ],
+              "part": [
+                0,
+                0
+              ]
+            },
+            "evidence": "MAP 2:1:35 connected source assembly x4..8 y1..5; original pixel assembly inspected; owned 160x160 module"
+          }
+        ]
+      },
+      "35": {
+        "asset": "wood_wall_panel",
+        "draw_mode": "tile",
+        "semantic": "pavilion_wood_joinery",
+        "base_asset": "path",
+        "verification": "source_atlas_and_map_semantics_reviewed",
+        "evidence": "TIL 7:1:2 frame 35; chapter-two regional original map assembly inspected",
+        "edge": "upper",
+        "conditional_assets": [
+          {
+            "when": {
+              "x": 5,
+              "y": 1
+            },
+            "asset": "cave_entry_pavilion",
+            "draw_mode": "module_part",
+            "edge": "",
+            "base_asset": "earth",
+            "semantic": "complete_cave_forecourt_gate",
+            "module": {
+              "id": "ch2_cave_entry_pavilion",
+              "size": [
+                5,
+                5
+              ],
+              "part": [
+                1,
+                0
+              ]
+            },
+            "evidence": "MAP 2:1:35 connected source assembly x4..8 y1..5; original pixel assembly inspected; owned 160x160 module"
+          }
+        ]
+      },
+      "36": {
+        "asset": "wood_wall_panel",
+        "draw_mode": "tile",
+        "semantic": "pavilion_wood_joinery",
+        "base_asset": "path",
+        "verification": "source_atlas_and_map_semantics_reviewed",
+        "evidence": "TIL 7:1:2 frame 36; chapter-two regional original map assembly inspected",
+        "edge": "upper",
+        "conditional_assets": [
+          {
+            "when": {
+              "x": 6,
+              "y": 1
+            },
+            "asset": "cave_entry_pavilion",
+            "draw_mode": "module_part",
+            "edge": "",
+            "base_asset": "earth",
+            "semantic": "complete_cave_forecourt_gate",
+            "module": {
+              "id": "ch2_cave_entry_pavilion",
+              "size": [
+                5,
+                5
+              ],
+              "part": [
+                2,
+                0
+              ]
+            },
+            "evidence": "MAP 2:1:35 connected source assembly x4..8 y1..5; original pixel assembly inspected; owned 160x160 module"
+          }
+        ]
+      },
+      "115": {
+        "asset": "wood_wall_panel",
+        "draw_mode": "tile",
+        "semantic": "pavilion_wood_joinery",
+        "base_asset": "path",
+        "verification": "source_atlas_and_map_semantics_reviewed",
+        "evidence": "TIL 7:1:2 frame 115; chapter-two regional original map assembly inspected",
+        "edge": "upper",
+        "conditional_assets": [
+          {
+            "when": {
+              "x": 7,
+              "y": 1
+            },
+            "asset": "cave_entry_pavilion",
+            "draw_mode": "module_part",
+            "edge": "",
+            "base_asset": "earth",
+            "semantic": "complete_cave_forecourt_gate",
+            "module": {
+              "id": "ch2_cave_entry_pavilion",
+              "size": [
+                5,
+                5
+              ],
+              "part": [
+                3,
+                0
+              ]
+            },
+            "evidence": "MAP 2:1:35 connected source assembly x4..8 y1..5; original pixel assembly inspected; owned 160x160 module"
+          }
+        ]
+      },
+      "116": {
+        "asset": "wood_wall_panel",
+        "draw_mode": "tile",
+        "semantic": "pavilion_wood_joinery",
+        "base_asset": "path",
+        "verification": "source_atlas_and_map_semantics_reviewed",
+        "evidence": "TIL 7:1:2 frame 116; chapter-two regional original map assembly inspected",
+        "edge": "upper",
+        "conditional_assets": [
+          {
+            "when": {
+              "x": 8,
+              "y": 1
+            },
+            "asset": "cave_entry_pavilion",
+            "draw_mode": "module_part",
+            "edge": "",
+            "base_asset": "earth",
+            "semantic": "complete_cave_forecourt_gate",
+            "module": {
+              "id": "ch2_cave_entry_pavilion",
+              "size": [
+                5,
+                5
+              ],
+              "part": [
+                4,
+                0
+              ]
+            },
+            "evidence": "MAP 2:1:35 connected source assembly x4..8 y1..5; original pixel assembly inspected; owned 160x160 module"
+          }
+        ]
+      },
+      "117": {
+        "asset": "wood_wall_panel",
+        "draw_mode": "tile",
+        "semantic": "pavilion_wood_joinery",
+        "base_asset": "path",
+        "verification": "source_atlas_and_map_semantics_reviewed",
+        "evidence": "TIL 7:1:2 frame 117; chapter-two regional original map assembly inspected",
+        "edge": "upper",
+        "conditional_assets": [
+          {
+            "when": {
+              "x": 4,
+              "y": 2
+            },
+            "asset": "cave_entry_pavilion",
+            "draw_mode": "module_part",
+            "edge": "",
+            "base_asset": "earth",
+            "semantic": "complete_cave_forecourt_gate",
+            "module": {
+              "id": "ch2_cave_entry_pavilion",
+              "size": [
+                5,
+                5
+              ],
+              "part": [
+                0,
+                1
+              ]
+            },
+            "evidence": "MAP 2:1:35 connected source assembly x4..8 y1..5; original pixel assembly inspected; owned 160x160 module"
+          }
+        ]
+      },
+      "118": {
+        "asset": "wood_wall_panel",
+        "draw_mode": "tile",
+        "semantic": "pavilion_wood_joinery",
+        "base_asset": "path",
+        "verification": "source_atlas_and_map_semantics_reviewed",
+        "evidence": "TIL 7:1:2 frame 118; chapter-two regional original map assembly inspected",
+        "edge": "upper",
+        "conditional_assets": [
+          {
+            "when": {
+              "x": 5,
+              "y": 2
+            },
+            "asset": "cave_entry_pavilion",
+            "draw_mode": "module_part",
+            "edge": "",
+            "base_asset": "earth",
+            "semantic": "complete_cave_forecourt_gate",
+            "module": {
+              "id": "ch2_cave_entry_pavilion",
+              "size": [
+                5,
+                5
+              ],
+              "part": [
+                1,
+                1
+              ]
+            },
+            "evidence": "MAP 2:1:35 connected source assembly x4..8 y1..5; original pixel assembly inspected; owned 160x160 module"
+          },
+          {
+            "when": {
+              "x": 7,
+              "y": 2
+            },
+            "asset": "cave_entry_pavilion",
+            "draw_mode": "module_part",
+            "edge": "",
+            "base_asset": "earth",
+            "semantic": "complete_cave_forecourt_gate",
+            "module": {
+              "id": "ch2_cave_entry_pavilion",
+              "size": [
+                5,
+                5
+              ],
+              "part": [
+                3,
+                1
+              ]
+            },
+            "evidence": "MAP 2:1:35 connected source assembly x4..8 y1..5; original pixel assembly inspected; owned 160x160 module"
+          }
+        ]
+      },
+      "119": {
+        "asset": "wood_wall_panel",
+        "draw_mode": "tile",
+        "semantic": "pavilion_wood_joinery",
+        "base_asset": "path",
+        "verification": "source_atlas_and_map_semantics_reviewed",
+        "evidence": "TIL 7:1:2 frame 119; chapter-two regional original map assembly inspected",
+        "edge": "upper",
+        "conditional_assets": [
+          {
+            "when": {
+              "x": 6,
+              "y": 2
+            },
+            "asset": "cave_entry_pavilion",
+            "draw_mode": "module_part",
+            "edge": "",
+            "base_asset": "earth",
+            "semantic": "complete_cave_forecourt_gate",
+            "module": {
+              "id": "ch2_cave_entry_pavilion",
+              "size": [
+                5,
+                5
+              ],
+              "part": [
+                2,
+                1
+              ]
+            },
+            "evidence": "MAP 2:1:35 connected source assembly x4..8 y1..5; original pixel assembly inspected; owned 160x160 module"
+          }
+        ]
+      },
+      "31": {
+        "asset": "wood_wall_panel",
+        "draw_mode": "tile",
+        "semantic": "pavilion_wood_joinery",
+        "base_asset": "path",
+        "verification": "source_atlas_and_map_semantics_reviewed",
+        "evidence": "TIL 7:1:2 frame 31; chapter-two regional original map assembly inspected",
+        "edge": "upper",
+        "conditional_assets": [
+          {
+            "when": {
+              "x": 8,
+              "y": 2
+            },
+            "asset": "cave_entry_pavilion",
+            "draw_mode": "module_part",
+            "edge": "",
+            "base_asset": "earth",
+            "semantic": "complete_cave_forecourt_gate",
+            "module": {
+              "id": "ch2_cave_entry_pavilion",
+              "size": [
+                5,
+                5
+              ],
+              "part": [
+                4,
+                1
+              ]
+            },
+            "evidence": "MAP 2:1:35 connected source assembly x4..8 y1..5; original pixel assembly inspected; owned 160x160 module"
+          }
+        ]
+      },
+      "126": {
+        "asset": "wood_wall_panel",
+        "draw_mode": "tile",
+        "semantic": "pavilion_wood_joinery",
+        "base_asset": "path",
+        "verification": "source_atlas_and_map_semantics_reviewed",
+        "evidence": "TIL 7:1:2 frame 126; chapter-two regional original map assembly inspected",
+        "edge": "upper",
+        "conditional_assets": [
+          {
+            "when": {
+              "x": 4,
+              "y": 3
+            },
+            "asset": "cave_entry_pavilion",
+            "draw_mode": "module_part",
+            "edge": "",
+            "base_asset": "earth",
+            "semantic": "complete_cave_forecourt_gate",
+            "module": {
+              "id": "ch2_cave_entry_pavilion",
+              "size": [
+                5,
+                5
+              ],
+              "part": [
+                0,
+                2
+              ]
+            },
+            "evidence": "MAP 2:1:35 connected source assembly x4..8 y1..5; original pixel assembly inspected; owned 160x160 module"
+          },
+          {
+            "when": {
+              "x": 8,
+              "y": 3
+            },
+            "asset": "cave_entry_pavilion",
+            "draw_mode": "module_part",
+            "edge": "",
+            "base_asset": "earth",
+            "semantic": "complete_cave_forecourt_gate",
+            "module": {
+              "id": "ch2_cave_entry_pavilion",
+              "size": [
+                5,
+                5
+              ],
+              "part": [
+                4,
+                2
+              ]
+            },
+            "evidence": "MAP 2:1:35 connected source assembly x4..8 y1..5; original pixel assembly inspected; owned 160x160 module"
+          },
+          {
+            "when": {
+              "x": 4,
+              "y": 4
+            },
+            "asset": "cave_entry_pavilion",
+            "draw_mode": "module_part",
+            "edge": "",
+            "base_asset": "earth",
+            "semantic": "complete_cave_forecourt_gate",
+            "module": {
+              "id": "ch2_cave_entry_pavilion",
+              "size": [
+                5,
+                5
+              ],
+              "part": [
+                0,
+                3
+              ]
+            },
+            "evidence": "MAP 2:1:35 connected source assembly x4..8 y1..5; original pixel assembly inspected; owned 160x160 module"
+          },
+          {
+            "when": {
+              "x": 8,
+              "y": 4
+            },
+            "asset": "cave_entry_pavilion",
+            "draw_mode": "module_part",
+            "edge": "",
+            "base_asset": "earth",
+            "semantic": "complete_cave_forecourt_gate",
+            "module": {
+              "id": "ch2_cave_entry_pavilion",
+              "size": [
+                5,
+                5
+              ],
+              "part": [
+                4,
+                3
+              ]
+            },
+            "evidence": "MAP 2:1:35 connected source assembly x4..8 y1..5; original pixel assembly inspected; owned 160x160 module"
+          }
+        ]
+      },
+      "120": {
+        "asset": "village_fence_v",
+        "draw_mode": "tile",
+        "semantic": "pavilion_vertical_support",
+        "base_asset": "path",
+        "verification": "source_atlas_and_map_semantics_reviewed",
+        "evidence": "TIL 7:1:2 frame 120; chapter-two regional original map assembly inspected",
+        "conditional_assets": [
+          {
+            "when": {
+              "x": 5,
+              "y": 3
+            },
+            "asset": "cave_entry_pavilion",
+            "draw_mode": "module_part",
+            "edge": "",
+            "base_asset": "earth",
+            "semantic": "complete_cave_forecourt_gate",
+            "module": {
+              "id": "ch2_cave_entry_pavilion",
+              "size": [
+                5,
+                5
+              ],
+              "part": [
+                1,
+                2
+              ]
+            },
+            "evidence": "MAP 2:1:35 connected source assembly x4..8 y1..5; original pixel assembly inspected; owned 160x160 module"
+          }
+        ]
+      },
+      "122": {
+        "asset": "wood_wall_panel",
+        "draw_mode": "tile",
+        "semantic": "pavilion_wood_joinery",
+        "base_asset": "path",
+        "verification": "source_atlas_and_map_semantics_reviewed",
+        "evidence": "TIL 7:1:2 frame 122; chapter-two regional original map assembly inspected",
+        "edge": "upper",
+        "conditional_assets": [
+          {
+            "when": {
+              "x": 6,
+              "y": 3
+            },
+            "asset": "cave_entry_pavilion",
+            "draw_mode": "module_part",
+            "edge": "",
+            "base_asset": "earth",
+            "semantic": "complete_cave_forecourt_gate",
+            "module": {
+              "id": "ch2_cave_entry_pavilion",
+              "size": [
+                5,
+                5
+              ],
+              "part": [
+                2,
+                2
+              ]
+            },
+            "evidence": "MAP 2:1:35 connected source assembly x4..8 y1..5; original pixel assembly inspected; owned 160x160 module"
+          }
+        ]
+      },
+      "123": {
+        "asset": "wood_wall_panel",
+        "draw_mode": "tile",
+        "semantic": "pavilion_wood_joinery",
+        "base_asset": "path",
+        "verification": "source_atlas_and_map_semantics_reviewed",
+        "evidence": "TIL 7:1:2 frame 123; chapter-two regional original map assembly inspected",
+        "edge": "upper",
+        "conditional_assets": [
+          {
+            "when": {
+              "x": 7,
+              "y": 3
+            },
+            "asset": "cave_entry_pavilion",
+            "draw_mode": "module_part",
+            "edge": "",
+            "base_asset": "earth",
+            "semantic": "complete_cave_forecourt_gate",
+            "module": {
+              "id": "ch2_cave_entry_pavilion",
+              "size": [
+                5,
+                5
+              ],
+              "part": [
+                3,
+                2
+              ]
+            },
+            "evidence": "MAP 2:1:35 connected source assembly x4..8 y1..5; original pixel assembly inspected; owned 160x160 module"
+          }
+        ]
+      },
+      "124": {
+        "asset": "bucket",
+        "draw_mode": "tile",
+        "semantic": "pavilion_bucket",
+        "base_asset": "path",
+        "verification": "source_atlas_and_map_semantics_reviewed",
+        "evidence": "TIL 7:1:2 frame 124; chapter-two regional original map assembly inspected",
+        "conditional_assets": [
+          {
+            "when": {
+              "x": 5,
+              "y": 4
+            },
+            "asset": "cave_entry_pavilion",
+            "draw_mode": "module_part",
+            "edge": "",
+            "base_asset": "earth",
+            "semantic": "complete_cave_forecourt_gate",
+            "module": {
+              "id": "ch2_cave_entry_pavilion",
+              "size": [
+                5,
+                5
+              ],
+              "part": [
+                1,
+                3
+              ]
+            },
+            "evidence": "MAP 2:1:35 connected source assembly x4..8 y1..5; original pixel assembly inspected; owned 160x160 module"
+          },
+          {
+            "when": {
+              "x": 7,
+              "y": 4
+            },
+            "asset": "cave_entry_pavilion",
+            "draw_mode": "module_part",
+            "edge": "",
+            "base_asset": "earth",
+            "semantic": "complete_cave_forecourt_gate",
+            "module": {
+              "id": "ch2_cave_entry_pavilion",
+              "size": [
+                5,
+                5
+              ],
+              "part": [
+                3,
+                3
+              ]
+            },
+            "evidence": "MAP 2:1:35 connected source assembly x4..8 y1..5; original pixel assembly inspected; owned 160x160 module"
+          }
+        ]
+      },
+      "1": {
+        "asset": "path",
+        "draw_mode": "tile",
+        "semantic": "bare_ground",
+        "verification": "native_visual_atlas_and_map",
+        "evidence": "TIL 7:1:2 frame 1; MAP 2:1:2 open route, zero based tile index",
+        "conditional_assets": [
+          {
+            "when": {
+              "x": 6,
+              "y": 4
+            },
+            "asset": "cave_entry_pavilion",
+            "draw_mode": "module_part",
+            "edge": "",
+            "base_asset": "earth",
+            "semantic": "complete_cave_forecourt_gate",
+            "module": {
+              "id": "ch2_cave_entry_pavilion",
+              "size": [
+                5,
+                5
+              ],
+              "part": [
+                2,
+                3
+              ]
+            },
+            "evidence": "MAP 2:1:35 connected source assembly x4..8 y1..5; original pixel assembly inspected; owned 160x160 module"
+          }
+        ]
+      },
+      "125": {
+        "asset": "woven_mat",
+        "draw_mode": "tile",
+        "semantic": "pavilion_woven_floor",
+        "base_asset": "path",
+        "verification": "source_atlas_and_map_semantics_reviewed",
+        "evidence": "TIL 7:1:2 frame 125; chapter-two regional original map assembly inspected",
+        "edge": "center",
+        "conditional_assets": [
+          {
+            "when": {
+              "x": 4,
+              "y": 5
+            },
+            "asset": "cave_entry_pavilion",
+            "draw_mode": "module_part",
+            "edge": "",
+            "base_asset": "earth",
+            "semantic": "complete_cave_forecourt_gate",
+            "module": {
+              "id": "ch2_cave_entry_pavilion",
+              "size": [
+                5,
+                5
+              ],
+              "part": [
+                0,
+                4
+              ]
+            },
+            "evidence": "MAP 2:1:35 connected source assembly x4..8 y1..5; original pixel assembly inspected; owned 160x160 module"
+          },
+          {
+            "when": {
+              "x": 8,
+              "y": 5
+            },
+            "asset": "cave_entry_pavilion",
+            "draw_mode": "module_part",
+            "edge": "",
+            "base_asset": "earth",
+            "semantic": "complete_cave_forecourt_gate",
+            "module": {
+              "id": "ch2_cave_entry_pavilion",
+              "size": [
+                5,
+                5
+              ],
+              "part": [
+                4,
+                4
+              ]
+            },
+            "evidence": "MAP 2:1:35 connected source assembly x4..8 y1..5; original pixel assembly inspected; owned 160x160 module"
+          }
+        ]
+      },
+      "114": {
+        "asset": "bridge_horizontal",
+        "draw_mode": "module_part",
+        "semantic": "mountain_bridge_ew",
+        "base_asset": "ravine_void",
+        "verification": "source_atlas_and_map_semantics_reviewed",
+        "evidence": "TIL 7:1:2 frame 114; chapter-two regional original map assembly inspected",
+        "module": {
+          "id": "2_wooden_bridge_east_west",
+          "size": [
+            1,
+            3
+          ],
+          "part": [
+            0,
+            1
+          ],
+          "repeat_axis": "x"
+        },
+        "conditional_assets": [
+          {
+            "when": {
+              "x": 6,
+              "y": 5
+            },
+            "asset": "cave_entry_pavilion",
+            "draw_mode": "module_part",
+            "edge": "",
+            "base_asset": "earth",
+            "semantic": "complete_cave_forecourt_gate",
+            "module": {
+              "id": "ch2_cave_entry_pavilion",
+              "size": [
+                5,
+                5
+              ],
+              "part": [
+                2,
+                4
+              ]
+            },
+            "evidence": "MAP 2:1:35 connected source assembly x4..8 y1..5; original pixel assembly inspected; owned 160x160 module"
+          }
+        ]
+      },
+      "92": {
+        "asset": "cave_mouth",
+        "draw_mode": "module_part",
+        "semantic": "dark_cave_mouth_arch",
+        "base_asset": "earth",
+        "verification": "source_atlas_and_map_semantics_reviewed",
+        "evidence": "MAP 2:1:35, TIL frame 92; decoded original assembly inspected in September 2026 map correction audit",
+        "module": {
+          "id": "ch2_cave_mouth",
+          "size": [
+            2,
+            1
+          ],
+          "part": [
+            0,
+            0
+          ]
+        }
+      },
+      "93": {
+        "asset": "cave_mouth",
+        "draw_mode": "module_part",
+        "semantic": "dark_cave_mouth_arch",
+        "base_asset": "earth",
+        "verification": "source_atlas_and_map_semantics_reviewed",
+        "evidence": "MAP 2:1:35, TIL frame 93; decoded original assembly inspected in September 2026 map correction audit",
+        "module": {
+          "id": "ch2_cave_mouth",
+          "size": [
+            2,
+            1
+          ],
+          "part": [
+            1,
+            0
+          ]
+        }
+      }
+    },
+    "2:2:17": {
+      "5": {
+        "asset": "shop_counter_vertical_tile",
+        "draw_mode": "tile",
+        "semantic": "continuous_vertical_counter_top",
+        "base_asset": "stone_floor",
+        "verification": "source_atlas_and_map_semantics_reviewed",
+        "evidence": "MAP 2:2:17, TIL frame 5; decoded original assembly inspected in September 2026 map correction audit"
+      }
+    },
+    "2:1:12": {
+      "34": {
+        "asset": "wood_wall_panel",
+        "draw_mode": "tile",
+        "semantic": "pavilion_wood_joinery",
+        "base_asset": "path",
+        "verification": "source_atlas_and_map_semantics_reviewed",
+        "evidence": "TIL 7:1:2 frame 34; chapter-two regional original map assembly inspected",
+        "edge": "upper",
+        "conditional_assets": [
+          {
+            "when": {
+              "x": 5,
+              "y": 0
+            },
+            "asset": "observation_pavilion",
+            "draw_mode": "module_part",
+            "edge": "",
+            "base_asset": "earth",
+            "semantic": "complete_observation_pavilion",
+            "module": {
+              "id": "ch2_observation_pavilion",
+              "size": [
+                7,
+                8
+              ],
+              "part": [
+                0,
+                0
+              ]
+            },
+            "evidence": "MAP 2:1:12 connected source assembly x5..11 y0..7; original pixel assembly inspected; owned 224x256 module"
+          },
+          {
+            "when": {
+              "x": 5,
+              "y": 1
+            },
+            "asset": "observation_pavilion",
+            "draw_mode": "module_part",
+            "edge": "",
+            "base_asset": "earth",
+            "semantic": "complete_observation_pavilion",
+            "module": {
+              "id": "ch2_observation_pavilion",
+              "size": [
+                7,
+                8
+              ],
+              "part": [
+                0,
+                1
+              ]
+            },
+            "evidence": "MAP 2:1:12 connected source assembly x5..11 y0..7; original pixel assembly inspected; owned 224x256 module"
+          }
+        ]
+      },
+      "36": {
+        "asset": "wood_wall_panel",
+        "draw_mode": "tile",
+        "semantic": "pavilion_wood_joinery",
+        "base_asset": "path",
+        "verification": "source_atlas_and_map_semantics_reviewed",
+        "evidence": "TIL 7:1:2 frame 36; chapter-two regional original map assembly inspected",
+        "edge": "upper",
+        "conditional_assets": [
+          {
+            "when": {
+              "x": 6,
+              "y": 0
+            },
+            "asset": "observation_pavilion",
+            "draw_mode": "module_part",
+            "edge": "",
+            "base_asset": "earth",
+            "semantic": "complete_observation_pavilion",
+            "module": {
+              "id": "ch2_observation_pavilion",
+              "size": [
+                7,
+                8
+              ],
+              "part": [
+                1,
+                0
+              ]
+            },
+            "evidence": "MAP 2:1:12 connected source assembly x5..11 y0..7; original pixel assembly inspected; owned 224x256 module"
+          },
+          {
+            "when": {
+              "x": 7,
+              "y": 0
+            },
+            "asset": "observation_pavilion",
+            "draw_mode": "module_part",
+            "edge": "",
+            "base_asset": "earth",
+            "semantic": "complete_observation_pavilion",
+            "module": {
+              "id": "ch2_observation_pavilion",
+              "size": [
+                7,
+                8
+              ],
+              "part": [
+                2,
+                0
+              ]
+            },
+            "evidence": "MAP 2:1:12 connected source assembly x5..11 y0..7; original pixel assembly inspected; owned 224x256 module"
+          },
+          {
+            "when": {
+              "x": 8,
+              "y": 0
+            },
+            "asset": "observation_pavilion",
+            "draw_mode": "module_part",
+            "edge": "",
+            "base_asset": "earth",
+            "semantic": "complete_observation_pavilion",
+            "module": {
+              "id": "ch2_observation_pavilion",
+              "size": [
+                7,
+                8
+              ],
+              "part": [
+                3,
+                0
+              ]
+            },
+            "evidence": "MAP 2:1:12 connected source assembly x5..11 y0..7; original pixel assembly inspected; owned 224x256 module"
+          },
+          {
+            "when": {
+              "x": 9,
+              "y": 0
+            },
+            "asset": "observation_pavilion",
+            "draw_mode": "module_part",
+            "edge": "",
+            "base_asset": "earth",
+            "semantic": "complete_observation_pavilion",
+            "module": {
+              "id": "ch2_observation_pavilion",
+              "size": [
+                7,
+                8
+              ],
+              "part": [
+                4,
+                0
+              ]
+            },
+            "evidence": "MAP 2:1:12 connected source assembly x5..11 y0..7; original pixel assembly inspected; owned 224x256 module"
+          },
+          {
+            "when": {
+              "x": 10,
+              "y": 0
+            },
+            "asset": "observation_pavilion",
+            "draw_mode": "module_part",
+            "edge": "",
+            "base_asset": "earth",
+            "semantic": "complete_observation_pavilion",
+            "module": {
+              "id": "ch2_observation_pavilion",
+              "size": [
+                7,
+                8
+              ],
+              "part": [
+                5,
+                0
+              ]
+            },
+            "evidence": "MAP 2:1:12 connected source assembly x5..11 y0..7; original pixel assembly inspected; owned 224x256 module"
+          },
+          {
+            "when": {
+              "x": 6,
+              "y": 1
+            },
+            "asset": "observation_pavilion",
+            "draw_mode": "module_part",
+            "edge": "",
+            "base_asset": "earth",
+            "semantic": "complete_observation_pavilion",
+            "module": {
+              "id": "ch2_observation_pavilion",
+              "size": [
+                7,
+                8
+              ],
+              "part": [
+                1,
+                1
+              ]
+            },
+            "evidence": "MAP 2:1:12 connected source assembly x5..11 y0..7; original pixel assembly inspected; owned 224x256 module"
+          },
+          {
+            "when": {
+              "x": 7,
+              "y": 1
+            },
+            "asset": "observation_pavilion",
+            "draw_mode": "module_part",
+            "edge": "",
+            "base_asset": "earth",
+            "semantic": "complete_observation_pavilion",
+            "module": {
+              "id": "ch2_observation_pavilion",
+              "size": [
+                7,
+                8
+              ],
+              "part": [
+                2,
+                1
+              ]
+            },
+            "evidence": "MAP 2:1:12 connected source assembly x5..11 y0..7; original pixel assembly inspected; owned 224x256 module"
+          },
+          {
+            "when": {
+              "x": 8,
+              "y": 1
+            },
+            "asset": "observation_pavilion",
+            "draw_mode": "module_part",
+            "edge": "",
+            "base_asset": "earth",
+            "semantic": "complete_observation_pavilion",
+            "module": {
+              "id": "ch2_observation_pavilion",
+              "size": [
+                7,
+                8
+              ],
+              "part": [
+                3,
+                1
+              ]
+            },
+            "evidence": "MAP 2:1:12 connected source assembly x5..11 y0..7; original pixel assembly inspected; owned 224x256 module"
+          },
+          {
+            "when": {
+              "x": 9,
+              "y": 1
+            },
+            "asset": "observation_pavilion",
+            "draw_mode": "module_part",
+            "edge": "",
+            "base_asset": "earth",
+            "semantic": "complete_observation_pavilion",
+            "module": {
+              "id": "ch2_observation_pavilion",
+              "size": [
+                7,
+                8
+              ],
+              "part": [
+                4,
+                1
+              ]
+            },
+            "evidence": "MAP 2:1:12 connected source assembly x5..11 y0..7; original pixel assembly inspected; owned 224x256 module"
+          },
+          {
+            "when": {
+              "x": 10,
+              "y": 1
+            },
+            "asset": "observation_pavilion",
+            "draw_mode": "module_part",
+            "edge": "",
+            "base_asset": "earth",
+            "semantic": "complete_observation_pavilion",
+            "module": {
+              "id": "ch2_observation_pavilion",
+              "size": [
+                7,
+                8
+              ],
+              "part": [
+                5,
+                1
+              ]
+            },
+            "evidence": "MAP 2:1:12 connected source assembly x5..11 y0..7; original pixel assembly inspected; owned 224x256 module"
+          }
+        ]
+      },
+      "116": {
+        "asset": "wood_wall_panel",
+        "draw_mode": "tile",
+        "semantic": "pavilion_wood_joinery",
+        "base_asset": "path",
+        "verification": "source_atlas_and_map_semantics_reviewed",
+        "evidence": "TIL 7:1:2 frame 116; chapter-two regional original map assembly inspected",
+        "edge": "upper",
+        "conditional_assets": [
+          {
+            "when": {
+              "x": 11,
+              "y": 0
+            },
+            "asset": "observation_pavilion",
+            "draw_mode": "module_part",
+            "edge": "",
+            "base_asset": "earth",
+            "semantic": "complete_observation_pavilion",
+            "module": {
+              "id": "ch2_observation_pavilion",
+              "size": [
+                7,
+                8
+              ],
+              "part": [
+                6,
+                0
+              ]
+            },
+            "evidence": "MAP 2:1:12 connected source assembly x5..11 y0..7; original pixel assembly inspected; owned 224x256 module"
+          },
+          {
+            "when": {
+              "x": 11,
+              "y": 1
+            },
+            "asset": "observation_pavilion",
+            "draw_mode": "module_part",
+            "edge": "",
+            "base_asset": "earth",
+            "semantic": "complete_observation_pavilion",
+            "module": {
+              "id": "ch2_observation_pavilion",
+              "size": [
+                7,
+                8
+              ],
+              "part": [
+                6,
+                1
+              ]
+            },
+            "evidence": "MAP 2:1:12 connected source assembly x5..11 y0..7; original pixel assembly inspected; owned 224x256 module"
+          }
+        ]
+      },
+      "117": {
+        "asset": "wood_wall_panel",
+        "draw_mode": "tile",
+        "semantic": "pavilion_wood_joinery",
+        "base_asset": "path",
+        "verification": "source_atlas_and_map_semantics_reviewed",
+        "evidence": "TIL 7:1:2 frame 117; chapter-two regional original map assembly inspected",
+        "edge": "upper",
+        "conditional_assets": [
+          {
+            "when": {
+              "x": 5,
+              "y": 2
+            },
+            "asset": "observation_pavilion",
+            "draw_mode": "module_part",
+            "edge": "",
+            "base_asset": "earth",
+            "semantic": "complete_observation_pavilion",
+            "module": {
+              "id": "ch2_observation_pavilion",
+              "size": [
+                7,
+                8
+              ],
+              "part": [
+                0,
+                2
+              ]
+            },
+            "evidence": "MAP 2:1:12 connected source assembly x5..11 y0..7; original pixel assembly inspected; owned 224x256 module"
+          }
+        ]
+      },
+      "119": {
+        "asset": "wood_wall_panel",
+        "draw_mode": "tile",
+        "semantic": "pavilion_wood_joinery",
+        "base_asset": "path",
+        "verification": "source_atlas_and_map_semantics_reviewed",
+        "evidence": "TIL 7:1:2 frame 119; chapter-two regional original map assembly inspected",
+        "edge": "upper",
+        "conditional_assets": [
+          {
+            "when": {
+              "x": 6,
+              "y": 2
+            },
+            "asset": "observation_pavilion",
+            "draw_mode": "module_part",
+            "edge": "",
+            "base_asset": "earth",
+            "semantic": "complete_observation_pavilion",
+            "module": {
+              "id": "ch2_observation_pavilion",
+              "size": [
+                7,
+                8
+              ],
+              "part": [
+                1,
+                2
+              ]
+            },
+            "evidence": "MAP 2:1:12 connected source assembly x5..11 y0..7; original pixel assembly inspected; owned 224x256 module"
+          },
+          {
+            "when": {
+              "x": 7,
+              "y": 2
+            },
+            "asset": "observation_pavilion",
+            "draw_mode": "module_part",
+            "edge": "",
+            "base_asset": "earth",
+            "semantic": "complete_observation_pavilion",
+            "module": {
+              "id": "ch2_observation_pavilion",
+              "size": [
+                7,
+                8
+              ],
+              "part": [
+                2,
+                2
+              ]
+            },
+            "evidence": "MAP 2:1:12 connected source assembly x5..11 y0..7; original pixel assembly inspected; owned 224x256 module"
+          },
+          {
+            "when": {
+              "x": 8,
+              "y": 2
+            },
+            "asset": "observation_pavilion",
+            "draw_mode": "module_part",
+            "edge": "",
+            "base_asset": "earth",
+            "semantic": "complete_observation_pavilion",
+            "module": {
+              "id": "ch2_observation_pavilion",
+              "size": [
+                7,
+                8
+              ],
+              "part": [
+                3,
+                2
+              ]
+            },
+            "evidence": "MAP 2:1:12 connected source assembly x5..11 y0..7; original pixel assembly inspected; owned 224x256 module"
+          },
+          {
+            "when": {
+              "x": 9,
+              "y": 2
+            },
+            "asset": "observation_pavilion",
+            "draw_mode": "module_part",
+            "edge": "",
+            "base_asset": "earth",
+            "semantic": "complete_observation_pavilion",
+            "module": {
+              "id": "ch2_observation_pavilion",
+              "size": [
+                7,
+                8
+              ],
+              "part": [
+                4,
+                2
+              ]
+            },
+            "evidence": "MAP 2:1:12 connected source assembly x5..11 y0..7; original pixel assembly inspected; owned 224x256 module"
+          },
+          {
+            "when": {
+              "x": 10,
+              "y": 2
+            },
+            "asset": "observation_pavilion",
+            "draw_mode": "module_part",
+            "edge": "",
+            "base_asset": "earth",
+            "semantic": "complete_observation_pavilion",
+            "module": {
+              "id": "ch2_observation_pavilion",
+              "size": [
+                7,
+                8
+              ],
+              "part": [
+                5,
+                2
+              ]
+            },
+            "evidence": "MAP 2:1:12 connected source assembly x5..11 y0..7; original pixel assembly inspected; owned 224x256 module"
+          }
+        ]
+      },
+      "31": {
+        "asset": "wood_wall_panel",
+        "draw_mode": "tile",
+        "semantic": "pavilion_wood_joinery",
+        "base_asset": "path",
+        "verification": "source_atlas_and_map_semantics_reviewed",
+        "evidence": "TIL 7:1:2 frame 31; chapter-two regional original map assembly inspected",
+        "edge": "upper",
+        "conditional_assets": [
+          {
+            "when": {
+              "x": 11,
+              "y": 2
+            },
+            "asset": "observation_pavilion",
+            "draw_mode": "module_part",
+            "edge": "",
+            "base_asset": "earth",
+            "semantic": "complete_observation_pavilion",
+            "module": {
+              "id": "ch2_observation_pavilion",
+              "size": [
+                7,
+                8
+              ],
+              "part": [
+                6,
+                2
+              ]
+            },
+            "evidence": "MAP 2:1:12 connected source assembly x5..11 y0..7; original pixel assembly inspected; owned 224x256 module"
+          }
+        ]
+      },
+      "126": {
+        "asset": "wood_wall_panel",
+        "draw_mode": "tile",
+        "semantic": "pavilion_wood_joinery",
+        "base_asset": "path",
+        "verification": "source_atlas_and_map_semantics_reviewed",
+        "evidence": "TIL 7:1:2 frame 126; chapter-two regional original map assembly inspected",
+        "edge": "upper",
+        "conditional_assets": [
+          {
+            "when": {
+              "x": 5,
+              "y": 3
+            },
+            "asset": "observation_pavilion",
+            "draw_mode": "module_part",
+            "edge": "",
+            "base_asset": "earth",
+            "semantic": "complete_observation_pavilion",
+            "module": {
+              "id": "ch2_observation_pavilion",
+              "size": [
+                7,
+                8
+              ],
+              "part": [
+                0,
+                3
+              ]
+            },
+            "evidence": "MAP 2:1:12 connected source assembly x5..11 y0..7; original pixel assembly inspected; owned 224x256 module"
+          },
+          {
+            "when": {
+              "x": 11,
+              "y": 3
+            },
+            "asset": "observation_pavilion",
+            "draw_mode": "module_part",
+            "edge": "",
+            "base_asset": "earth",
+            "semantic": "complete_observation_pavilion",
+            "module": {
+              "id": "ch2_observation_pavilion",
+              "size": [
+                7,
+                8
+              ],
+              "part": [
+                6,
+                3
+              ]
+            },
+            "evidence": "MAP 2:1:12 connected source assembly x5..11 y0..7; original pixel assembly inspected; owned 224x256 module"
+          },
+          {
+            "when": {
+              "x": 5,
+              "y": 4
+            },
+            "asset": "observation_pavilion",
+            "draw_mode": "module_part",
+            "edge": "",
+            "base_asset": "earth",
+            "semantic": "complete_observation_pavilion",
+            "module": {
+              "id": "ch2_observation_pavilion",
+              "size": [
+                7,
+                8
+              ],
+              "part": [
+                0,
+                4
+              ]
+            },
+            "evidence": "MAP 2:1:12 connected source assembly x5..11 y0..7; original pixel assembly inspected; owned 224x256 module"
+          },
+          {
+            "when": {
+              "x": 11,
+              "y": 4
+            },
+            "asset": "observation_pavilion",
+            "draw_mode": "module_part",
+            "edge": "",
+            "base_asset": "earth",
+            "semantic": "complete_observation_pavilion",
+            "module": {
+              "id": "ch2_observation_pavilion",
+              "size": [
+                7,
+                8
+              ],
+              "part": [
+                6,
+                4
+              ]
+            },
+            "evidence": "MAP 2:1:12 connected source assembly x5..11 y0..7; original pixel assembly inspected; owned 224x256 module"
+          },
+          {
+            "when": {
+              "x": 5,
+              "y": 5
+            },
+            "asset": "observation_pavilion",
+            "draw_mode": "module_part",
+            "edge": "",
+            "base_asset": "earth",
+            "semantic": "complete_observation_pavilion",
+            "module": {
+              "id": "ch2_observation_pavilion",
+              "size": [
+                7,
+                8
+              ],
+              "part": [
+                0,
+                5
+              ]
+            },
+            "evidence": "MAP 2:1:12 connected source assembly x5..11 y0..7; original pixel assembly inspected; owned 224x256 module"
+          },
+          {
+            "when": {
+              "x": 11,
+              "y": 5
+            },
+            "asset": "observation_pavilion",
+            "draw_mode": "module_part",
+            "edge": "",
+            "base_asset": "earth",
+            "semantic": "complete_observation_pavilion",
+            "module": {
+              "id": "ch2_observation_pavilion",
+              "size": [
+                7,
+                8
+              ],
+              "part": [
+                6,
+                5
+              ]
+            },
+            "evidence": "MAP 2:1:12 connected source assembly x5..11 y0..7; original pixel assembly inspected; owned 224x256 module"
+          },
+          {
+            "when": {
+              "x": 5,
+              "y": 6
+            },
+            "asset": "observation_pavilion",
+            "draw_mode": "module_part",
+            "edge": "",
+            "base_asset": "earth",
+            "semantic": "complete_observation_pavilion",
+            "module": {
+              "id": "ch2_observation_pavilion",
+              "size": [
+                7,
+                8
+              ],
+              "part": [
+                0,
+                6
+              ]
+            },
+            "evidence": "MAP 2:1:12 connected source assembly x5..11 y0..7; original pixel assembly inspected; owned 224x256 module"
+          },
+          {
+            "when": {
+              "x": 11,
+              "y": 6
+            },
+            "asset": "observation_pavilion",
+            "draw_mode": "module_part",
+            "edge": "",
+            "base_asset": "earth",
+            "semantic": "complete_observation_pavilion",
+            "module": {
+              "id": "ch2_observation_pavilion",
+              "size": [
+                7,
+                8
+              ],
+              "part": [
+                6,
+                6
+              ]
+            },
+            "evidence": "MAP 2:1:12 connected source assembly x5..11 y0..7; original pixel assembly inspected; owned 224x256 module"
+          }
+        ]
+      },
+      "120": {
+        "asset": "village_fence_v",
+        "draw_mode": "tile",
+        "semantic": "pavilion_vertical_support",
+        "base_asset": "path",
+        "verification": "source_atlas_and_map_semantics_reviewed",
+        "evidence": "TIL 7:1:2 frame 120; chapter-two regional original map assembly inspected",
+        "conditional_assets": [
+          {
+            "when": {
+              "x": 6,
+              "y": 3
+            },
+            "asset": "observation_pavilion",
+            "draw_mode": "module_part",
+            "edge": "",
+            "base_asset": "earth",
+            "semantic": "complete_observation_pavilion",
+            "module": {
+              "id": "ch2_observation_pavilion",
+              "size": [
+                7,
+                8
+              ],
+              "part": [
+                1,
+                3
+              ]
+            },
+            "evidence": "MAP 2:1:12 connected source assembly x5..11 y0..7; original pixel assembly inspected; owned 224x256 module"
+          }
+        ]
+      },
+      "122": {
+        "asset": "wood_wall_panel",
+        "draw_mode": "tile",
+        "semantic": "pavilion_wood_joinery",
+        "base_asset": "path",
+        "verification": "source_atlas_and_map_semantics_reviewed",
+        "evidence": "TIL 7:1:2 frame 122; chapter-two regional original map assembly inspected",
+        "edge": "upper",
+        "conditional_assets": [
+          {
+            "when": {
+              "x": 7,
+              "y": 3
+            },
+            "asset": "observation_pavilion",
+            "draw_mode": "module_part",
+            "edge": "",
+            "base_asset": "earth",
+            "semantic": "complete_observation_pavilion",
+            "module": {
+              "id": "ch2_observation_pavilion",
+              "size": [
+                7,
+                8
+              ],
+              "part": [
+                2,
+                3
+              ]
+            },
+            "evidence": "MAP 2:1:12 connected source assembly x5..11 y0..7; original pixel assembly inspected; owned 224x256 module"
+          },
+          {
+            "when": {
+              "x": 8,
+              "y": 3
+            },
+            "asset": "observation_pavilion",
+            "draw_mode": "module_part",
+            "edge": "",
+            "base_asset": "earth",
+            "semantic": "complete_observation_pavilion",
+            "module": {
+              "id": "ch2_observation_pavilion",
+              "size": [
+                7,
+                8
+              ],
+              "part": [
+                3,
+                3
+              ]
+            },
+            "evidence": "MAP 2:1:12 connected source assembly x5..11 y0..7; original pixel assembly inspected; owned 224x256 module"
+          },
+          {
+            "when": {
+              "x": 9,
+              "y": 3
+            },
+            "asset": "observation_pavilion",
+            "draw_mode": "module_part",
+            "edge": "",
+            "base_asset": "earth",
+            "semantic": "complete_observation_pavilion",
+            "module": {
+              "id": "ch2_observation_pavilion",
+              "size": [
+                7,
+                8
+              ],
+              "part": [
+                4,
+                3
+              ]
+            },
+            "evidence": "MAP 2:1:12 connected source assembly x5..11 y0..7; original pixel assembly inspected; owned 224x256 module"
+          }
+        ]
+      },
+      "123": {
+        "asset": "wood_wall_panel",
+        "draw_mode": "tile",
+        "semantic": "pavilion_wood_joinery",
+        "base_asset": "path",
+        "verification": "source_atlas_and_map_semantics_reviewed",
+        "evidence": "TIL 7:1:2 frame 123; chapter-two regional original map assembly inspected",
+        "edge": "upper",
+        "conditional_assets": [
+          {
+            "when": {
+              "x": 10,
+              "y": 3
+            },
+            "asset": "observation_pavilion",
+            "draw_mode": "module_part",
+            "edge": "",
+            "base_asset": "earth",
+            "semantic": "complete_observation_pavilion",
+            "module": {
+              "id": "ch2_observation_pavilion",
+              "size": [
+                7,
+                8
+              ],
+              "part": [
+                5,
+                3
+              ]
+            },
+            "evidence": "MAP 2:1:12 connected source assembly x5..11 y0..7; original pixel assembly inspected; owned 224x256 module"
+          }
+        ]
+      },
+      "79": {
+        "asset": "village_fence_v",
+        "draw_mode": "tile",
+        "semantic": "pavilion_vertical_support",
+        "base_asset": "path",
+        "verification": "source_atlas_and_map_semantics_reviewed",
+        "evidence": "TIL 7:1:2 frame 79; chapter-two regional original map assembly inspected",
+        "conditional_assets": [
+          {
+            "when": {
+              "x": 6,
+              "y": 4
+            },
+            "asset": "observation_pavilion",
+            "draw_mode": "module_part",
+            "edge": "",
+            "base_asset": "earth",
+            "semantic": "complete_observation_pavilion",
+            "module": {
+              "id": "ch2_observation_pavilion",
+              "size": [
+                7,
+                8
+              ],
+              "part": [
+                1,
+                4
+              ]
+            },
+            "evidence": "MAP 2:1:12 connected source assembly x5..11 y0..7; original pixel assembly inspected; owned 224x256 module"
+          },
+          {
+            "when": {
+              "x": 10,
+              "y": 4
+            },
+            "asset": "observation_pavilion",
+            "draw_mode": "module_part",
+            "edge": "",
+            "base_asset": "earth",
+            "semantic": "complete_observation_pavilion",
+            "module": {
+              "id": "ch2_observation_pavilion",
+              "size": [
+                7,
+                8
+              ],
+              "part": [
+                5,
+                4
+              ]
+            },
+            "evidence": "MAP 2:1:12 connected source assembly x5..11 y0..7; original pixel assembly inspected; owned 224x256 module"
+          },
+          {
+            "when": {
+              "x": 6,
+              "y": 5
+            },
+            "asset": "observation_pavilion",
+            "draw_mode": "module_part",
+            "edge": "",
+            "base_asset": "earth",
+            "semantic": "complete_observation_pavilion",
+            "module": {
+              "id": "ch2_observation_pavilion",
+              "size": [
+                7,
+                8
+              ],
+              "part": [
+                1,
+                5
+              ]
+            },
+            "evidence": "MAP 2:1:12 connected source assembly x5..11 y0..7; original pixel assembly inspected; owned 224x256 module"
+          },
+          {
+            "when": {
+              "x": 10,
+              "y": 5
+            },
+            "asset": "observation_pavilion",
+            "draw_mode": "module_part",
+            "edge": "",
+            "base_asset": "earth",
+            "semantic": "complete_observation_pavilion",
+            "module": {
+              "id": "ch2_observation_pavilion",
+              "size": [
+                7,
+                8
+              ],
+              "part": [
+                5,
+                5
+              ]
+            },
+            "evidence": "MAP 2:1:12 connected source assembly x5..11 y0..7; original pixel assembly inspected; owned 224x256 module"
+          }
+        ]
+      },
+      "1": {
+        "asset": "path",
+        "draw_mode": "tile",
+        "semantic": "bare_ground",
+        "verification": "native_visual_atlas_and_map",
+        "evidence": "TIL 7:1:2 frame 1; MAP 2:1:2 open route, zero based tile index",
+        "conditional_assets": [
+          {
+            "when": {
+              "x": 7,
+              "y": 4
+            },
+            "asset": "observation_pavilion",
+            "draw_mode": "module_part",
+            "edge": "",
+            "base_asset": "earth",
+            "semantic": "complete_observation_pavilion",
+            "module": {
+              "id": "ch2_observation_pavilion",
+              "size": [
+                7,
+                8
+              ],
+              "part": [
+                2,
+                4
+              ]
+            },
+            "evidence": "MAP 2:1:12 connected source assembly x5..11 y0..7; original pixel assembly inspected; owned 224x256 module"
+          },
+          {
+            "when": {
+              "x": 8,
+              "y": 4
+            },
+            "asset": "observation_pavilion",
+            "draw_mode": "module_part",
+            "edge": "",
+            "base_asset": "earth",
+            "semantic": "complete_observation_pavilion",
+            "module": {
+              "id": "ch2_observation_pavilion",
+              "size": [
+                7,
+                8
+              ],
+              "part": [
+                3,
+                4
+              ]
+            },
+            "evidence": "MAP 2:1:12 connected source assembly x5..11 y0..7; original pixel assembly inspected; owned 224x256 module"
+          },
+          {
+            "when": {
+              "x": 9,
+              "y": 4
+            },
+            "asset": "observation_pavilion",
+            "draw_mode": "module_part",
+            "edge": "",
+            "base_asset": "earth",
+            "semantic": "complete_observation_pavilion",
+            "module": {
+              "id": "ch2_observation_pavilion",
+              "size": [
+                7,
+                8
+              ],
+              "part": [
+                4,
+                4
+              ]
+            },
+            "evidence": "MAP 2:1:12 connected source assembly x5..11 y0..7; original pixel assembly inspected; owned 224x256 module"
+          },
+          {
+            "when": {
+              "x": 7,
+              "y": 5
+            },
+            "asset": "observation_pavilion",
+            "draw_mode": "module_part",
+            "edge": "",
+            "base_asset": "earth",
+            "semantic": "complete_observation_pavilion",
+            "module": {
+              "id": "ch2_observation_pavilion",
+              "size": [
+                7,
+                8
+              ],
+              "part": [
+                2,
+                5
+              ]
+            },
+            "evidence": "MAP 2:1:12 connected source assembly x5..11 y0..7; original pixel assembly inspected; owned 224x256 module"
+          },
+          {
+            "when": {
+              "x": 8,
+              "y": 5
+            },
+            "asset": "observation_pavilion",
+            "draw_mode": "module_part",
+            "edge": "",
+            "base_asset": "earth",
+            "semantic": "complete_observation_pavilion",
+            "module": {
+              "id": "ch2_observation_pavilion",
+              "size": [
+                7,
+                8
+              ],
+              "part": [
+                3,
+                5
+              ]
+            },
+            "evidence": "MAP 2:1:12 connected source assembly x5..11 y0..7; original pixel assembly inspected; owned 224x256 module"
+          },
+          {
+            "when": {
+              "x": 9,
+              "y": 5
+            },
+            "asset": "observation_pavilion",
+            "draw_mode": "module_part",
+            "edge": "",
+            "base_asset": "earth",
+            "semantic": "complete_observation_pavilion",
+            "module": {
+              "id": "ch2_observation_pavilion",
+              "size": [
+                7,
+                8
+              ],
+              "part": [
+                4,
+                5
+              ]
+            },
+            "evidence": "MAP 2:1:12 connected source assembly x5..11 y0..7; original pixel assembly inspected; owned 224x256 module"
+          },
+          {
+            "when": {
+              "x": 7,
+              "y": 6
+            },
+            "asset": "observation_pavilion",
+            "draw_mode": "module_part",
+            "edge": "",
+            "base_asset": "earth",
+            "semantic": "complete_observation_pavilion",
+            "module": {
+              "id": "ch2_observation_pavilion",
+              "size": [
+                7,
+                8
+              ],
+              "part": [
+                2,
+                6
+              ]
+            },
+            "evidence": "MAP 2:1:12 connected source assembly x5..11 y0..7; original pixel assembly inspected; owned 224x256 module"
+          },
+          {
+            "when": {
+              "x": 8,
+              "y": 6
+            },
+            "asset": "observation_pavilion",
+            "draw_mode": "module_part",
+            "edge": "",
+            "base_asset": "earth",
+            "semantic": "complete_observation_pavilion",
+            "module": {
+              "id": "ch2_observation_pavilion",
+              "size": [
+                7,
+                8
+              ],
+              "part": [
+                3,
+                6
+              ]
+            },
+            "evidence": "MAP 2:1:12 connected source assembly x5..11 y0..7; original pixel assembly inspected; owned 224x256 module"
+          },
+          {
+            "when": {
+              "x": 9,
+              "y": 6
+            },
+            "asset": "observation_pavilion",
+            "draw_mode": "module_part",
+            "edge": "",
+            "base_asset": "earth",
+            "semantic": "complete_observation_pavilion",
+            "module": {
+              "id": "ch2_observation_pavilion",
+              "size": [
+                7,
+                8
+              ],
+              "part": [
+                4,
+                6
+              ]
+            },
+            "evidence": "MAP 2:1:12 connected source assembly x5..11 y0..7; original pixel assembly inspected; owned 224x256 module"
+          }
+        ]
+      },
+      "124": {
+        "asset": "bucket",
+        "draw_mode": "tile",
+        "semantic": "pavilion_bucket",
+        "base_asset": "path",
+        "verification": "source_atlas_and_map_semantics_reviewed",
+        "evidence": "TIL 7:1:2 frame 124; chapter-two regional original map assembly inspected",
+        "conditional_assets": [
+          {
+            "when": {
+              "x": 6,
+              "y": 6
+            },
+            "asset": "observation_pavilion",
+            "draw_mode": "module_part",
+            "edge": "",
+            "base_asset": "earth",
+            "semantic": "complete_observation_pavilion",
+            "module": {
+              "id": "ch2_observation_pavilion",
+              "size": [
+                7,
+                8
+              ],
+              "part": [
+                1,
+                6
+              ]
+            },
+            "evidence": "MAP 2:1:12 connected source assembly x5..11 y0..7; original pixel assembly inspected; owned 224x256 module"
+          },
+          {
+            "when": {
+              "x": 10,
+              "y": 6
+            },
+            "asset": "observation_pavilion",
+            "draw_mode": "module_part",
+            "edge": "",
+            "base_asset": "earth",
+            "semantic": "complete_observation_pavilion",
+            "module": {
+              "id": "ch2_observation_pavilion",
+              "size": [
+                7,
+                8
+              ],
+              "part": [
+                5,
+                6
+              ]
+            },
+            "evidence": "MAP 2:1:12 connected source assembly x5..11 y0..7; original pixel assembly inspected; owned 224x256 module"
+          }
+        ]
+      },
+      "125": {
+        "asset": "woven_mat",
+        "draw_mode": "tile",
+        "semantic": "pavilion_woven_floor",
+        "base_asset": "path",
+        "verification": "source_atlas_and_map_semantics_reviewed",
+        "evidence": "TIL 7:1:2 frame 125; chapter-two regional original map assembly inspected",
+        "edge": "center",
+        "conditional_assets": [
+          {
+            "when": {
+              "x": 5,
+              "y": 7
+            },
+            "asset": "observation_pavilion",
+            "draw_mode": "module_part",
+            "edge": "",
+            "base_asset": "earth",
+            "semantic": "complete_observation_pavilion",
+            "module": {
+              "id": "ch2_observation_pavilion",
+              "size": [
+                7,
+                8
+              ],
+              "part": [
+                0,
+                7
+              ]
+            },
+            "evidence": "MAP 2:1:12 connected source assembly x5..11 y0..7; original pixel assembly inspected; owned 224x256 module"
+          },
+          {
+            "when": {
+              "x": 6,
+              "y": 7
+            },
+            "asset": "observation_pavilion",
+            "draw_mode": "module_part",
+            "edge": "",
+            "base_asset": "earth",
+            "semantic": "complete_observation_pavilion",
+            "module": {
+              "id": "ch2_observation_pavilion",
+              "size": [
+                7,
+                8
+              ],
+              "part": [
+                1,
+                7
+              ]
+            },
+            "evidence": "MAP 2:1:12 connected source assembly x5..11 y0..7; original pixel assembly inspected; owned 224x256 module"
+          },
+          {
+            "when": {
+              "x": 10,
+              "y": 7
+            },
+            "asset": "observation_pavilion",
+            "draw_mode": "module_part",
+            "edge": "",
+            "base_asset": "earth",
+            "semantic": "complete_observation_pavilion",
+            "module": {
+              "id": "ch2_observation_pavilion",
+              "size": [
+                7,
+                8
+              ],
+              "part": [
+                5,
+                7
+              ]
+            },
+            "evidence": "MAP 2:1:12 connected source assembly x5..11 y0..7; original pixel assembly inspected; owned 224x256 module"
+          },
+          {
+            "when": {
+              "x": 11,
+              "y": 7
+            },
+            "asset": "observation_pavilion",
+            "draw_mode": "module_part",
+            "edge": "",
+            "base_asset": "earth",
+            "semantic": "complete_observation_pavilion",
+            "module": {
+              "id": "ch2_observation_pavilion",
+              "size": [
+                7,
+                8
+              ],
+              "part": [
+                6,
+                7
+              ]
+            },
+            "evidence": "MAP 2:1:12 connected source assembly x5..11 y0..7; original pixel assembly inspected; owned 224x256 module"
+          }
+        ]
+      },
+      "114": {
+        "asset": "bridge_horizontal",
+        "draw_mode": "module_part",
+        "semantic": "mountain_bridge_ew",
+        "base_asset": "ravine_void",
+        "verification": "source_atlas_and_map_semantics_reviewed",
+        "evidence": "TIL 7:1:2 frame 114; chapter-two regional original map assembly inspected",
+        "module": {
+          "id": "2_wooden_bridge_east_west",
+          "size": [
+            1,
+            3
+          ],
+          "part": [
+            0,
+            1
+          ],
+          "repeat_axis": "x"
+        },
+        "conditional_assets": [
+          {
+            "when": {
+              "x": 7,
+              "y": 7
+            },
+            "asset": "observation_pavilion",
+            "draw_mode": "module_part",
+            "edge": "",
+            "base_asset": "earth",
+            "semantic": "complete_observation_pavilion",
+            "module": {
+              "id": "ch2_observation_pavilion",
+              "size": [
+                7,
+                8
+              ],
+              "part": [
+                2,
+                7
+              ]
+            },
+            "evidence": "MAP 2:1:12 connected source assembly x5..11 y0..7; original pixel assembly inspected; owned 224x256 module"
+          },
+          {
+            "when": {
+              "x": 8,
+              "y": 7
+            },
+            "asset": "observation_pavilion",
+            "draw_mode": "module_part",
+            "edge": "",
+            "base_asset": "earth",
+            "semantic": "complete_observation_pavilion",
+            "module": {
+              "id": "ch2_observation_pavilion",
+              "size": [
+                7,
+                8
+              ],
+              "part": [
+                3,
+                7
+              ]
+            },
+            "evidence": "MAP 2:1:12 connected source assembly x5..11 y0..7; original pixel assembly inspected; owned 224x256 module"
+          },
+          {
+            "when": {
+              "x": 9,
+              "y": 7
+            },
+            "asset": "observation_pavilion",
+            "draw_mode": "module_part",
+            "edge": "",
+            "base_asset": "earth",
+            "semantic": "complete_observation_pavilion",
+            "module": {
+              "id": "ch2_observation_pavilion",
+              "size": [
+                7,
+                8
+              ],
+              "part": [
+                4,
+                7
+              ]
+            },
+            "evidence": "MAP 2:1:12 connected source assembly x5..11 y0..7; original pixel assembly inspected; owned 224x256 module"
+          }
+        ]
+      }
+    },
+    "2:3:10": {
+      "71": {
+        "asset": "jar_tile",
+        "draw_mode": "tile",
+        "semantic": "cave_storage_urn",
+        "base_asset": "cave_floor",
+        "verification": "source_atlas_and_map_semantics_reviewed",
+        "evidence": "MAP 2:3:10, TIL frame 71; decoded original assembly inspected in September 2026 map correction audit"
+      }
+    },
+    "2:3:6": {
+      "71": {
+        "asset": "jar_tile",
+        "draw_mode": "tile",
+        "semantic": "cave_storage_urn",
+        "base_asset": "cave_floor",
+        "verification": "source_atlas_and_map_semantics_reviewed",
+        "evidence": "MAP 2:3:6, TIL frame 71; decoded original assembly inspected in September 2026 map correction audit"
+      }
+    },
+    "2:3:7": {
+      "71": {
+        "asset": "jar_tile",
+        "draw_mode": "tile",
+        "semantic": "cave_storage_urn",
+        "base_asset": "cave_floor",
+        "verification": "source_atlas_and_map_semantics_reviewed",
+        "evidence": "MAP 2:3:7, TIL frame 71; decoded original assembly inspected in September 2026 map correction audit"
+      }
+    },
+    "2:3:8": {
+      "71": {
+        "asset": "jar_tile",
+        "draw_mode": "tile",
+        "semantic": "cave_storage_urn",
+        "base_asset": "cave_floor",
+        "verification": "source_atlas_and_map_semantics_reviewed",
+        "evidence": "MAP 2:3:8, TIL frame 71; decoded original assembly inspected in September 2026 map correction audit"
+      }
+    },
+    "2:3:9": {
+      "71": {
+        "asset": "jar_tile",
+        "draw_mode": "tile",
+        "semantic": "cave_storage_urn",
+        "base_asset": "cave_floor",
+        "verification": "source_atlas_and_map_semantics_reviewed",
+        "evidence": "MAP 2:3:9, TIL frame 71; decoded original assembly inspected in September 2026 map correction audit"
+      }
+    }
+  },
+  "unknown_policy": "report_missing_never_infer_collision",
+  "coverage": {
+    "regional_scripts": 66,
+    "destination_maps": 50,
+    "additional_tile_keys": 197
+  },
+  "required_assets": {
+    "village_fence_h": {
+      "native_size": [
+        32,
+        32
+      ],
+      "purpose": "horizontal wood rail and upright",
+      "status": "required_not_yet_render_accepted"
+    },
+    "village_fence_v": {
+      "native_size": [
+        32,
+        32
+      ],
+      "purpose": "vertical wood fence rail",
+      "status": "required_not_yet_render_accepted"
+    },
+    "village_hut": {
+      "native_size": [
+        96,
+        64
+      ],
+      "purpose": "3x2 small rural round hut",
+      "status": "required_not_yet_render_accepted"
+    },
+    "village_bridge_ns": {
+      "native_size": [
+        64,
+        32
+      ],
+      "purpose": "2x1 bridge width strip repeating y",
+      "status": "required_not_yet_render_accepted"
+    },
+    "kitchen_pantry": {
+      "native_size": [
+        64,
+        64
+      ],
+      "purpose": "2x2 kitchen jar and pantry arrangement",
+      "status": "required_not_yet_render_accepted"
+    },
+    "house_side_table": {
+      "native_size": [
+        64,
+        64
+      ],
+      "purpose": "2x2 household side table",
+      "status": "required_not_yet_render_accepted"
+    },
+    "fallen_branch": {
+      "native_size": [
+        64,
+        64
+      ],
+      "purpose": "2x2 diagonal bare fallen branch",
+      "status": "required_not_yet_render_accepted"
+    },
+    "regional_house_wall": {
+      "native_size": [
+        32,
+        32
+      ],
+      "purpose": "repeatable windowed redwood facade",
+      "status": "required_not_yet_render_accepted"
+    },
+    "regional_door_open": {
+      "native_size": [
+        32,
+        32
+      ],
+      "purpose": "open dark doorway with threshold",
+      "status": "required_not_yet_render_accepted"
+    },
+    "city_bridge_floor": {
+      "native_size": [
+        32,
+        32
+      ],
+      "purpose": "wood plank deck repeated in both directions",
+      "status": "required_not_yet_render_accepted"
+    },
+    "dining_seat_left": {
+      "native_size": [
+        64,
+        96
+      ],
+      "purpose": "2x3 left dining seat",
+      "status": "required_not_yet_render_accepted"
+    },
+    "dining_seat_right": {
+      "native_size": [
+        64,
+        96
+      ],
+      "purpose": "2x3 right dining seat",
+      "status": "required_not_yet_render_accepted"
+    },
+    "hall_armchair": {
+      "native_size": [
+        64,
+        64
+      ],
+      "purpose": "2x2 ceremonial wooden chair",
+      "status": "required_not_yet_render_accepted"
+    },
+    "weapon_wall_display": {
+      "native_size": [
+        64,
+        64
+      ],
+      "purpose": "2x2 displayed crossed weapons",
+      "status": "required_not_yet_render_accepted"
+    },
+    "armor_wall_display": {
+      "native_size": [
+        64,
+        32
+      ],
+      "purpose": "2x1 armor wall section",
+      "status": "required_not_yet_render_accepted"
+    },
+    "inn_wine_jar": {
+      "native_size": [
+        64,
+        64
+      ],
+      "purpose": "2x2 wine jar",
+      "status": "required_not_yet_render_accepted"
+    },
+    "inn_dining_set": {
+      "native_size": [
+        128,
+        96
+      ],
+      "purpose": "4x3 table with benches",
+      "status": "required_not_yet_render_accepted"
+    },
+    "inn_tableware": {
+      "native_size": [
+        64,
+        32
+      ],
+      "purpose": "2x1 bowl and cup",
+      "status": "required_not_yet_render_accepted"
+    },
+    "cave_arch_tile": {
+      "native_size": [
+        32,
+        32
+      ],
+      "purpose": "single stone arch legs",
+      "status": "required_not_yet_render_accepted"
+    },
+    "shop_sign_blank": {
+      "native_size": [
+        32,
+        32
+      ],
+      "purpose": "hanging shop sign",
+      "status": "required_not_yet_render_accepted"
+    },
+    "regional_door_closed": {
+      "native_size": [
+        32,
+        32
+      ],
+      "purpose": "closed house door",
+      "status": "required_not_yet_render_accepted"
+    },
+    "city_wall_vertical": {
+      "native_size": [
+        32,
+        32
+      ],
+      "purpose": "vertical wall continuation",
+      "status": "required_not_yet_render_accepted"
+    },
+    "city_gate_lantern": {
+      "native_size": [
+        64,
+        64
+      ],
+      "purpose": "2x2 gate stone lantern",
+      "status": "required_not_yet_render_accepted"
+    },
+    "city_stone_lantern": {
+      "native_size": [
+        32,
+        32
+      ],
+      "purpose": "small stone lantern",
+      "status": "required_not_yet_render_accepted"
+    },
+    "shop_sign_pawn": {
+      "native_size": [
+        32,
+        32
+      ],
+      "purpose": "Chinese shop signage",
+      "status": "required_not_yet_render_accepted"
+    },
+    "shop_sign_weapon": {
+      "native_size": [
+        32,
+        32
+      ],
+      "purpose": "Chinese shop signage",
+      "status": "required_not_yet_render_accepted"
+    },
+    "shop_sign_medicine": {
+      "native_size": [
+        32,
+        32
+      ],
+      "purpose": "Chinese shop signage",
+      "status": "required_not_yet_render_accepted"
+    },
+    "shop_sign_inn_left": {
+      "native_size": [
+        32,
+        32
+      ],
+      "purpose": "Chinese shop signage",
+      "status": "required_not_yet_render_accepted"
+    },
+    "shop_sign_inn_right": {
+      "native_size": [
+        32,
+        32
+      ],
+      "purpose": "Chinese shop signage",
+      "status": "required_not_yet_render_accepted"
+    },
+    "shop_sign_general": {
+      "native_size": [
+        32,
+        32
+      ],
+      "purpose": "Chinese shop signage",
+      "status": "required_not_yet_render_accepted"
+    },
+    "shop_counter_vertical_tile": {
+      "native_size": [
+        32,
+        32
+      ],
+      "purpose": "continuous north-south wood counter top without repeating drawer fronts",
+      "status": "required_not_yet_render_accepted"
+    },
+    "rural_sign_gate": {
+      "native_size": [
+        128,
+        64
+      ],
+      "purpose": "short fence wings, central two posts and plain wooden sign; no tiled roof",
+      "status": "required_not_yet_render_accepted"
+    },
+    "observation_pavilion": {
+      "native_size": [
+        224,
+        256
+      ],
+      "purpose": "complete source 7x8 observation pavilion at map northern edge",
+      "status": "required_not_yet_render_accepted"
+    },
+    "cave_mouth": {
+      "native_size": [
+        64,
+        32
+      ],
+      "purpose": "dark cave arch above the unchanged entrance trigger",
+      "status": "required_not_yet_render_accepted"
+    },
+    "cave_entry_pavilion": {
+      "native_size": [
+        160,
+        160
+      ],
+      "purpose": "single complete 5x5 outdoor roof, twin posts and threshold",
+      "status": "required_not_yet_render_accepted"
+    },
+    "basket_tile": {
+      "native_size": [
+        32,
+        32
+      ],
+      "purpose": "single source food basket; native tile variant of owned basket",
+      "status": "required_not_yet_render_accepted"
+    },
+    "stairs_diagonal_tile": {
+      "native_size": [
+        32,
+        32
+      ],
+      "purpose": "cave diagonal stair rising to the right",
+      "status": "required_not_yet_render_accepted"
+    },
+    "stairs_diagonal_tile_mirrored": {
+      "native_size": [
+        32,
+        32
+      ],
+      "purpose": "cave diagonal stair rising to the left",
+      "status": "required_not_yet_render_accepted"
+    }
+  },
+  "visual_status": "source_semantics_reviewed; integrated_owned_art_pending",
+  "unresolved_semantics": [],
+  "render_contract": {
+    "tile_pixels": 32,
+    "nearest": true,
+    "source_collision_unchanged": true
+  }
+}

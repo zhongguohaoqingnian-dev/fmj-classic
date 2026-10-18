@@ -1,0 +1,386 @@
+{
+  "schema_version": 1,
+  "source_sha256": "2c4c3cc25c4e659fc69b453243509ba9ef19c0e9416b19227550f5b835ac13bb",
+  "identity_status": "unverified_candidate",
+  "extends": [
+    "data/chapter1/tile_mapping.json",
+    "data/chapter2/tile_mapping.json",
+    "data/chapter3/tile_mapping.json"
+  ],
+  "asset_catalogs": [
+    "assets/chapter1/atlas.json",
+    "assets/chapter2/atlas.json",
+    "assets/chapter2/terrain-atlas.json",
+    "assets/chapter45/atlas.json"
+  ],
+  "reviewed_maps": [
+    "2:1:21",
+    "2:1:22",
+    "2:1:23",
+    "2:1:24",
+    "2:1:28",
+    "2:1:35",
+    "2:1:36",
+    "2:1:42",
+    "2:1:43",
+    "2:1:45",
+    "2:2:10",
+    "2:2:11",
+    "2:2:12",
+    "2:2:13",
+    "2:2:16",
+    "2:2:17",
+    "2:2:18",
+    "2:2:19",
+    "2:2:26",
+    "2:3:10",
+    "2:3:3",
+    "2:3:7",
+    "2:3:8",
+    "2:3:9"
+  ],
+  "tiles": {
+    "7:42": {
+      "asset": "hanging_gourd",
+      "draw_mode": "module_part",
+      "semantic": "hanging_alchemy_gourd",
+      "verification": "source_pixels_and_connected_map_reviewed",
+      "evidence": "MAP 2:2:18 hanging wall gourds at x7/x11,y1..2; exact source pixels match prior alchemy gourds",
+      "base_asset": "brick_wall",
+      "module": {
+        "id": "ch45_7_hanging_wall_gourd",
+        "size": [
+          1,
+          2
+        ],
+        "part": [
+          0,
+          0
+        ]
+      },
+      "exact_pixel_source": "5:13",
+      "source_pixel_sha256": "918d097a9b784745571fde2f0da39573b8339da41a31f72b7796858b78e37b98"
+    },
+    "7:43": {
+      "asset": "hanging_gourd",
+      "draw_mode": "module_part",
+      "semantic": "hanging_alchemy_gourd",
+      "verification": "source_pixels_and_connected_map_reviewed",
+      "evidence": "MAP 2:2:18 hanging wall gourds at x7/x11,y1..2; exact source pixels match prior alchemy gourds",
+      "base_asset": "brick_wall",
+      "module": {
+        "id": "ch45_7_hanging_wall_gourd",
+        "size": [
+          1,
+          2
+        ],
+        "part": [
+          0,
+          1
+        ]
+      },
+      "exact_pixel_source": "5:14",
+      "source_pixel_sha256": "073ae93bfee792603ce88af00e7ea813166b8884e62fd43dcddbbede58bf9ab0"
+    },
+    "9:124": {
+      "asset": "round_post",
+      "draw_mode": "tile",
+      "semantic": "cylindrical_courtyard_fixture",
+      "verification": "source_pixels_and_connected_map_reviewed",
+      "evidence": "MAP 2:1:36 x13,y3 isolated round cylindrical fixture; exact source shape matches 1:39; function remains unconfirmed",
+      "base_asset": "earth",
+      "interpretation_status": "shape_confirmed_function_unconfirmed",
+      "exact_pixel_source": "1:39",
+      "source_pixel_sha256": "aea6d5e30fca8cd8a2c4873fb4665ef841230c1598b2a5274d0cd30fb3c59997"
+    },
+    "7:18": {
+      "asset": "large_jar",
+      "draw_mode": "module_part",
+      "semantic": "large_round_storage_vessel",
+      "base_asset": "stone_floor",
+      "module": {
+        "id": "ch45_7_apothecary_vessel",
+        "size": [
+          2,
+          2
+        ],
+        "part": [
+          0,
+          0
+        ]
+      },
+      "source_pixel_sha256": "1274d950a9c0c217fe6d7d5553fdc7d6ceac52cd017c178414d332fb46b51ef1",
+      "verification": "source_atlas_and_connected_map_reviewed",
+      "evidence": "MAP 2:2:18 x4..5,y9..10; four source parts form a broad round vessel with visible rim and curved body; reuse owned large_jar 64x64; contents/function not inferred"
+    },
+    "7:19": {
+      "asset": "large_jar",
+      "draw_mode": "module_part",
+      "semantic": "large_round_storage_vessel",
+      "base_asset": "stone_floor",
+      "module": {
+        "id": "ch45_7_apothecary_vessel",
+        "size": [
+          2,
+          2
+        ],
+        "part": [
+          1,
+          0
+        ]
+      },
+      "source_pixel_sha256": "6aecd6e31141f896ff8b386e356cbfcf48c6763aa07e9a452cc6c4874f516cc4",
+      "verification": "source_atlas_and_connected_map_reviewed",
+      "evidence": "MAP 2:2:18 x4..5,y9..10; four source parts form a broad round vessel with visible rim and curved body; reuse owned large_jar 64x64; contents/function not inferred"
+    },
+    "7:20": {
+      "asset": "large_jar",
+      "draw_mode": "module_part",
+      "semantic": "large_round_storage_vessel",
+      "base_asset": "stone_floor",
+      "module": {
+        "id": "ch45_7_apothecary_vessel",
+        "size": [
+          2,
+          2
+        ],
+        "part": [
+          0,
+          1
+        ]
+      },
+      "source_pixel_sha256": "46c5b3e346a60e51cc837676ad8986f0f655ae67b8a60b6322393ee8f440569e",
+      "verification": "source_atlas_and_connected_map_reviewed",
+      "evidence": "MAP 2:2:18 x4..5,y9..10; four source parts form a broad round vessel with visible rim and curved body; reuse owned large_jar 64x64; contents/function not inferred"
+    },
+    "7:21": {
+      "asset": "large_jar",
+      "draw_mode": "module_part",
+      "semantic": "large_round_storage_vessel",
+      "base_asset": "stone_floor",
+      "module": {
+        "id": "ch45_7_apothecary_vessel",
+        "size": [
+          2,
+          2
+        ],
+        "part": [
+          1,
+          1
+        ]
+      },
+      "source_pixel_sha256": "74539adffc3f0525ddfb756f78c5518173561bbcde4d2e85feda915dd795dc70",
+      "verification": "source_atlas_and_connected_map_reviewed",
+      "evidence": "MAP 2:2:18 x4..5,y9..10; four source parts form a broad round vessel with visible rim and curved body; reuse owned large_jar 64x64; contents/function not inferred"
+    }
+  },
+  "map_overrides": {
+    "2:2:13": {
+      "49": {
+        "asset": "ch45_old_house_shelf",
+        "draw_mode": "module_part",
+        "semantic": "wide_shelving_unit",
+        "verification": "native_visual_atlas_and_map",
+        "evidence": "MAP 2:2:13 source module preserved including repeated 52 at (19,6); exterior blue matte removed from owned native",
+        "base_asset": "wood_floor",
+        "module": {
+          "id": "3_wide_shelving_unit",
+          "size": [
+            3,
+            3
+          ],
+          "part": [
+            0,
+            0
+          ],
+          "repeat_axis": "x"
+        }
+      },
+      "50": {
+        "asset": "ch45_old_house_shelf",
+        "draw_mode": "module_part",
+        "semantic": "wide_shelving_unit",
+        "verification": "native_visual_atlas_and_map",
+        "evidence": "MAP 2:2:13 source module preserved including repeated 52 at (19,6); exterior blue matte removed from owned native",
+        "base_asset": "wood_floor",
+        "module": {
+          "id": "3_wide_shelving_unit",
+          "size": [
+            3,
+            3
+          ],
+          "part": [
+            1,
+            0
+          ],
+          "repeat_axis": "x"
+        }
+      },
+      "51": {
+        "asset": "ch45_old_house_shelf",
+        "draw_mode": "module_part",
+        "semantic": "wide_shelving_unit",
+        "verification": "native_visual_atlas_and_map",
+        "evidence": "MAP 2:2:13 source module preserved including repeated 52 at (19,6); exterior blue matte removed from owned native",
+        "base_asset": "wood_floor",
+        "module": {
+          "id": "3_wide_shelving_unit",
+          "size": [
+            3,
+            3
+          ],
+          "part": [
+            2,
+            0
+          ],
+          "repeat_axis": "x"
+        }
+      },
+      "52": {
+        "asset": "ch45_old_house_shelf",
+        "draw_mode": "module_part",
+        "semantic": "wide_shelving_unit",
+        "verification": "native_visual_atlas_and_map",
+        "evidence": "MAP 2:2:13 source module preserved including repeated 52 at (19,6); exterior blue matte removed from owned native",
+        "base_asset": "wood_floor",
+        "module": {
+          "id": "3_wide_shelving_unit",
+          "size": [
+            3,
+            3
+          ],
+          "part": [
+            0,
+            1
+          ],
+          "repeat_axis": "x"
+        }
+      },
+      "53": {
+        "asset": "ch45_old_house_shelf",
+        "draw_mode": "module_part",
+        "semantic": "wide_shelving_unit",
+        "verification": "native_visual_atlas_and_map",
+        "evidence": "MAP 2:2:13 source module preserved including repeated 52 at (19,6); exterior blue matte removed from owned native",
+        "base_asset": "wood_floor",
+        "module": {
+          "id": "3_wide_shelving_unit",
+          "size": [
+            3,
+            3
+          ],
+          "part": [
+            1,
+            1
+          ],
+          "repeat_axis": "x"
+        }
+      },
+      "54": {
+        "asset": "ch45_old_house_shelf",
+        "draw_mode": "module_part",
+        "semantic": "wide_shelving_unit",
+        "verification": "native_visual_atlas_and_map",
+        "evidence": "MAP 2:2:13 source module preserved including repeated 52 at (19,6); exterior blue matte removed from owned native",
+        "base_asset": "wood_floor",
+        "module": {
+          "id": "3_wide_shelving_unit",
+          "size": [
+            3,
+            3
+          ],
+          "part": [
+            2,
+            1
+          ],
+          "repeat_axis": "x"
+        }
+      },
+      "55": {
+        "asset": "ch45_old_house_shelf",
+        "draw_mode": "module_part",
+        "semantic": "wide_shelving_unit",
+        "verification": "native_visual_atlas_and_map",
+        "evidence": "MAP 2:2:13 source module preserved including repeated 52 at (19,6); exterior blue matte removed from owned native",
+        "base_asset": "wood_floor",
+        "module": {
+          "id": "3_wide_shelving_unit",
+          "size": [
+            3,
+            3
+          ],
+          "part": [
+            0,
+            2
+          ],
+          "repeat_axis": "x"
+        }
+      },
+      "56": {
+        "asset": "ch45_old_house_shelf",
+        "draw_mode": "module_part",
+        "semantic": "wide_shelving_unit",
+        "verification": "native_visual_atlas_and_map",
+        "evidence": "MAP 2:2:13 source module preserved including repeated 52 at (19,6); exterior blue matte removed from owned native",
+        "base_asset": "wood_floor",
+        "module": {
+          "id": "3_wide_shelving_unit",
+          "size": [
+            3,
+            3
+          ],
+          "part": [
+            1,
+            2
+          ],
+          "repeat_axis": "x"
+        }
+      },
+      "57": {
+        "asset": "ch45_old_house_shelf",
+        "draw_mode": "module_part",
+        "semantic": "wide_shelving_unit",
+        "verification": "native_visual_atlas_and_map",
+        "evidence": "MAP 2:2:13 source module preserved including repeated 52 at (19,6); exterior blue matte removed from owned native",
+        "base_asset": "wood_floor",
+        "module": {
+          "id": "3_wide_shelving_unit",
+          "size": [
+            3,
+            3
+          ],
+          "part": [
+            2,
+            2
+          ],
+          "repeat_axis": "x"
+        }
+      },
+      "15": {
+        "asset": "ch45_furniture_cast_shadow",
+        "draw_mode": "tile",
+        "semantic": "small_furniture_foot_shadow",
+        "verification": "native_visual_atlas_and_map",
+        "evidence": "MAP 2:2:13 (20,8) and (5,14): source furniture cast shadow, not a separate chair; source placement and collision unchanged",
+        "base_asset": "wood_floor",
+        "asset_status": "required_asset_missing_from_initial_catalog"
+      }
+    }
+  },
+  "unknown_policy": "report_missing_never_infer_collision",
+  "coverage": {
+    "regional_scripts": 38,
+    "destination_maps": 24,
+    "used_tile_keys": 375,
+    "additional_tile_keys": 7,
+    "unresolved_tile_keys": 0
+  },
+  "unresolved_semantics": [],
+  "required_assets": {},
+  "visual_status": "source_and_owned_native_reviewed; formal_renderer_acceptance_pending",
+  "render_contract": {
+    "tile_pixels": 32,
+    "nearest": true,
+    "source_collision_unchanged": true
+  }
+}

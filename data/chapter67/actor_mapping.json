@@ -1,0 +1,2703 @@
+{
+  "schema_version": 1,
+  "source_sha256": "2c4c3cc25c4e659fc69b453243509ba9ef19c0e9416b19227550f5b835ac13bb",
+  "input_sha256": "1f193d412b5f94a2240d34f66cff6ab9867456b0390818f09b9e53cbed258c90",
+  "scope_gut_groups": [
+    1,
+    2,
+    14
+  ],
+  "actors": [
+    {
+      "actor_id": "3:1:1",
+      "sprite_id": "8:1:1",
+      "atlas_prefix": "hero",
+      "atlas_keys": [
+        "hero_battle",
+        "hero_battle_attack",
+        "hero_battle_defend",
+        "hero_battle_down",
+        "hero_battle_hurt",
+        "hero_battle_idle",
+        "hero_battle_item",
+        "hero_battle_magic",
+        "hero_battle_windup",
+        "hero_east_0",
+        "hero_east_1",
+        "hero_east_2",
+        "hero_north_0",
+        "hero_north_1",
+        "hero_north_2",
+        "hero_south_0",
+        "hero_south_1",
+        "hero_south_2",
+        "hero_west_0",
+        "hero_west_1",
+        "hero_west_2"
+      ],
+      "hidden": false,
+      "references": [
+        {
+          "script": "1:1:1",
+          "address": 909,
+          "opcode": "CREATEACTOR"
+        }
+      ],
+      "status": "basic_keys_present"
+    },
+    {
+      "actor_id": "3:2:1",
+      "sprite_id": "8:2:1",
+      "atlas_prefix": "npc_1",
+      "atlas_keys": [
+        "npc_1_0_1",
+        "npc_1_1_1",
+        "npc_1_2_1",
+        "npc_1_3_1"
+      ],
+      "hidden": false,
+      "references": [
+        {
+          "script": "1:1:5",
+          "address": 107,
+          "opcode": "CREATENPC"
+        },
+        {
+          "script": "1:2:2",
+          "address": 85,
+          "opcode": "CREATENPC"
+        }
+      ],
+      "status": "basic_keys_present"
+    },
+    {
+      "actor_id": "3:2:11",
+      "sprite_id": "8:2:11",
+      "atlas_prefix": "npc_11",
+      "atlas_keys": [
+        "npc_11_0_0",
+        "npc_11_0_1",
+        "npc_11_0_2",
+        "npc_11_1_0",
+        "npc_11_1_1",
+        "npc_11_1_2",
+        "npc_11_2_0",
+        "npc_11_2_1",
+        "npc_11_2_2",
+        "npc_11_3_0",
+        "npc_11_3_1",
+        "npc_11_3_2"
+      ],
+      "hidden": false,
+      "references": [
+        {
+          "script": "1:2:1",
+          "address": 142,
+          "opcode": "CREATENPC"
+        }
+      ],
+      "status": "basic_keys_present"
+    },
+    {
+      "actor_id": "3:2:12",
+      "sprite_id": "8:2:12",
+      "atlas_prefix": "npc_12",
+      "atlas_keys": [
+        "npc_12_0_0",
+        "npc_12_0_1",
+        "npc_12_0_2",
+        "npc_12_1_0",
+        "npc_12_1_1",
+        "npc_12_1_2",
+        "npc_12_2_0",
+        "npc_12_2_1",
+        "npc_12_2_2",
+        "npc_12_3_0",
+        "npc_12_3_1",
+        "npc_12_3_2"
+      ],
+      "hidden": false,
+      "references": [
+        {
+          "script": "1:2:1",
+          "address": 151,
+          "opcode": "CREATENPC"
+        }
+      ],
+      "status": "basic_keys_present"
+    },
+    {
+      "actor_id": "3:2:13",
+      "sprite_id": "8:2:13",
+      "atlas_prefix": "npc_13",
+      "atlas_keys": [
+        "npc_13_0_0",
+        "npc_13_0_1",
+        "npc_13_0_2",
+        "npc_13_1_0",
+        "npc_13_1_1",
+        "npc_13_1_2",
+        "npc_13_2_0",
+        "npc_13_2_1",
+        "npc_13_2_2",
+        "npc_13_3_0",
+        "npc_13_3_1",
+        "npc_13_3_2"
+      ],
+      "hidden": false,
+      "references": [
+        {
+          "script": "1:2:1",
+          "address": 160,
+          "opcode": "CREATENPC"
+        },
+        {
+          "script": "1:14:1",
+          "address": 96,
+          "opcode": "CREATENPC"
+        }
+      ],
+      "status": "basic_keys_present"
+    },
+    {
+      "actor_id": "3:2:14",
+      "sprite_id": "8:2:14",
+      "atlas_prefix": "npc_14",
+      "atlas_keys": [
+        "npc_14_0_0",
+        "npc_14_0_1",
+        "npc_14_0_2",
+        "npc_14_1_0",
+        "npc_14_1_1",
+        "npc_14_1_2",
+        "npc_14_2_0",
+        "npc_14_2_1",
+        "npc_14_2_2",
+        "npc_14_3_0",
+        "npc_14_3_1",
+        "npc_14_3_2"
+      ],
+      "hidden": false,
+      "references": [
+        {
+          "script": "1:2:1",
+          "address": 169,
+          "opcode": "CREATENPC"
+        },
+        {
+          "script": "1:14:1",
+          "address": 105,
+          "opcode": "CREATENPC"
+        }
+      ],
+      "status": "basic_keys_present"
+    },
+    {
+      "actor_id": "3:2:15",
+      "sprite_id": "8:2:15",
+      "atlas_prefix": "npc_15",
+      "atlas_keys": [
+        "npc_15_0_0",
+        "npc_15_0_1",
+        "npc_15_0_2",
+        "npc_15_1_0",
+        "npc_15_1_1",
+        "npc_15_1_2",
+        "npc_15_2_0",
+        "npc_15_2_1",
+        "npc_15_2_2",
+        "npc_15_3_0",
+        "npc_15_3_1",
+        "npc_15_3_2"
+      ],
+      "hidden": false,
+      "references": [
+        {
+          "script": "1:2:1",
+          "address": 178,
+          "opcode": "CREATENPC"
+        },
+        {
+          "script": "1:14:1",
+          "address": 138,
+          "opcode": "CREATENPC"
+        }
+      ],
+      "status": "basic_keys_present"
+    },
+    {
+      "actor_id": "3:2:16",
+      "sprite_id": "8:2:16",
+      "atlas_prefix": "npc_16",
+      "atlas_keys": [
+        "npc_16_0_0",
+        "npc_16_0_1",
+        "npc_16_0_2",
+        "npc_16_1_0",
+        "npc_16_1_1",
+        "npc_16_1_2",
+        "npc_16_2_0",
+        "npc_16_2_1",
+        "npc_16_2_2",
+        "npc_16_3_0",
+        "npc_16_3_1",
+        "npc_16_3_2"
+      ],
+      "hidden": false,
+      "references": [
+        {
+          "script": "1:2:1",
+          "address": 187,
+          "opcode": "CREATENPC"
+        },
+        {
+          "script": "1:14:1",
+          "address": 147,
+          "opcode": "CREATENPC"
+        }
+      ],
+      "status": "basic_keys_present"
+    },
+    {
+      "actor_id": "3:2:17",
+      "sprite_id": "8:2:17",
+      "atlas_prefix": "npc_17",
+      "atlas_keys": [
+        "npc_17_0_0",
+        "npc_17_0_1",
+        "npc_17_0_2",
+        "npc_17_1_0",
+        "npc_17_1_1",
+        "npc_17_1_2",
+        "npc_17_2_0",
+        "npc_17_2_1",
+        "npc_17_2_2",
+        "npc_17_3_0",
+        "npc_17_3_1",
+        "npc_17_3_2"
+      ],
+      "hidden": false,
+      "references": [
+        {
+          "script": "1:2:1",
+          "address": 196,
+          "opcode": "CREATENPC"
+        }
+      ],
+      "status": "basic_keys_present"
+    },
+    {
+      "actor_id": "3:2:18",
+      "sprite_id": "8:2:18",
+      "atlas_prefix": "npc_18",
+      "atlas_keys": [
+        "npc_18_0_0",
+        "npc_18_0_1",
+        "npc_18_0_2",
+        "npc_18_1_0",
+        "npc_18_1_1",
+        "npc_18_1_2",
+        "npc_18_2_0",
+        "npc_18_2_1",
+        "npc_18_2_2",
+        "npc_18_3_0",
+        "npc_18_3_1",
+        "npc_18_3_2"
+      ],
+      "hidden": false,
+      "references": [
+        {
+          "script": "1:2:1",
+          "address": 205,
+          "opcode": "CREATENPC"
+        }
+      ],
+      "status": "basic_keys_present"
+    },
+    {
+      "actor_id": "3:2:2",
+      "sprite_id": "8:2:2",
+      "atlas_prefix": "npc_2",
+      "atlas_keys": [
+        "npc_2_0_0",
+        "npc_2_0_1",
+        "npc_2_0_2",
+        "npc_2_1_0",
+        "npc_2_1_1",
+        "npc_2_1_2",
+        "npc_2_2_0",
+        "npc_2_2_1",
+        "npc_2_2_2",
+        "npc_2_3_0",
+        "npc_2_3_1",
+        "npc_2_3_2"
+      ],
+      "hidden": false,
+      "references": [
+        {
+          "script": "1:1:1",
+          "address": 1035,
+          "opcode": "CREATENPC"
+        },
+        {
+          "script": "1:2:18",
+          "address": 1269,
+          "opcode": "CREATENPC"
+        }
+      ],
+      "status": "basic_keys_present"
+    },
+    {
+      "actor_id": "3:2:25",
+      "sprite_id": "8:2:25",
+      "atlas_prefix": "npc_25",
+      "atlas_keys": [
+        "npc_25_east",
+        "npc_25_east_0",
+        "npc_25_east_1",
+        "npc_25_east_2",
+        "npc_25_north",
+        "npc_25_north_0",
+        "npc_25_north_1",
+        "npc_25_north_2",
+        "npc_25_south",
+        "npc_25_south_0",
+        "npc_25_south_1",
+        "npc_25_south_2",
+        "npc_25_west",
+        "npc_25_west_0",
+        "npc_25_west_1",
+        "npc_25_west_2"
+      ],
+      "hidden": false,
+      "references": [
+        {
+          "script": "1:2:18",
+          "address": 779,
+          "opcode": "CREATENPC"
+        }
+      ],
+      "status": "basic_keys_present"
+    },
+    {
+      "actor_id": "3:2:28",
+      "sprite_id": "8:2:28",
+      "atlas_prefix": "npc_28",
+      "atlas_keys": [
+        "npc_28_east_1",
+        "npc_28_north_1",
+        "npc_28_south_1",
+        "npc_28_west_1"
+      ],
+      "hidden": false,
+      "references": [
+        {
+          "script": "1:2:18",
+          "address": 268,
+          "opcode": "CREATENPC"
+        },
+        {
+          "script": "1:14:8",
+          "address": 98,
+          "opcode": "CREATENPC"
+        }
+      ],
+      "status": "basic_keys_present"
+    },
+    {
+      "actor_id": "3:2:29",
+      "sprite_id": "8:2:29",
+      "atlas_prefix": "npc_29",
+      "atlas_keys": [
+        "npc_29_east_1",
+        "npc_29_north_1",
+        "npc_29_south_1",
+        "npc_29_west_1"
+      ],
+      "hidden": false,
+      "references": [
+        {
+          "script": "1:2:18",
+          "address": 277,
+          "opcode": "CREATENPC"
+        },
+        {
+          "script": "1:14:8",
+          "address": 107,
+          "opcode": "CREATENPC"
+        }
+      ],
+      "status": "basic_keys_present"
+    },
+    {
+      "actor_id": "3:2:3",
+      "sprite_id": "8:2:3",
+      "atlas_prefix": "npc_3",
+      "atlas_keys": [
+        "npc_3_0_1",
+        "npc_3_1_1",
+        "npc_3_2_1",
+        "npc_3_3_1"
+      ],
+      "hidden": false,
+      "references": [
+        {
+          "script": "1:2:2",
+          "address": 101,
+          "opcode": "CREATENPC"
+        },
+        {
+          "script": "1:2:2",
+          "address": 110,
+          "opcode": "CREATENPC"
+        },
+        {
+          "script": "1:2:2",
+          "address": 119,
+          "opcode": "CREATENPC"
+        },
+        {
+          "script": "1:2:2",
+          "address": 128,
+          "opcode": "CREATENPC"
+        },
+        {
+          "script": "1:2:2",
+          "address": 165,
+          "opcode": "CREATENPC"
+        },
+        {
+          "script": "1:2:2",
+          "address": 174,
+          "opcode": "CREATENPC"
+        },
+        {
+          "script": "1:2:2",
+          "address": 183,
+          "opcode": "CREATENPC"
+        },
+        {
+          "script": "1:2:2",
+          "address": 192,
+          "opcode": "CREATENPC"
+        },
+        {
+          "script": "1:2:18",
+          "address": 1141,
+          "opcode": "CREATENPC"
+        },
+        {
+          "script": "1:2:18",
+          "address": 1150,
+          "opcode": "CREATENPC"
+        },
+        {
+          "script": "1:2:18",
+          "address": 1159,
+          "opcode": "CREATENPC"
+        },
+        {
+          "script": "1:2:18",
+          "address": 1168,
+          "opcode": "CREATENPC"
+        },
+        {
+          "script": "1:2:18",
+          "address": 1205,
+          "opcode": "CREATENPC"
+        },
+        {
+          "script": "1:2:18",
+          "address": 1214,
+          "opcode": "CREATENPC"
+        },
+        {
+          "script": "1:2:18",
+          "address": 1223,
+          "opcode": "CREATENPC"
+        },
+        {
+          "script": "1:2:18",
+          "address": 1232,
+          "opcode": "CREATENPC"
+        }
+      ],
+      "status": "basic_keys_present"
+    },
+    {
+      "actor_id": "3:2:30",
+      "sprite_id": "8:2:30",
+      "atlas_prefix": "npc_30",
+      "atlas_keys": [
+        "npc_30_north_1",
+        "npc_30_east_1",
+        "npc_30_south_1",
+        "npc_30_west_1",
+        "npc_30_south_0",
+        "npc_30_south_2"
+      ],
+      "hidden": false,
+      "references": [
+        {
+          "script": "1:2:18",
+          "address": 286,
+          "opcode": "CREATENPC"
+        },
+        {
+          "script": "1:14:8",
+          "address": 116,
+          "opcode": "CREATENPC"
+        }
+      ],
+      "status": "basic_keys_present"
+    },
+    {
+      "actor_id": "3:2:31",
+      "sprite_id": "8:2:31",
+      "atlas_prefix": "npc_31",
+      "atlas_keys": [
+        "npc_31_east_1",
+        "npc_31_north_1",
+        "npc_31_south_1",
+        "npc_31_west_1"
+      ],
+      "hidden": false,
+      "references": [
+        {
+          "script": "1:2:18",
+          "address": 295,
+          "opcode": "CREATENPC"
+        },
+        {
+          "script": "1:14:8",
+          "address": 125,
+          "opcode": "CREATENPC"
+        }
+      ],
+      "status": "basic_keys_present"
+    },
+    {
+      "actor_id": "3:2:32",
+      "sprite_id": "8:2:32",
+      "atlas_prefix": "npc_32",
+      "atlas_keys": [
+        "npc_32_east_1",
+        "npc_32_north_1",
+        "npc_32_south_1",
+        "npc_32_west_1"
+      ],
+      "hidden": false,
+      "references": [
+        {
+          "script": "1:2:52",
+          "address": 116,
+          "opcode": "CREATENPC"
+        }
+      ],
+      "status": "basic_keys_present"
+    },
+    {
+      "actor_id": "3:2:33",
+      "sprite_id": "8:2:33",
+      "atlas_prefix": "npc_33",
+      "atlas_keys": [
+        "npc_33_east_1",
+        "npc_33_north_1",
+        "npc_33_south_1",
+        "npc_33_west_1"
+      ],
+      "hidden": false,
+      "references": [
+        {
+          "script": "1:2:52",
+          "address": 148,
+          "opcode": "CREATENPC"
+        }
+      ],
+      "status": "basic_keys_present"
+    },
+    {
+      "actor_id": "3:2:34",
+      "sprite_id": "8:2:34",
+      "atlas_prefix": "npc_34",
+      "atlas_keys": [
+        "npc_34_east_1",
+        "npc_34_north_1",
+        "npc_34_south_1",
+        "npc_34_west_1"
+      ],
+      "hidden": false,
+      "references": [
+        {
+          "script": "1:2:52",
+          "address": 133,
+          "opcode": "CREATENPC"
+        }
+      ],
+      "status": "basic_keys_present"
+    },
+    {
+      "actor_id": "3:2:6",
+      "sprite_id": "8:2:6",
+      "atlas_prefix": "xiaomei",
+      "atlas_keys": [
+        "xiaomei_battle_attack",
+        "xiaomei_battle_defend",
+        "xiaomei_battle_down",
+        "xiaomei_battle_hurt",
+        "xiaomei_battle_idle",
+        "xiaomei_battle_item",
+        "xiaomei_battle_magic",
+        "xiaomei_battle_windup",
+        "xiaomei_east_0",
+        "xiaomei_east_1",
+        "xiaomei_east_2",
+        "xiaomei_north_0",
+        "xiaomei_north_1",
+        "xiaomei_north_2",
+        "xiaomei_south_0",
+        "xiaomei_south_1",
+        "xiaomei_south_2",
+        "xiaomei_west_0",
+        "xiaomei_west_1",
+        "xiaomei_west_2"
+      ],
+      "hidden": false,
+      "references": [
+        {
+          "script": "1:2:18",
+          "address": 1380,
+          "opcode": "CREATENPC"
+        },
+        {
+          "script": "1:14:8",
+          "address": 431,
+          "opcode": "CREATENPC"
+        },
+        {
+          "script": "1:14:11",
+          "address": 450,
+          "opcode": "CREATENPC"
+        }
+      ],
+      "status": "basic_keys_present"
+    },
+    {
+      "actor_id": "3:2:7",
+      "sprite_id": "8:2:7",
+      "atlas_prefix": "yuan",
+      "atlas_keys": [
+        "yuan_battle_attack",
+        "yuan_battle_defend",
+        "yuan_battle_down",
+        "yuan_battle_hurt",
+        "yuan_battle_idle",
+        "yuan_battle_item",
+        "yuan_battle_magic",
+        "yuan_battle_windup",
+        "yuan_east_0",
+        "yuan_east_1",
+        "yuan_east_2",
+        "yuan_north_0",
+        "yuan_north_1",
+        "yuan_north_2",
+        "yuan_south_0",
+        "yuan_south_1",
+        "yuan_south_2",
+        "yuan_west_0",
+        "yuan_west_1",
+        "yuan_west_2"
+      ],
+      "hidden": false,
+      "references": [
+        {
+          "script": "1:14:8",
+          "address": 440,
+          "opcode": "CREATENPC"
+        }
+      ],
+      "status": "basic_keys_present"
+    },
+    {
+      "actor_id": "3:3:1",
+      "sprite_id": "8:3:1",
+      "atlas_prefix": "enemy_1",
+      "atlas_keys": [
+        "enemy_1_0",
+        "enemy_1_1",
+        "enemy_1_attack",
+        "enemy_1_idle"
+      ],
+      "hidden": false,
+      "references": [
+        {
+          "script": "1:2:12",
+          "address": 128,
+          "opcode": "INITFIGHT"
+        }
+      ],
+      "status": "basic_keys_present"
+    },
+    {
+      "actor_id": "3:3:10",
+      "sprite_id": "8:3:10",
+      "atlas_prefix": "enemy_10",
+      "atlas_keys": [
+        "enemy_10_0",
+        "enemy_10_1",
+        "enemy_10_attack",
+        "enemy_10_idle"
+      ],
+      "hidden": false,
+      "references": [
+        {
+          "script": "1:2:18",
+          "address": 346,
+          "opcode": "ENTERFIGHT"
+        },
+        {
+          "script": "1:2:18",
+          "address": 346,
+          "opcode": "ENTERFIGHT"
+        },
+        {
+          "script": "1:2:19",
+          "address": 160,
+          "opcode": "ENTERFIGHT"
+        },
+        {
+          "script": "1:2:20",
+          "address": 223,
+          "opcode": "ENTERFIGHT"
+        },
+        {
+          "script": "1:2:21",
+          "address": 173,
+          "opcode": "ENTERFIGHT"
+        },
+        {
+          "script": "1:2:22",
+          "address": 151,
+          "opcode": "ENTERFIGHT"
+        },
+        {
+          "script": "1:2:23",
+          "address": 173,
+          "opcode": "ENTERFIGHT"
+        },
+        {
+          "script": "1:2:24",
+          "address": 224,
+          "opcode": "ENTERFIGHT"
+        },
+        {
+          "script": "1:2:25",
+          "address": 155,
+          "opcode": "ENTERFIGHT"
+        },
+        {
+          "script": "1:2:26",
+          "address": 153,
+          "opcode": "ENTERFIGHT"
+        }
+      ],
+      "status": "basic_keys_present"
+    },
+    {
+      "actor_id": "3:3:11",
+      "sprite_id": "8:3:11",
+      "atlas_prefix": "enemy_11",
+      "atlas_keys": [
+        "enemy_11_0",
+        "enemy_11_1",
+        "enemy_11_attack",
+        "enemy_11_idle"
+      ],
+      "hidden": false,
+      "references": [
+        {
+          "script": "1:2:18",
+          "address": 346,
+          "opcode": "ENTERFIGHT"
+        }
+      ],
+      "status": "basic_keys_present"
+    },
+    {
+      "actor_id": "3:3:12",
+      "sprite_id": "8:3:12",
+      "atlas_prefix": "enemy_12",
+      "atlas_keys": [
+        "enemy_12_0",
+        "enemy_12_1"
+      ],
+      "hidden": false,
+      "references": [
+        {
+          "script": "1:2:18",
+          "address": 1965,
+          "opcode": "ENTERFIGHT"
+        },
+        {
+          "script": "1:2:18",
+          "address": 2000,
+          "opcode": "ENTERFIGHT"
+        }
+      ],
+      "status": "basic_keys_present"
+    },
+    {
+      "actor_id": "3:3:13",
+      "sprite_id": "8:3:13",
+      "atlas_prefix": "enemy_13",
+      "atlas_keys": [
+        "enemy_13_0",
+        "enemy_13_1"
+      ],
+      "hidden": false,
+      "references": [
+        {
+          "script": "1:2:18",
+          "address": 1965,
+          "opcode": "ENTERFIGHT"
+        }
+      ],
+      "status": "basic_keys_present"
+    },
+    {
+      "actor_id": "3:3:14",
+      "sprite_id": "8:3:14",
+      "atlas_prefix": "enemy_14",
+      "atlas_keys": [
+        "enemy_14_0",
+        "enemy_14_1"
+      ],
+      "hidden": false,
+      "references": [
+        {
+          "script": "1:2:18",
+          "address": 1930,
+          "opcode": "ENTERFIGHT"
+        },
+        {
+          "script": "1:14:10",
+          "address": 103,
+          "opcode": "INITFIGHT"
+        }
+      ],
+      "status": "basic_keys_present"
+    },
+    {
+      "actor_id": "3:3:15",
+      "sprite_id": "8:3:15",
+      "atlas_prefix": "enemy_15",
+      "atlas_keys": [
+        "enemy_15_0",
+        "enemy_15_1"
+      ],
+      "hidden": false,
+      "references": [
+        {
+          "script": "1:2:18",
+          "address": 1930,
+          "opcode": "ENTERFIGHT"
+        }
+      ],
+      "status": "basic_keys_present"
+    },
+    {
+      "actor_id": "3:3:16",
+      "sprite_id": "8:3:16",
+      "atlas_prefix": "enemy_16",
+      "atlas_keys": [
+        "enemy_16_0",
+        "enemy_16_1"
+      ],
+      "hidden": false,
+      "references": [
+        {
+          "script": "1:2:18",
+          "address": 1895,
+          "opcode": "ENTERFIGHT"
+        }
+      ],
+      "status": "basic_keys_present"
+    },
+    {
+      "actor_id": "3:3:17",
+      "sprite_id": "8:3:17",
+      "atlas_prefix": "enemy_17",
+      "atlas_keys": [
+        "enemy_17_0",
+        "enemy_17_1"
+      ],
+      "hidden": false,
+      "references": [
+        {
+          "script": "1:2:18",
+          "address": 1895,
+          "opcode": "ENTERFIGHT"
+        },
+        {
+          "script": "1:2:18",
+          "address": 2000,
+          "opcode": "ENTERFIGHT"
+        }
+      ],
+      "status": "basic_keys_present"
+    },
+    {
+      "actor_id": "3:3:2",
+      "sprite_id": "8:3:2",
+      "atlas_prefix": "enemy_2",
+      "atlas_keys": [
+        "enemy_2_0",
+        "enemy_2_1",
+        "enemy_2_attack",
+        "enemy_2_idle"
+      ],
+      "hidden": false,
+      "references": [
+        {
+          "script": "1:2:12",
+          "address": 128,
+          "opcode": "INITFIGHT"
+        },
+        {
+          "script": "1:2:17",
+          "address": 92,
+          "opcode": "INITFIGHT"
+        },
+        {
+          "script": "1:2:18",
+          "address": 115,
+          "opcode": "INITFIGHT"
+        },
+        {
+          "script": "1:2:45",
+          "address": 87,
+          "opcode": "INITFIGHT"
+        },
+        {
+          "script": "1:2:45",
+          "address": 87,
+          "opcode": "INITFIGHT"
+        },
+        {
+          "script": "1:2:45",
+          "address": 87,
+          "opcode": "INITFIGHT"
+        },
+        {
+          "script": "1:2:45",
+          "address": 87,
+          "opcode": "INITFIGHT"
+        },
+        {
+          "script": "1:2:46",
+          "address": 87,
+          "opcode": "INITFIGHT"
+        },
+        {
+          "script": "1:2:46",
+          "address": 87,
+          "opcode": "INITFIGHT"
+        },
+        {
+          "script": "1:2:46",
+          "address": 87,
+          "opcode": "INITFIGHT"
+        },
+        {
+          "script": "1:2:46",
+          "address": 87,
+          "opcode": "INITFIGHT"
+        },
+        {
+          "script": "1:14:7",
+          "address": 87,
+          "opcode": "INITFIGHT"
+        },
+        {
+          "script": "1:14:7",
+          "address": 87,
+          "opcode": "INITFIGHT"
+        },
+        {
+          "script": "1:14:7",
+          "address": 87,
+          "opcode": "INITFIGHT"
+        },
+        {
+          "script": "1:14:7",
+          "address": 87,
+          "opcode": "INITFIGHT"
+        }
+      ],
+      "status": "basic_keys_present"
+    },
+    {
+      "actor_id": "3:3:24",
+      "sprite_id": "8:3:27",
+      "atlas_prefix": "enemy_27",
+      "atlas_keys": [
+        "enemy_27_0",
+        "enemy_27_1",
+        "enemy_27_idle",
+        "enemy_27_attack",
+        "enemy_27_hurt",
+        "enemy_27_down"
+      ],
+      "hidden": false,
+      "references": [
+        {
+          "script": "1:14:8",
+          "address": 245,
+          "opcode": "ENTERFIGHT"
+        }
+      ],
+      "status": "basic_keys_present"
+    },
+    {
+      "actor_id": "3:3:28",
+      "sprite_id": "8:3:21",
+      "atlas_prefix": "enemy_21",
+      "atlas_keys": [
+        "enemy_21_0",
+        "enemy_21_1",
+        "enemy_21_idle",
+        "enemy_21_attack",
+        "enemy_21_hurt",
+        "enemy_21_down"
+      ],
+      "hidden": false,
+      "references": [
+        {
+          "script": "1:1:4",
+          "address": 111,
+          "opcode": "INITFIGHT"
+        },
+        {
+          "script": "1:1:4",
+          "address": 373,
+          "opcode": "INITFIGHT"
+        },
+        {
+          "script": "1:2:18",
+          "address": 1895,
+          "opcode": "ENTERFIGHT"
+        },
+        {
+          "script": "1:2:43",
+          "address": 141,
+          "opcode": "INITFIGHT"
+        }
+      ],
+      "status": "basic_keys_present"
+    },
+    {
+      "actor_id": "3:3:29",
+      "sprite_id": "8:3:22",
+      "atlas_prefix": "enemy_22",
+      "atlas_keys": [
+        "enemy_22_0",
+        "enemy_22_1",
+        "enemy_22_idle",
+        "enemy_22_attack",
+        "enemy_22_hurt",
+        "enemy_22_down"
+      ],
+      "hidden": false,
+      "references": [
+        {
+          "script": "1:1:4",
+          "address": 111,
+          "opcode": "INITFIGHT"
+        },
+        {
+          "script": "1:1:4",
+          "address": 373,
+          "opcode": "INITFIGHT"
+        },
+        {
+          "script": "1:2:18",
+          "address": 1930,
+          "opcode": "ENTERFIGHT"
+        },
+        {
+          "script": "1:2:43",
+          "address": 141,
+          "opcode": "INITFIGHT"
+        }
+      ],
+      "status": "basic_keys_present"
+    },
+    {
+      "actor_id": "3:3:3",
+      "sprite_id": "8:3:3",
+      "atlas_prefix": "enemy_3",
+      "atlas_keys": [
+        "enemy_3_0",
+        "enemy_3_1",
+        "enemy_3_attack",
+        "enemy_3_idle"
+      ],
+      "hidden": false,
+      "references": [
+        {
+          "script": "1:2:12",
+          "address": 128,
+          "opcode": "INITFIGHT"
+        },
+        {
+          "script": "1:2:17",
+          "address": 92,
+          "opcode": "INITFIGHT"
+        },
+        {
+          "script": "1:2:18",
+          "address": 115,
+          "opcode": "INITFIGHT"
+        },
+        {
+          "script": "1:2:45",
+          "address": 87,
+          "opcode": "INITFIGHT"
+        },
+        {
+          "script": "1:2:45",
+          "address": 87,
+          "opcode": "INITFIGHT"
+        },
+        {
+          "script": "1:2:45",
+          "address": 87,
+          "opcode": "INITFIGHT"
+        },
+        {
+          "script": "1:2:45",
+          "address": 87,
+          "opcode": "INITFIGHT"
+        },
+        {
+          "script": "1:2:46",
+          "address": 87,
+          "opcode": "INITFIGHT"
+        },
+        {
+          "script": "1:2:46",
+          "address": 87,
+          "opcode": "INITFIGHT"
+        },
+        {
+          "script": "1:2:46",
+          "address": 87,
+          "opcode": "INITFIGHT"
+        },
+        {
+          "script": "1:2:46",
+          "address": 87,
+          "opcode": "INITFIGHT"
+        },
+        {
+          "script": "1:14:7",
+          "address": 87,
+          "opcode": "INITFIGHT"
+        },
+        {
+          "script": "1:14:7",
+          "address": 87,
+          "opcode": "INITFIGHT"
+        },
+        {
+          "script": "1:14:7",
+          "address": 87,
+          "opcode": "INITFIGHT"
+        },
+        {
+          "script": "1:14:7",
+          "address": 87,
+          "opcode": "INITFIGHT"
+        }
+      ],
+      "status": "basic_keys_present"
+    },
+    {
+      "actor_id": "3:3:30",
+      "sprite_id": "8:3:23",
+      "atlas_prefix": "enemy_23",
+      "atlas_keys": [
+        "enemy_23_0",
+        "enemy_23_1",
+        "enemy_23_idle",
+        "enemy_23_attack",
+        "enemy_23_hurt",
+        "enemy_23_down"
+      ],
+      "hidden": false,
+      "references": [
+        {
+          "script": "1:1:4",
+          "address": 111,
+          "opcode": "INITFIGHT"
+        },
+        {
+          "script": "1:1:4",
+          "address": 373,
+          "opcode": "INITFIGHT"
+        },
+        {
+          "script": "1:2:18",
+          "address": 1965,
+          "opcode": "ENTERFIGHT"
+        },
+        {
+          "script": "1:2:43",
+          "address": 141,
+          "opcode": "INITFIGHT"
+        }
+      ],
+      "status": "basic_keys_present"
+    },
+    {
+      "actor_id": "3:3:31",
+      "sprite_id": "8:3:5",
+      "atlas_prefix": "enemy_5",
+      "atlas_keys": [
+        "enemy_5_0",
+        "enemy_5_1"
+      ],
+      "hidden": false,
+      "references": [
+        {
+          "script": "1:1:4",
+          "address": 373,
+          "opcode": "INITFIGHT"
+        },
+        {
+          "script": "1:2:18",
+          "address": 2000,
+          "opcode": "ENTERFIGHT"
+        }
+      ],
+      "status": "basic_keys_present"
+    },
+    {
+      "actor_id": "3:3:33",
+      "sprite_id": "8:3:13",
+      "atlas_prefix": "enemy_13",
+      "atlas_keys": [
+        "enemy_13_0",
+        "enemy_13_1"
+      ],
+      "hidden": false,
+      "references": [
+        {
+          "script": "1:1:4",
+          "address": 111,
+          "opcode": "INITFIGHT"
+        },
+        {
+          "script": "1:2:43",
+          "address": 141,
+          "opcode": "INITFIGHT"
+        },
+        {
+          "script": "1:14:8",
+          "address": 382,
+          "opcode": "ENTERFIGHT"
+        }
+      ],
+      "status": "basic_keys_present"
+    },
+    {
+      "actor_id": "3:3:36",
+      "sprite_id": "8:3:30",
+      "atlas_prefix": "enemy_30",
+      "atlas_keys": [
+        "enemy_30_0",
+        "enemy_30_1",
+        "enemy_30_idle",
+        "enemy_30_attack",
+        "enemy_30_hurt",
+        "enemy_30_down"
+      ],
+      "hidden": false,
+      "references": [
+        {
+          "script": "1:1:4",
+          "address": 111,
+          "opcode": "INITFIGHT"
+        }
+      ],
+      "status": "basic_keys_present"
+    },
+    {
+      "actor_id": "3:3:37",
+      "sprite_id": "8:3:31",
+      "atlas_prefix": "enemy_31",
+      "atlas_keys": [
+        "enemy_31_0",
+        "enemy_31_1",
+        "enemy_31_idle",
+        "enemy_31_attack",
+        "enemy_31_hurt",
+        "enemy_31_down",
+        "enemy_31_defend",
+        "enemy_31_magic",
+        "enemy_31_item"
+      ],
+      "hidden": false,
+      "references": [
+        {
+          "script": "1:1:4",
+          "address": 111,
+          "opcode": "INITFIGHT"
+        },
+        {
+          "script": "1:14:8",
+          "address": 245,
+          "opcode": "ENTERFIGHT"
+        },
+        {
+          "script": "1:14:8",
+          "address": 382,
+          "opcode": "ENTERFIGHT"
+        }
+      ],
+      "status": "basic_keys_present"
+    },
+    {
+      "actor_id": "3:3:4",
+      "sprite_id": "8:3:4",
+      "atlas_prefix": "enemy_4",
+      "atlas_keys": [
+        "enemy_4_0",
+        "enemy_4_1",
+        "enemy_4_attack",
+        "enemy_4_idle"
+      ],
+      "hidden": false,
+      "references": [
+        {
+          "script": "1:2:12",
+          "address": 128,
+          "opcode": "INITFIGHT"
+        },
+        {
+          "script": "1:2:17",
+          "address": 92,
+          "opcode": "INITFIGHT"
+        },
+        {
+          "script": "1:2:18",
+          "address": 115,
+          "opcode": "INITFIGHT"
+        }
+      ],
+      "status": "basic_keys_present"
+    },
+    {
+      "actor_id": "3:3:42",
+      "sprite_id": "8:3:35",
+      "atlas_prefix": "enemy_35",
+      "atlas_keys": [
+        "enemy_35_0",
+        "enemy_35_1",
+        "enemy_35_idle",
+        "enemy_35_attack",
+        "enemy_35_hurt",
+        "enemy_35_down",
+        "enemy_35_defend",
+        "enemy_35_magic",
+        "enemy_35_item"
+      ],
+      "hidden": false,
+      "references": [
+        {
+          "script": "1:14:8",
+          "address": 1848,
+          "opcode": "ENTERFIGHT"
+        }
+      ],
+      "status": "basic_keys_present"
+    },
+    {
+      "actor_id": "3:3:43",
+      "sprite_id": "8:3:36",
+      "atlas_prefix": "enemy_36",
+      "atlas_keys": [
+        "enemy_36_0",
+        "enemy_36_1",
+        "enemy_36_idle",
+        "enemy_36_attack",
+        "enemy_36_hurt",
+        "enemy_36_down",
+        "enemy_36_defend",
+        "enemy_36_magic",
+        "enemy_36_item"
+      ],
+      "hidden": false,
+      "references": [
+        {
+          "script": "1:14:9",
+          "address": 351,
+          "opcode": "ENTERFIGHT"
+        }
+      ],
+      "status": "basic_keys_present"
+    },
+    {
+      "actor_id": "3:3:44",
+      "sprite_id": "8:3:37",
+      "atlas_prefix": "enemy_37",
+      "atlas_keys": [
+        "enemy_37_0",
+        "enemy_37_1",
+        "enemy_37_idle",
+        "enemy_37_attack",
+        "enemy_37_hurt",
+        "enemy_37_down",
+        "enemy_37_defend",
+        "enemy_37_magic",
+        "enemy_37_item"
+      ],
+      "hidden": false,
+      "references": [
+        {
+          "script": "1:14:8",
+          "address": 382,
+          "opcode": "ENTERFIGHT"
+        }
+      ],
+      "status": "basic_keys_present"
+    },
+    {
+      "actor_id": "3:3:45",
+      "sprite_id": "8:3:38",
+      "atlas_prefix": "enemy_38",
+      "atlas_keys": [
+        "enemy_38_0",
+        "enemy_38_1",
+        "enemy_38_idle",
+        "enemy_38_attack",
+        "enemy_38_hurt",
+        "enemy_38_down",
+        "enemy_38_defend",
+        "enemy_38_magic",
+        "enemy_38_item"
+      ],
+      "hidden": false,
+      "references": [
+        {
+          "script": "1:14:11",
+          "address": 104,
+          "opcode": "ENTERFIGHT"
+        }
+      ],
+      "status": "basic_keys_present"
+    },
+    {
+      "actor_id": "3:3:46",
+      "sprite_id": "8:3:39",
+      "atlas_prefix": "enemy_39",
+      "atlas_keys": [
+        "enemy_39_0",
+        "enemy_39_1",
+        "enemy_39_idle",
+        "enemy_39_attack",
+        "enemy_39_hurt",
+        "enemy_39_down",
+        "enemy_39_defend",
+        "enemy_39_magic",
+        "enemy_39_item"
+      ],
+      "hidden": false,
+      "references": [
+        {
+          "script": "1:2:32",
+          "address": 552,
+          "opcode": "ENTERFIGHT"
+        }
+      ],
+      "status": "basic_keys_present"
+    },
+    {
+      "actor_id": "3:3:47",
+      "sprite_id": "8:3:40",
+      "atlas_prefix": "enemy_40",
+      "atlas_keys": [
+        "enemy_40_0",
+        "enemy_40_1",
+        "enemy_40_idle",
+        "enemy_40_attack",
+        "enemy_40_hurt",
+        "enemy_40_down",
+        "enemy_40_defend",
+        "enemy_40_magic",
+        "enemy_40_item"
+      ],
+      "hidden": false,
+      "references": [
+        {
+          "script": "1:1:5",
+          "address": 225,
+          "opcode": "ENTERFIGHT"
+        }
+      ],
+      "status": "basic_keys_present"
+    },
+    {
+      "actor_id": "3:3:50",
+      "sprite_id": "8:3:41",
+      "atlas_prefix": "enemy_41",
+      "atlas_keys": [
+        "enemy_41_0",
+        "enemy_41_1"
+      ],
+      "hidden": false,
+      "references": [
+        {
+          "script": "1:14:9",
+          "address": 87,
+          "opcode": "INITFIGHT"
+        }
+      ],
+      "status": "basic_keys_present"
+    },
+    {
+      "actor_id": "3:3:51",
+      "sprite_id": "8:3:41",
+      "atlas_prefix": "enemy_41",
+      "atlas_keys": [
+        "enemy_41_0",
+        "enemy_41_1"
+      ],
+      "hidden": false,
+      "references": [
+        {
+          "script": "1:14:9",
+          "address": 87,
+          "opcode": "INITFIGHT"
+        },
+        {
+          "script": "1:14:10",
+          "address": 103,
+          "opcode": "INITFIGHT"
+        }
+      ],
+      "status": "basic_keys_present"
+    },
+    {
+      "actor_id": "3:3:52",
+      "sprite_id": "8:3:41",
+      "atlas_prefix": "enemy_41",
+      "atlas_keys": [
+        "enemy_41_0",
+        "enemy_41_1"
+      ],
+      "hidden": false,
+      "references": [
+        {
+          "script": "1:14:9",
+          "address": 87,
+          "opcode": "INITFIGHT"
+        },
+        {
+          "script": "1:14:10",
+          "address": 103,
+          "opcode": "INITFIGHT"
+        }
+      ],
+      "status": "basic_keys_present"
+    },
+    {
+      "actor_id": "3:3:53",
+      "sprite_id": "8:3:41",
+      "atlas_prefix": "enemy_41",
+      "atlas_keys": [
+        "enemy_41_0",
+        "enemy_41_1"
+      ],
+      "hidden": false,
+      "references": [
+        {
+          "script": "1:14:9",
+          "address": 87,
+          "opcode": "INITFIGHT"
+        },
+        {
+          "script": "1:14:10",
+          "address": 103,
+          "opcode": "INITFIGHT"
+        }
+      ],
+      "status": "basic_keys_present"
+    },
+    {
+      "actor_id": "3:3:54",
+      "sprite_id": "8:3:41",
+      "atlas_prefix": "enemy_41",
+      "atlas_keys": [
+        "enemy_41_0",
+        "enemy_41_1"
+      ],
+      "hidden": false,
+      "references": [
+        {
+          "script": "1:14:9",
+          "address": 87,
+          "opcode": "INITFIGHT"
+        }
+      ],
+      "status": "basic_keys_present"
+    },
+    {
+      "actor_id": "3:3:55",
+      "sprite_id": "8:3:42",
+      "atlas_prefix": "enemy_42",
+      "atlas_keys": [
+        "enemy_42_0",
+        "enemy_42_1"
+      ],
+      "hidden": false,
+      "references": [
+        {
+          "script": "1:1:4",
+          "address": 373,
+          "opcode": "INITFIGHT"
+        },
+        {
+          "script": "1:2:43",
+          "address": 141,
+          "opcode": "INITFIGHT"
+        },
+        {
+          "script": "1:14:10",
+          "address": 103,
+          "opcode": "INITFIGHT"
+        }
+      ],
+      "status": "basic_keys_present"
+    },
+    {
+      "actor_id": "3:3:56",
+      "sprite_id": "8:3:20",
+      "atlas_prefix": "enemy_20",
+      "atlas_keys": [
+        "enemy_20_0",
+        "enemy_20_1",
+        "enemy_20_idle",
+        "enemy_20_attack",
+        "enemy_20_hurt",
+        "enemy_20_down"
+      ],
+      "hidden": false,
+      "references": [
+        {
+          "script": "1:1:4",
+          "address": 373,
+          "opcode": "INITFIGHT"
+        },
+        {
+          "script": "1:2:43",
+          "address": 141,
+          "opcode": "INITFIGHT"
+        },
+        {
+          "script": "1:14:10",
+          "address": 103,
+          "opcode": "INITFIGHT"
+        }
+      ],
+      "status": "basic_keys_present"
+    },
+    {
+      "actor_id": "3:3:57",
+      "sprite_id": "8:3:43",
+      "atlas_prefix": "enemy_43",
+      "atlas_keys": [
+        "enemy_43_0",
+        "enemy_43_1"
+      ],
+      "hidden": false,
+      "references": [
+        {
+          "script": "1:14:10",
+          "address": 103,
+          "opcode": "INITFIGHT"
+        }
+      ],
+      "status": "basic_keys_present"
+    },
+    {
+      "actor_id": "3:3:58",
+      "sprite_id": "8:3:44",
+      "atlas_prefix": "enemy_44",
+      "atlas_keys": [
+        "enemy_44_0",
+        "enemy_44_1"
+      ],
+      "hidden": false,
+      "references": [
+        {
+          "script": "1:14:10",
+          "address": 103,
+          "opcode": "INITFIGHT"
+        }
+      ],
+      "status": "basic_keys_present"
+    },
+    {
+      "actor_id": "3:3:63",
+      "sprite_id": "8:3:11",
+      "atlas_prefix": "enemy_11",
+      "atlas_keys": [
+        "enemy_11_0",
+        "enemy_11_1",
+        "enemy_11_attack",
+        "enemy_11_idle"
+      ],
+      "hidden": false,
+      "references": [
+        {
+          "script": "1:2:18",
+          "address": 953,
+          "opcode": "ENTERFIGHT"
+        }
+      ],
+      "status": "basic_keys_present"
+    },
+    {
+      "actor_id": "3:4:1",
+      "sprite_id": "8:4:1",
+      "atlas_prefix": "object_1",
+      "atlas_keys": [
+        "object_1"
+      ],
+      "hidden": false,
+      "references": [
+        {
+          "script": "1:1:2",
+          "address": 105,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:2:1",
+          "address": 106,
+          "opcode": "CREATEBOX"
+        }
+      ],
+      "status": "basic_keys_present"
+    },
+    {
+      "actor_id": "3:4:10",
+      "sprite_id": "8:4:10",
+      "atlas_prefix": "object_10",
+      "atlas_keys": [
+        "object_10"
+      ],
+      "hidden": false,
+      "references": [
+        {
+          "script": "1:2:17",
+          "address": 183,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:2:17",
+          "address": 192,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:2:17",
+          "address": 201,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:2:17",
+          "address": 210,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:2:17",
+          "address": 268,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:2:17",
+          "address": 277,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:2:17",
+          "address": 286,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:2:17",
+          "address": 295,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:2:19",
+          "address": 120,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:2:22",
+          "address": 111,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:2:23",
+          "address": 133,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:2:26",
+          "address": 113,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:14:9",
+          "address": 150,
+          "opcode": "CREATEBOX"
+        }
+      ],
+      "status": "basic_keys_present"
+    },
+    {
+      "actor_id": "3:4:11",
+      "sprite_id": "8:4:11",
+      "atlas_prefix": "object_11",
+      "atlas_keys": [
+        "object_11",
+        "object_11_0",
+        "object_11_1",
+        "object_11_2"
+      ],
+      "hidden": false,
+      "references": [
+        {
+          "script": "1:1:4",
+          "address": 330,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:2:19",
+          "address": 111,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:2:20",
+          "address": 112,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:2:21",
+          "address": 133,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:2:22",
+          "address": 102,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:2:23",
+          "address": 124,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:2:24",
+          "address": 144,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:2:25",
+          "address": 115,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:2:26",
+          "address": 104,
+          "opcode": "CREATEBOX"
+        }
+      ],
+      "status": "basic_keys_present"
+    },
+    {
+      "actor_id": "3:4:14",
+      "sprite_id": "8:4:14",
+      "atlas_prefix": "object_14",
+      "atlas_keys": [
+        "object_14_0",
+        "object_14_1"
+      ],
+      "hidden": false,
+      "references": [
+        {
+          "script": "1:1:4",
+          "address": 314,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:14:10",
+          "address": 126,
+          "opcode": "CREATEBOX"
+        }
+      ],
+      "status": "basic_keys_present"
+    },
+    {
+      "actor_id": "3:4:18",
+      "sprite_id": "8:4:18",
+      "atlas_prefix": "object_18",
+      "atlas_keys": [],
+      "hidden": true,
+      "references": [
+        {
+          "script": "1:2:2",
+          "address": 229,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:2:2",
+          "address": 238,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:2:2",
+          "address": 247,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:2:4",
+          "address": 85,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:2:4",
+          "address": 94,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:2:5",
+          "address": 85,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:2:5",
+          "address": 94,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:2:5",
+          "address": 103,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:2:6",
+          "address": 85,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:2:6",
+          "address": 94,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:2:7",
+          "address": 85,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:2:7",
+          "address": 94,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:2:8",
+          "address": 85,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:2:8",
+          "address": 94,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:2:10",
+          "address": 85,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:2:10",
+          "address": 94,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:2:10",
+          "address": 103,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:2:10",
+          "address": 112,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:2:10",
+          "address": 121,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:2:11",
+          "address": 85,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:2:11",
+          "address": 94,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:2:11",
+          "address": 103,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:2:12",
+          "address": 87,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:2:12",
+          "address": 96,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:2:12",
+          "address": 105,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:2:18",
+          "address": 232,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:2:18",
+          "address": 241,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:2:18",
+          "address": 250,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:2:18",
+          "address": 259,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:2:18",
+          "address": 1065,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:2:21",
+          "address": 89,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:2:21",
+          "address": 98,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:2:21",
+          "address": 107,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:2:25",
+          "address": 89,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:2:32",
+          "address": 113,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:2:32",
+          "address": 131,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:2:32",
+          "address": 149,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:2:32",
+          "address": 167,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:2:32",
+          "address": 185,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:2:43",
+          "address": 90,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:2:43",
+          "address": 99,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:2:44",
+          "address": 87,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:2:44",
+          "address": 96,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:2:52",
+          "address": 85,
+          "opcode": "CREATEBOX"
+        }
+      ],
+      "status": "source_invisible"
+    },
+    {
+      "actor_id": "3:4:2",
+      "sprite_id": "8:4:2",
+      "atlas_prefix": "object_2",
+      "atlas_keys": [
+        "object_2"
+      ],
+      "hidden": false,
+      "references": [
+        {
+          "script": "1:1:2",
+          "address": 114,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:2:1",
+          "address": 115,
+          "opcode": "CREATEBOX"
+        }
+      ],
+      "status": "basic_keys_present"
+    },
+    {
+      "actor_id": "3:4:23",
+      "sprite_id": "8:4:23",
+      "atlas_prefix": "object_23",
+      "atlas_keys": [
+        "object_23"
+      ],
+      "hidden": false,
+      "references": [
+        {
+          "script": "1:14:1",
+          "address": 87,
+          "opcode": "CREATEBOX"
+        }
+      ],
+      "status": "basic_keys_present"
+    },
+    {
+      "actor_id": "3:4:25",
+      "sprite_id": "8:4:25",
+      "atlas_prefix": "object_25",
+      "atlas_keys": [
+        "object_25_0",
+        "object_25_1",
+        "object_25_2"
+      ],
+      "hidden": false,
+      "references": [
+        {
+          "script": "1:1:5",
+          "address": 93,
+          "opcode": "CREATEBOX"
+        }
+      ],
+      "status": "basic_keys_present"
+    },
+    {
+      "actor_id": "3:4:3",
+      "sprite_id": "8:4:3",
+      "atlas_prefix": "object_3",
+      "atlas_keys": [
+        "object_3"
+      ],
+      "hidden": false,
+      "references": [
+        {
+          "script": "1:1:2",
+          "address": 123,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:2:1",
+          "address": 124,
+          "opcode": "CREATEBOX"
+        }
+      ],
+      "status": "basic_keys_present"
+    },
+    {
+      "actor_id": "3:4:31",
+      "sprite_id": "8:4:31",
+      "atlas_prefix": "object_31",
+      "atlas_keys": [
+        "object_31_0",
+        "object_31_1",
+        "object_31_2"
+      ],
+      "hidden": false,
+      "references": [
+        {
+          "script": "1:14:8",
+          "address": 89,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:14:8",
+          "address": 505,
+          "opcode": "CREATEBOX"
+        }
+      ],
+      "status": "basic_keys_present"
+    },
+    {
+      "actor_id": "3:4:32",
+      "sprite_id": "8:4:32",
+      "atlas_prefix": "object_32",
+      "atlas_keys": [
+        "object_32"
+      ],
+      "hidden": false,
+      "references": [
+        {
+          "script": "1:14:9",
+          "address": 159,
+          "opcode": "CREATEBOX"
+        }
+      ],
+      "status": "basic_keys_present"
+    },
+    {
+      "actor_id": "3:4:33",
+      "sprite_id": "8:4:33",
+      "atlas_prefix": "object_33",
+      "atlas_keys": [
+        "object_33"
+      ],
+      "hidden": false,
+      "references": [
+        {
+          "script": "1:14:9",
+          "address": 168,
+          "opcode": "CREATEBOX"
+        }
+      ],
+      "status": "basic_keys_present"
+    },
+    {
+      "actor_id": "3:4:34",
+      "sprite_id": "8:4:34",
+      "atlas_prefix": "object_34",
+      "atlas_keys": [
+        "object_34"
+      ],
+      "hidden": false,
+      "references": [
+        {
+          "script": "1:14:9",
+          "address": 177,
+          "opcode": "CREATEBOX"
+        }
+      ],
+      "status": "basic_keys_present"
+    },
+    {
+      "actor_id": "3:4:35",
+      "sprite_id": "8:4:35",
+      "atlas_prefix": "object_35",
+      "atlas_keys": [
+        "object_35"
+      ],
+      "hidden": false,
+      "references": [
+        {
+          "script": "1:14:9",
+          "address": 186,
+          "opcode": "CREATEBOX"
+        }
+      ],
+      "status": "basic_keys_present"
+    },
+    {
+      "actor_id": "3:4:36",
+      "sprite_id": "8:4:36",
+      "atlas_prefix": "object_36",
+      "atlas_keys": [
+        "object_36"
+      ],
+      "hidden": false,
+      "references": [
+        {
+          "script": "1:14:11",
+          "address": 65,
+          "opcode": "CREATEBOX"
+        }
+      ],
+      "status": "basic_keys_present"
+    },
+    {
+      "actor_id": "3:4:40",
+      "sprite_id": "8:4:40",
+      "atlas_prefix": "object_40",
+      "atlas_keys": [
+        "object_40"
+      ],
+      "hidden": false,
+      "references": [
+        {
+          "script": "1:2:32",
+          "address": 104,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:2:32",
+          "address": 122,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:2:32",
+          "address": 140,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:2:32",
+          "address": 158,
+          "opcode": "CREATEBOX"
+        }
+      ],
+      "status": "basic_keys_present"
+    },
+    {
+      "actor_id": "3:4:41",
+      "sprite_id": "8:4:41",
+      "atlas_prefix": "object_41",
+      "atlas_keys": [
+        "object_41"
+      ],
+      "hidden": false,
+      "references": [
+        {
+          "script": "1:2:18",
+          "address": 1056,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:2:32",
+          "address": 176,
+          "opcode": "CREATEBOX"
+        }
+      ],
+      "status": "basic_keys_present"
+    },
+    {
+      "actor_id": "3:4:42",
+      "sprite_id": "8:4:42",
+      "atlas_prefix": "object_42",
+      "atlas_keys": [
+        "object_42"
+      ],
+      "hidden": false,
+      "references": [
+        {
+          "script": "1:14:8",
+          "address": 568,
+          "opcode": "CREATEBOX"
+        }
+      ],
+      "status": "basic_keys_present"
+    },
+    {
+      "actor_id": "3:4:6",
+      "sprite_id": "8:4:6",
+      "atlas_prefix": "object_6",
+      "atlas_keys": [
+        "object_6"
+      ],
+      "hidden": false,
+      "references": [
+        {
+          "script": "1:2:18",
+          "address": 213,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:2:18",
+          "address": 222,
+          "opcode": "CREATEBOX"
+        }
+      ],
+      "status": "basic_keys_present"
+    },
+    {
+      "actor_id": "3:4:7",
+      "sprite_id": "8:4:7",
+      "atlas_prefix": "object_7",
+      "atlas_keys": [
+        "object_7",
+        "object_7_0",
+        "object_7_1",
+        "object_7_2"
+      ],
+      "hidden": false,
+      "references": [
+        {
+          "script": "1:2:19",
+          "address": 102,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:2:20",
+          "address": 103,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:2:21",
+          "address": 124,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:2:22",
+          "address": 93,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:2:23",
+          "address": 115,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:2:24",
+          "address": 135,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:2:25",
+          "address": 106,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:2:26",
+          "address": 95,
+          "opcode": "CREATEBOX"
+        }
+      ],
+      "status": "basic_keys_present"
+    },
+    {
+      "actor_id": "3:4:8",
+      "sprite_id": "8:4:8",
+      "atlas_prefix": "object_8",
+      "atlas_keys": [
+        "object_8"
+      ],
+      "hidden": false,
+      "references": [
+        {
+          "script": "1:2:18",
+          "address": 143,
+          "opcode": "CREATEBOX"
+        }
+      ],
+      "status": "basic_keys_present"
+    },
+    {
+      "actor_id": "3:4:9",
+      "sprite_id": "8:4:9",
+      "atlas_prefix": "object_9",
+      "atlas_keys": [
+        "object_9",
+        "object_9_0",
+        "object_9_1"
+      ],
+      "hidden": false,
+      "references": [
+        {
+          "script": "1:1:4",
+          "address": 134,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:1:4",
+          "address": 143,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:1:4",
+          "address": 152,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:1:4",
+          "address": 161,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:1:4",
+          "address": 170,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:1:4",
+          "address": 179,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:1:4",
+          "address": 188,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:1:4",
+          "address": 197,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:1:4",
+          "address": 206,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:2:19",
+          "address": 85,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:2:20",
+          "address": 85,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:2:20",
+          "address": 94,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:2:20",
+          "address": 121,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:2:20",
+          "address": 130,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:2:23",
+          "address": 87,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:2:24",
+          "address": 87,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:2:24",
+          "address": 96,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:2:24",
+          "address": 153,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:2:24",
+          "address": 162,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:2:33",
+          "address": 104,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:2:33",
+          "address": 119,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:2:39",
+          "address": 165,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:2:40",
+          "address": 129,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:2:41",
+          "address": 121,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:2:42",
+          "address": 121,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:14:4",
+          "address": 85,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:14:5",
+          "address": 85,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:14:7",
+          "address": 110,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:14:9",
+          "address": 110,
+          "opcode": "CREATEBOX"
+        },
+        {
+          "script": "1:14:9",
+          "address": 119,
+          "opcode": "CREATEBOX"
+        }
+      ],
+      "status": "basic_keys_present"
+    }
+  ],
+  "animation_status": "basic_static_and_two_poses_only; full_walk_and_combat_animation_pending"
+}
