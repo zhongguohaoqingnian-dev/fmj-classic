@@ -2,7 +2,9 @@
 
 彩色 2D、中文、离线单机、回合制。保留经典版的主线、支线和结局，包含游戏数据，无需安装 Godot 或另行导入资源。
 
-**[下载 Windows 版](https://github.com/zhongguohaoqingnian-dev/fmj-classic/releases/latest/download/FMJClassic-0.6.2-Windows.zip)** · **[下载 Mac 版](https://github.com/zhongguohaoqingnian-dev/fmj-classic/releases/latest/download/FMJClassic-0.6.2-macOS.zip)**
+**[下载 Windows 版](https://github.com/zhongguohaoqingnian-dev/fmj-classic/releases/download/v0.6.2/FMJClassic-0.6.2-Windows.zip)** · **[下载 Mac 版](https://github.com/zhongguohaoqingnian-dev/fmj-classic/releases/latest/download/FMJClassic-0.6.3-macOS.zip)**
+
+**Mac 0.6.3（2026-11-11）**：修复按钮、对话、状态栏等中文文字空白，随包内置中文字体，无需另装字体。存档目录和格式保持兼容。Windows 下载继续保留 0.6.2。
 
 ![游戏实际标题画面](docs/screenshot.png)
 

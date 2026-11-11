@@ -7,6 +7,6 @@
 - 数据采用 C-FMJ/E-CLASSIC 内容家族，源指纹 `2c4c3cc25c4e659fc69b453243509ba9ef19c0e9416b19227550f5b835ac13bb`。不将其称为已认证的官方机型发行版本。
 - 战斗 Cut 四帧效果来自 Pixel-boy 与 AAA 的 Ninja Adventure，CC0 1.0。来源：https://pixel-boy.itch.io/ninja-adventure-asset-pack 。许可保存在 `assets/chapter3/licenses/`。
 - Godot Engine 采用 MIT；完整引擎许可与第三方声明见 `data/legal/GODOT_LICENSE.txt` 和 `data/legal/GODOT_COPYRIGHT.txt`。未修改引擎。
-- 中文字体读取系统已安装字体，不复制分发系统字体。Windows 使用 Microsoft YaHei，macOS 使用 PingFang SC；可回退至 Noto Sans CJK SC。
+- 内置 Noto Sans CJK SC Regular（界面、对话、状态、地图）和 Noto Serif CJK SC Regular（标题），来自 https://github.com/notofonts/noto-cjk ，SIL Open Font License 1.1。未经修改的字体及各自完整版权/许可位于 `assets/fonts/`；下载包同时附有 `licenses/OFL-Sans.txt` 和 `licenses/OFL-Serif.txt`。不依赖或分发 Apple / Microsoft 系统字体。
 
 许可与署名应随源码及下载包保留。

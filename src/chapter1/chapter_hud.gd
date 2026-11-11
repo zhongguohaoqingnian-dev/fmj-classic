@@ -19,7 +19,7 @@ var _started := true
 var _view: Dictionary = {}
 var _battle_identity: Dictionary = {}
 var _portrait: Texture2D
-var _font := SystemFont.new()
+var _font: FontFile = preload("res://assets/fonts/NotoSansCJKsc-Regular.otf")
 var _panel := StyleBoxFlat.new()
 
 func _init() -> void:
@@ -27,7 +27,6 @@ func _init() -> void:
 	mouse_filter = Control.MOUSE_FILTER_IGNORE
 	focus_mode = Control.FOCUS_NONE
 	texture_filter = CanvasItem.TEXTURE_FILTER_NEAREST
-	_font.font_names = PackedStringArray(["PingFang SC","Microsoft YaHei","Noto Sans CJK SC","Heiti SC","Arial"])
 	_panel.bg_color = Color(0.035,0.135,0.145,0.94)
 	_panel.border_color = Color(0.70,0.61,0.42,0.73)
 	_panel.set_border_width_all(1)

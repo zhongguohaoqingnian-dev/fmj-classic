@@ -9,7 +9,7 @@ import subprocess
 import zipfile
 
 ROOT = Path(__file__).resolve().parents[1]
-VERSION = '0.6.2'
+VERSION = '0.6.3'
 
 
 def run(command):
@@ -34,6 +34,8 @@ def main():
     builds = ROOT / 'builds'
     builds.mkdir(exist_ok=True)
     (builds / 'import.log').write_text(log)
+    font_log = run([args.godot, '--headless', '--path', ROOT, '--script', 'tests/fonts.gd'])
+    (builds / 'fonts-check.log').write_text(font_log)
     platforms = ['Windows', 'macOS'] if args.platform == 'all' else [args.platform]
     for platform in platforms:
         stage = builds / platform
@@ -47,9 +49,14 @@ def main():
             with zipfile.ZipFile(archive, 'a', zipfile.ZIP_DEFLATED) as out:
                 for name in ['LICENSE', 'THIRD_PARTY_NOTICES.md', 'README.md']:
                     out.write(ROOT / name, name)
+                for file in sorted((ROOT / 'assets/fonts').glob('OFL-*.txt')):
+                    out.write(file, 'licenses/' + file.name)
         else:
             for name in ['LICENSE', 'THIRD_PARTY_NOTICES.md', 'README.md']:
                 shutil.copyfile(ROOT / name, stage / name)
+            (stage / 'licenses').mkdir(exist_ok=True)
+            for file in sorted((ROOT / 'assets/fonts').glob('OFL-*.txt')):
+                shutil.copyfile(file, stage / 'licenses' / file.name)
             with zipfile.ZipFile(archive, 'w', zipfile.ZIP_DEFLATED) as out:
                 for file in sorted(stage.rglob('*')):
                     if file.is_file(): out.write(file, 'FMJClassic/' + file.relative_to(stage).as_posix())

@@ -45,12 +45,10 @@ var _presentation_age := 0.0
 var _motion_pose: Dictionary = {}
 var _movie_resource := ""
 var _observed_state: Dictionary = {}
-var _font: SystemFont
+var _font: FontFile = preload("res://assets/fonts/NotoSansCJKsc-Regular.otf")
 
 func _ready() -> void:
 	texture_filter = CanvasItem.TEXTURE_FILTER_NEAREST
-	_font = SystemFont.new()
-	_font.font_names = PackedStringArray(["PingFang SC", "Microsoft YaHei", "Noto Sans CJK SC", "Heiti SC", "Arial"])
 	_background = ColorRect.new()
 	_background.color = Color("101d24")
 	_background.mouse_filter = Control.MOUSE_FILTER_IGNORE

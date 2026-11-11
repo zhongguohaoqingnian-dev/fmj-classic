@@ -17,7 +17,7 @@ var elapsed := 0.0
 var input_delay := 0.0
 var menu_open := false
 var started := false
-var font := SystemFont.new()
+var font: FontFile = preload("res://assets/fonts/NotoSansCJKsc-Regular.otf")
 var log_file: FileAccess
 var replay_directory := "user://chapter1-replays"
 var battle_target := 0
@@ -32,7 +32,6 @@ var sound: Node = preload("res://src/chapter1/chapter_audio.gd").new()
 func _ready() -> void:
 	item_menu = preload("res://src/chapter1/chapter_item_menu.gd").new(self)
 	set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
-	font.font_names = PackedStringArray(["PingFang SC", "Microsoft YaHei", "Noto Sans CJK SC", "Heiti SC", "Arial"])
 	var theme_new := Theme.new()
 	theme_new.default_font = font
 	theme_new.default_font_size = 20
@@ -102,8 +101,7 @@ func _title() -> void:
 	overlay.add_child(shade)
 	_label(overlay,"三清山下  ·  尘缘初起",Vector2(103,155),18,Color("a8d2ca"))
 	var title := _label(overlay,"伏 魔 记",Vector2(94,197),70,Color("fff1c6"))
-	var title_font := SystemFont.new()
-	title_font.font_names = PackedStringArray(["Songti SC","SimSun","Noto Serif CJK SC","STSong","PingFang SC","Microsoft YaHei"])
+	var title_font: FontFile = preload("res://assets/fonts/NotoSerifCJKsc-Regular.otf")
 	title.add_theme_font_override("font",title_font)
 	title.add_theme_color_override("font_shadow_color",Color("092c3b"))
 	title.add_theme_constant_override("shadow_offset_y",3)

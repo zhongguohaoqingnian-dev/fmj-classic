@@ -1,11 +1,11 @@
-; FMJ Classic — standalone public engine, no original game data bundled.
+; FMJ Classic — standalone public classic remake with bundled game data and Chinese fonts.
 config_version=5
 
 [application]
 config/name="伏魔记"
 config/use_custom_user_dir=true
 config/custom_user_dir_name="FMJClassic"
-config/version="0.6.2"
+config/version="0.6.3"
 config/icon="res://assets/chapter1/native/app_icon.png"
 run/main_scene="res://scenes/chapter1.tscn"
 config/features=PackedStringArray("4.7", "GL Compatibility")
